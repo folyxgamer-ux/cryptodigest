@@ -65,7 +65,7 @@ const CRYPTO_DATA = {
       btc_7j: "-3.7 %",
       eth_7j: "-4.4%",
       // dominance: "58,1 %",
-      commentaire: "Si on prend du recul sur les 7 derniers jours, la baisse se confirme avec une perte moyenne de 4 % à 5 % sur les actifs majeurs."
+      commentaire: "baisse imminente"
     },
 
     evenements: [
