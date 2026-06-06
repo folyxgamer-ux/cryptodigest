@@ -10,9 +10,9 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Correction du Bitcoin",
+    titre: "Consolidation après le choc",
 
-    intro: "Le marché crypto global subit une pression vendeuse ce vendredi. tandis que les RWA franchissent la barre des 30 milliards de dollars",
+    intro: "Après être tombé sous les 60 000 $ hier, le Bitcoin (BTC-USD) montre des signes de stabilisation.",
 
     marche: {
       btc: "$ 60 300",
@@ -29,28 +29,27 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "En forte baisse de 7% à 9%, s'échangeant sous la barre des 70 $",
-      "Domination : La dominance du Bitcoin a chuté à 58,7 %, signalant un transfert partiel de liquidités vers les altcoins malgré la baisse générale.",
-      "Facteurs : Les analystes attribuent ce repli à une aversion au risque macroéconomique suite à des données sur l'emploi américain plus solides que prévu, réduisant les espoirs de baisse imminente des taux d'intérêt.",
-      "Ethereum (ETH-USD) : La mise à niveau 'Glamsterdam' est au cœur des discussions pour ce premier semestre 2026, visant à améliorer la vitesse et la fiabilité du réseau.",
-      "Performance : Certains tokens DeFi affichent une résilience notable avec des bonds allant jusqu'à 50 % pour certains projets de niche, alors que les leaders historiques comme Chainlink (NASDAQ:LINK) continuent d'être privilégiés pour l'infrastructure des contrats intelligents",
-      "Leaders : Les projets comme Ondo Finance, Maker (MKR) et XDC Network (XDC) sont identifiés comme les acteurs majeurs de ce mois de juin.",
-      "Perspectives : Le marché des actifs tokenisés (immobilier, obligations, métaux) continue sa croissance exponentielle, avec des prévisions visant des milliers de milliards de dollars d'ici la fin de la décennie.",
-      "Évolution des wallets : Une tendance forte de 2026 montre que les portefeuilles (MetaMask, Phantom) capturent de plus en plus de valeur en devenant les points d'entrée uniques vers les services DeFi",
-      "Explosion du marché : Le marché des RWA tokenisés (hors stablecoins) a atteint une valeur de 31 à 34 milliards de dollars en mai 2026, contre seulement 5 milliards début 2025",
-      "Bons du Trésor US : Ils constituent le moteur principal avec près de 15 milliards de dollars tokenisés.Le fonds BUIDL de BlackRock domine ce segment avec plus de 2 milliards de dollars sous gestion",
-      "Domination d'Ethereum : Le réseau Ethereum héberge environ 60 % de la valeur totale des RWA on-chain",
-      "Nouveaux actifs : La tokenisation s'étend désormais à des niches comme les royalties musicales et les actions immobilières fractionnées",
-      "Avancées réglementaires : Le GENIUS Act a été adopté aux États-Unis, fournissant un cadre fédéral pour les stablecoins.Parallèlement, la CFTC a approuvé la proposition de produits dérivés de Coinbase via Deribit",
-      "Narratif IA : Le secteur de l'IA décentralisée reste un moteur majeur. Des projets comme Bittensor (TAO) et ChainGPT (CGPT) sont identifiés comme les piliers de ce cycle",
-      "Retour de la Privacy : Les jetons de confidentialité comme Monero (XMR) et Zcash (ZEC) connaissent un regain d'intérêt marqué, portés par une demande accrue pour la souveraineté financière",
+      "Bitcoin : Il s'échange actuellement autour de 53 100 € (~57 400 $), regagnant environ 1,2 % par rapport au point bas de la veille.",
+      "Ethereum (ETH-USD) : Suit une trajectoire similaire, se maintenant au-dessus des 3 400 $. La communauté surveille de près l'accumulation de tokens par les institutions sur les plateformes de staking liquide.",
+      "Expansion : De nouveaux fonds de trésorerie tokenisés ont été annoncés sur les réseaux de couche 2 (Layer 2) comme Base et Arbitrum.",
+      "Performance : Les tokens liés aux infrastructures RWA, tels que Chainlink (NASDAQ:LINK) et Ondo Finance, affichent une meilleure résistance que le reste du marché DeFi classique.",
+      "Solana (SOL-USD) : Après sa hausse notable d'hier, Solana subit une légère prise de profit mais conserve son statut de favori pour les transactions à haute fréquence et les memecoins de nouvelle génération.",
+      "Layer 2 : L'activité sur les réseaux secondaires d'Ethereum atteint des sommets, portée par des frais de transaction extrêmement bas suite aux optimisations techniques de 2026.",
+      "Capitalisation totale : Environ 2 502 à 2 511 milliards de dollars, avec une progression de 2,4 % sur la dernière journée",
+      "Législation US : Le GENIUS Act est désormais loi, encadrant les émetteurs de stablecoins, tandis que le CLARITY Act progresse avec un soutien bipartisan",
+      "raken et MiCA : En Europe, Kraken confirme sa stratégie de 'sérieux' en étant totalement conforme à la réglementation MiCA, capitalisant sur la clarté réglementaire pour regagner des parts de marché",
+      "Ethereum, le Coffre-Fort : Il reste le leader incontesté en capital avec 55,6 milliards de dollars de TVL DeFi (68 % du marché mondial)",
+      "Une vague massive de recrutements révèle que les sociétés de trading ne considèrent plus Polymarket comme un simple outil de pari de niche Alors que l'augmentation des volumes sur Polymarket et Kalshi attire les sociétés quantitatives vers les marchés de prédiction, celles-ci ne se concentrent pas sur les résultats des événements ; elles exploitent plutôt les inefficiences du marché pour en tirer profit.",
+      "Le président exécutif de Strategy a soutenu que quatre camps distincts jouent chacun un rôle vital dans le succès à long terme du bitcoin.",
+      "Les flux sur les plateformes d'échange et les mouvements de stablecoins lors de la vente de cette semaine ne révèlent aucune fuite massive de capitaux quittant les cryptomonnaies pour se diriger vers le cash. Des plateformes telles que Robinhood et Coinbase ne publieront pas leurs chiffres avant le mois de juillet.",
+      "Le chercheur ayant découvert le bug de Zcash grâce à l'IA ajoute Monero à sa file d'audit Taylor Hornby, qui a découvert la faille Orchard ayant fait chuter Zcash de 38 %, affirme que d’autres cryptomonnaies axées sur la confidentialité figurent également sur sa liste.",
 
 
     ],
 
-    conseil: "investir dans le BTC pourais etre une bonne idée pour le long terme car la il est bas",
+    conseil: "faite attention la ou vous acheter et ce que vous achetr",
 
-    conclusion: "Le marché crypto traverse une période de volatilité accrue, mais les fondamentaux restent solides. Les investisseurs avisés pourraient profiter de cette correction pour renforcer leurs positions sur les actifs de qualité, tout en restant attentifs aux développements réglementaires et technologiques à venir."
+    conclusion: "Le marché reste dans une phase de consolidation après le choc initial. Les investisseurs adoptent une approche prudente, surveillant de près les développements réglementaires et les mouvements institutionnels. La semaine à venir sera cruciale pour déterminer si cette stabilisation se transformera en une reprise durable ou si la pression baissière continuera à dominer."
   },
 
 
