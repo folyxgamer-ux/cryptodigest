@@ -1,19 +1,17 @@
-name: Notification Discord de déploiement
+name: Notification Discord
 
 on:
   push:
     branches:
-      - main  # Déclenche la notification à chaque push sur la branche main
+      - main
 
 jobs:
-  discord-notify:
+  notify:
     runs-on: ubuntu-latest
     steps:
-      - name: Envoyer le message sur Discord
-        uses: sarisia/actions-status-discord@v1
-        with:
-          webhook: ${{ https://discord.com/api/webhooks/1512845326933950464/D39zHwZB3IXB4wXwHeNL8CAHfskzEOZyIID8akGsOgWlUzcKaZCt06VHKZ0o4vLNpjsh }}
-          nodetail: true
-          title: "🚀 Le site CryptoDigest vient d'être mis à jour !"
-          description: "De nouvelles informations sur la crypto sont en ligne. Allez jeter un œil ! \n\n🔗 [Cliquez ici pour voir le site](https://cryptodigest-ruby.vercel.app/)"
-          color: 0x00ff00  # Couleur verte pour le message
+      - name: Envoyer le message
+        run: |
+          curl -H "Content-Type: application/json" \
+          -X POST \
+          -d '{"content": "🚀 **Le site CryptoDigest est à jour !**\nLe code vient d’être modifié. Allez voir le résultat ici !"}' \
+          "${{ secrets.DISCORD_WEBHOOK }}"
