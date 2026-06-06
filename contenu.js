@@ -15,8 +15,8 @@ const CRYPTO_DATA = {
     intro: "Après être tombé sous les 60 000 $ hier, le Bitcoin (BTC-USD) montre des signes de stabilisation.",
 
     marche: {
-      btc: "$ 60 300",
-      eth: "$1 570 ",
+      btc: "$ 60 700",
+      eth: "$1 554 ",
       tendance: "Baissier",
       commentaire: "Le marché affiche une santé en baisse, quand ca descend ca remonte apres"
     },
