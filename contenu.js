@@ -103,7 +103,8 @@ const CRYPTO_DATA = {
     coins_surveiller: [
       "BTC",
       "ETH",
-      "HYPE"
+      "HYPE",
+      "SOL"
     ],
 
     faits_marquants: [
