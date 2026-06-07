@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Consolidation après le choc",
+    titre: "une remonté predis",
 
-    intro: "Après être tombé sous les 60 000 $ hier, le Bitcoin (BTC-USD) montre des signes de stabilisation.",
+    intro: "Après être tombé sous les 60 000 $ hier, le Bitcoin (BTC-USD) montre des signes de stabilisation et remonte petit a petit comme toutes les autres",
 
     marche: {
-      btc: "$ 60 700",
-      eth: "$1 554 ",
-      tendance: "Baissier",
-      commentaire: "Le marché affiche une santé en baisse, quand ca descend ca remonte apres"
+      btc: "$ 62 250",
+      eth: "$1 634 ",
+      tendance: "haussier",
+      commentaire: "Le marché affiche une santé en hausse"
     },
 
     alertes: [
@@ -29,27 +29,22 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Bitcoin : Il s'échange actuellement autour de 53 100 € (~57 400 $), regagnant environ 1,2 % par rapport au point bas de la veille.",
-      "Ethereum (ETH-USD) : Suit une trajectoire similaire, se maintenant au-dessus des 3 400 $. La communauté surveille de près l'accumulation de tokens par les institutions sur les plateformes de staking liquide.",
-      "Expansion : De nouveaux fonds de trésorerie tokenisés ont été annoncés sur les réseaux de couche 2 (Layer 2) comme Base et Arbitrum.",
-      "Performance : Les tokens liés aux infrastructures RWA, tels que Chainlink (NASDAQ:LINK) et Ondo Finance, affichent une meilleure résistance que le reste du marché DeFi classique.",
-      "Solana (SOL-USD) : Après sa hausse notable d'hier, Solana subit une légère prise de profit mais conserve son statut de favori pour les transactions à haute fréquence et les memecoins de nouvelle génération.",
-      "Layer 2 : L'activité sur les réseaux secondaires d'Ethereum atteint des sommets, portée par des frais de transaction extrêmement bas suite aux optimisations techniques de 2026.",
-      "Capitalisation totale : Environ 2 502 à 2 511 milliards de dollars, avec une progression de 2,4 % sur la dernière journée",
-      "Législation US : Le GENIUS Act est désormais loi, encadrant les émetteurs de stablecoins, tandis que le CLARITY Act progresse avec un soutien bipartisan",
-      "raken et MiCA : En Europe, Kraken confirme sa stratégie de 'sérieux' en étant totalement conforme à la réglementation MiCA, capitalisant sur la clarté réglementaire pour regagner des parts de marché",
-      "Ethereum, le Coffre-Fort : Il reste le leader incontesté en capital avec 55,6 milliards de dollars de TVL DeFi (68 % du marché mondial)",
-      "Une vague massive de recrutements révèle que les sociétés de trading ne considèrent plus Polymarket comme un simple outil de pari de niche Alors que l'augmentation des volumes sur Polymarket et Kalshi attire les sociétés quantitatives vers les marchés de prédiction, celles-ci ne se concentrent pas sur les résultats des événements ; elles exploitent plutôt les inefficiences du marché pour en tirer profit.",
-      "Le président exécutif de Strategy a soutenu que quatre camps distincts jouent chacun un rôle vital dans le succès à long terme du bitcoin.",
-      "Les flux sur les plateformes d'échange et les mouvements de stablecoins lors de la vente de cette semaine ne révèlent aucune fuite massive de capitaux quittant les cryptomonnaies pour se diriger vers le cash. Des plateformes telles que Robinhood et Coinbase ne publieront pas leurs chiffres avant le mois de juillet.",
-      "Le chercheur ayant découvert le bug de Zcash grâce à l'IA ajoute Monero à sa file d'audit Taylor Hornby, qui a découvert la faille Orchard ayant fait chuter Zcash de 38 %, affirme que d’autres cryptomonnaies axées sur la confidentialité figurent également sur sa liste.",
+      "Michael Saylor relance les spéculations sur l'achat de bitcoin alors que l'examen de Strategy s'intensifie Le président exécutif de la société a publié un graphique familier montrant les achats précédents de BTC par Strategy, écrivant « un bon moment pour ajouter plus de points. »",
+      "Bitcoin proche de 60 000 $ aujourd'hui contre février : le sentiment institutionnel s'est inverséLe retour du Bitcoin à 60 000 $ entraîne d'importantes sorties de fonds des ETF, marquant un retournement net par rapport à février, lorsque la vente institutionnelle s'était atténuée lors du creux.",
+      "Bitcoin (BTC) : Le prix se maintient autour des 60 500 \(-62000\).linkDaily summary: Nasdaq 100 drops 3%, precious metals and Bitcoin ...www.xtb.comDaily crypto TL;DR – June 7, 2026 : r/CryptoMarkets - Redditwww.reddit.com Bien qu'il ait connu un léger rebond technique de 0,09 % aujourd'hui, le sentiment reste dominé par la prudence.linkCrypto market sees 73 tokens rise while 317 decline on June 07",
+      "La chute du Bitcoin n’a pas de cause unique. L’IA, les introductions en bourse technologiques, le quantique, la vente de Strategy jouent tous un rôle, déclare NYDIG Ce n’est pas un, mais plusieurs vents contraires simultanés qui frappent le marché des cryptomonnaies, pesant sur le prix du bitcoin, a déclaré Greg Cipolaro, directeur de la recherche de la société.",
+      "Bill Barhydt d'Abra affirme que la prochaine mise de Wall Street sur la crypto est la tokenisation Alors qu'Abra se prépare à son entrée au Nasdaq, le PDG Bill Barhydt mise sur les produits de rendement tokenisés et le prêt en chaîne pour animer la prochaine phase de la gestion de patrimoine en cryptomonnaies.",
+      "Meta paie les créateurs en Stablecoins. Les dépenser devient le problème de quelqu'un d'autre La décision de Meta de payer les créateurs en USDC valide les stablecoins comme un outil de paiement grand public, suggère Joslyn, mais elle met également en lumière le problème non résolu de l'industrie : passer de manière transparente des dollars numériques à une monnaie locale utilisable.",
+      "Ethereum (ETH) : Se stabilise autour de 1 600 \(-1900\) après avoir subi des pertes importantes plus tôt dans la journée.",
+      "Dynamique du marché : La tendance reste baissière avec seulement 73 jetons en hausse contre 317 en baisse sur les dernières 24 heures.",
+
 
 
     ],
 
-    conseil: "faite attention la ou vous acheter et ce que vous achetr",
+    conseil: "ca remonte doucement mais surement, il faut rester patient et ne pas paniquer",
 
-    conclusion: "Le marché reste dans une phase de consolidation après le choc initial. Les investisseurs adoptent une approche prudente, surveillant de près les développements réglementaires et les mouvements institutionnels. La semaine à venir sera cruciale pour déterminer si cette stabilisation se transformera en une reprise durable ou si la pression baissière continuera à dominer."
+    conclusion: "Le marché semble se stabiliser après une période de volatilité. Les investisseurs institutionnels montrent des signes de retour, mais la prudence reste de mise. Surveillez les développements réglementaires à venir et les mouvements des grands acteurs du marché."
   },
 
 
@@ -57,31 +52,40 @@ const CRYPTO_DATA = {
   //  BILAN DE LA SEMAINE
   // ──────────────────────────────────────────────
   semaine: {
-    titre: "BiLan claque géopolitique",
+    titre: "une semaine de baisse mais des signaux positifs",
 
-    intro: "Si on prend du recul sur les 7 derniers jours, la baisse se confirme avec une perte moyenne de 4 % à 5 % sur les actifs majeurs.",
+    intro: "Après une semaine marquée par une forte volatilité et une baisse significative des prix, le marché des cryptomonnaies montre des signes de stabilisation. Malgré les défis, plusieurs indicateurs suggèrent que la tendance baissière pourrait être temporaire.",
 
     marche: {
-      btc_7j: "-3.7 %",
-      eth_7j: "-4.4%",
+      btc_7j: "-15.5%",
+      eth_7j: "-18.5",
       // dominance: "58,1 %",
       commentaire: "baisse imminente"
     },
 
     evenements: [
-      "Jeudi 5 juin — Rapport emploi US (NFP) 14h30",
-      "Vendredi 6 juin — Conférence Consensus 2026 à Austin"
+      "Clarity Act date de fin le 6 juillet",
+      "30 juin echeance MiCA",
+      "surveiller Quivalis"
     ],
 
     actualites: [
-      "Le point de rupture : La chute sous les 76 000 $ a été provoquée en début de semaine par les frappes militaires américaines au Moyen-Orient. Cela a relancé les craintes de l'inflation globale, forçant les capitaux à fuir les actifs risqués.",
-      "La surprise BNB : Au milieu du rouge, la BNB Chain a sauvé les meubles cette semaine grâce à l'annonce historique du dépôt de l'ETF Spot par VanEck, ce qui lui a permis de surperformer temporairement le reste des altcoins.",
-      "L'indice de Peur : L'indicateur Fear & Greed s'est enfoncé cette semaine dans la zone de la 'Peur' à 30/100. Les traders particuliers ont déserté les marchés à court terme.",
+      "La tension a atteint un point critique aux États-Unis. Le PDG de JPMorgan a officiellement exprimé son opposition au projet de loi CLARITY, illustrant le fossé qui se creuse entre les banques de Wall Street et les partisans de la conformité crypto .À l'inverse, Coinbase a franchi une étape majeure en recevant l'approbation de la CFTC pour proposer des produits dérivés via la plateforme Deribit",
+      "Facteurs macroéconomiques : Un rapport sur l'emploi américain plus solide que prévu a réduit les espoirs de baisse des taux de la Fed, renforçant le dollar et pesant lourdement sur les actifs à risque comme les cryptos.",
+      "Le marché des RWA tokenisés (hors stablecoins) a atteint une valeur estimée entre 31 et 34 milliards de dollars en mai 2026 .Ethereum reste le réseau dominant pour ce secteur, hébergeant environ 60 % de la valeur totale on - chain .Le segment des bons du Trésor américain, mené par le fonds BUIDL de BlackRock(environ 15 milliards de dollars), reste le principal moteur de cette croissance",
+      "Sorties institutionnelles : Les ETF Bitcoin au comptant aux États-Unis ont enregistré des sorties nettes records, totalisant environ 5 milliards de dollars en 14 jours, signalant un retrait massif des investisseurs institutionnels.",
+      "Kraken : L'exchange a renforcé sa présence en Europe en étant désormais totalement conforme à la réglementation MiCA .La plateforme mise sur l'innovation avec ses 'bundles' (paniers de crypto-monnaies) et ses Xtocks (actions tokenisées du Nasdaq), cherchant à attirer les investisseurs traditionnels sur la blockchain",
+      "Coinbase : En début de semaine (1er juin), la plateforme a officiellement lancé le support de la roupie indienne (INR), facilitant l'accès au marché pour des millions d'utilisateurs en Inde [Conversation History].",
+      "Le secteur des dérivés décentralisés voit une compétition accrue entre Hyperliquid et dYdX .Hyperliquid se positionne comme un leader grâce à son expérience de trading proche de celle des plateformes centralisées et à la montée en puissance de son écosystème L1 .Parallèlement, le marché des prédictions reste un secteur clé, où Kalshi et Polymarket se disputent la dominance",
+      "Exceptions notables : Malgré la faiblesse générale, certains projets comme Hyperliquid (HYPE) et Stellar (XLM) ont surperformé grâce à des développements spécifiques (nouveaux produits dérivés et partenariats d'infrastructure).",
+      "Les analystes surveillent de près les jetons liés à l'IA et aux RWA, identifiés comme les narratifs les plus prometteurs pour la prochaine 'Altseason', avec un potentiel de croissance significatif pour des projets comme Bittensor (TAO) ou Kaspa (KAS).",
+
+
+
     ],
+    analyse: "Malgré une semaine difficile pour les marchés de la cryptomonnaie, plusieurs signaux positifs émergent. La stabilisation des prix et l'intérêt renouvelé des investisseurs institutionnels suggèrent que le marché pourrait être en train de trouver un support solide. Cependant, la prudence reste de mise, car les développements réglementaires et macroéconomiques à venir pourraient encore influencer la direction du marché dans les semaines à venir.",
 
-    // analyse: "💡 Le cycle semble confirmé. Après le halving d'avril 2024, nous suivons le schéma classique avec une explosion 12-18 mois après. Les signaux on-chain (NUPL, MVRV) pointent vers un sommet de cycle autour de Q1 2027. Restez investis mais gérez le risque.",
-
-    // conclusion: "Semaine très positive. Le marché retrouve de la confiance. La semaine prochaine sera décisive avec les NFP et la conférence Consensus."
+    conclusion: "En résumé, la semaine a été marquée par des défis importants, mais les signes de stabilisation et les développements positifs dans certains segments du marché offrent une lueur d'espoir pour les investisseurs. Il est crucial de rester informé et de surveiller de près les évolutions réglementaires et économiques qui pourraient impacter le marché dans un avenir proche.",
   },
 
 
