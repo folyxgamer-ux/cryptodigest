@@ -10,12 +10,12 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "une remonté predis",
+    titre: "Le Bitcoin se stabilise après une chute sous les 60 000 $",
 
-    intro: "Après être tombé sous les 60 000 $ hier, le Bitcoin (BTC-USD) montre des signes de stabilisation et remonte petit a petit comme toutes les autres",
+    intro: "Après une période de forte volatilité, le marché des cryptomonnaies semble se stabiliser. Le Bitcoin a connu une chute significative, passant sous la barre des 60 000 $, mais montre désormais des signes de reprise. Les investisseurs restent prudents face à l'incertitude économique mondiale, mais certains indicateurs suggèrent que le pire pourrait être derrière nous.",
 
     marche: {
-      btc: "$ 62 250",
+      btc: "$ 61 250",
       eth: "$1 634 ",
       tendance: "haussier",
       commentaire: "Le marché affiche une santé en hausse"
@@ -32,16 +32,26 @@ const CRYPTO_DATA = {
       "Marchés en direct : le Bitcoin au-dessus de 63 000 $ alors que certains traders considèrent l'introduction en bourse de SpaceX comme le « prochain catalyseur » Les actions se sont redressées grâce à l'introduction en bourse sursouscrite de SpaceX, un accord de puces entre Nvidia et SK Hynix, ainsi qu'à la relance de l'IA par Apple, tandis que la cryptomonnaie a pris du retard.",
       "Saylor a imputé la chute du bitcoin à l’IA. Arca n’a qu’un mot pour cela : Absurdité Arca attribue la chute du BTC de la semaine dernière à la vente de 32 BTC par Strategy, et non à une rotation de capital liée à l'IA, comme l'affirmait Saylor de Strategy.",
       "Société de recherche influente ayant provoqué le krach des actions liées à l'IA présente Hyperliquid comme une idée « convaincante » Contrairement à la plupart des cryptomonnaies, Hyperliquid génère réellement des flux de trésorerie et dispose d’un mécanisme de rachat de tokens, affirme Citrini Research",
-      "Mises à jour en direct : Bitcoin dépasse 63 000 $ alors que Strategy ajoute 100 millions de dollars en BTC lors de son dernier achat Pendant ce temps, Strive a acheté 32 bitcoins, le même nombre que Strategy a revendu la semaine dernière.",
-      "Sam Bankman-Fried demande officiellement à Trump une grâce présidentielle Le magnat déchu de la crypto, purgeant une peine de 25 ans, a déposé une requête en clémence, misant sur l'historique des pardons cryptos de Donald Trump bien que le président lui ait dit de ne pas en espérer un.",
-      "Le tueur de startups : le CTO de Ledger affirme que les coûts de conformité écrasants de l'UE étouffent l'innovation Web3 Les experts du secteur avertissent que les barrières financières élevées de MiCA entravent l'innovation en phase initiale.",
-
+      "Le régulateur financier britannique prend des mesures pour permettre aux fonds mutuels une exposition de 10 % aux ETN cryptographiques L'Autorité de conduite financière a proposé de permettre à certains régimes d'investissement d'ajouter une exposition aux notes de bourse liées aux cryptomonnaies.",
+      "Trad.Fi, W3 visent 650 millions de dollars en crédit privé onchain grâce à une évaluation par IA Le prêteur en financement d'équipement Trad.Fi collabore avec W3 pour automatiser les flux de capitaux et intégrer le prêt aux entreprises de l'économie réelle sur des chaînes de blocs publiques.",
+      "Ethena obtient le soutien de Janus Henderson alors que le gestionnaire d’actifs investit dans ENA, visant la distribution USDe L'accord souligne la tendance des gestionnaires d'actifs traditionnels à soutenir l'infrastructure DeFi, dans la continuité des investissements de BlackRock dans Uniswap et d'Apollo dans",
+      "Revenez après l'été, conseille un analyste concernant les marchés crypto La divergence croissante du Bitcoin par rapport aux actions technologiques suscite des inquiétudes alors que les dépenses en IA augmentent fortement, déclare Quinn Thompson.",
+      "A16z et Paradigm mènent un pari de 175 millions de dollars pour déplacer les marchés mondiaux du crédit sur la blockchain Morpho a levé 175 millions de dollars auprès de Paradigm, a16z crypto et Ribbit alors que le protocole de prêt cherche à devenir une infrastructure fondamentale pour les marchés de crédit on - chain.",
+      "Mise à jour des performances du CoinDesk 20 : AAVE chute de 2,6 % tandis que tous les constituants évoluent à la baisse Uniswap(UNI), en baisse de 2, 9 % depuis lundi, a rejoint Aave(AAVE) parmi les sous - performants.",
+      "Mise à jour des performances du CoinDesk 20 : AAVE chute de 2,6 % tandis que tous les constituants évoluent à la baisse Uniswap(UNI), en baisse de 2, 9 % depuis lundi, a rejoint Aave(AAVE) parmi les sous - performants.",
+      "BlackRock met en garde contre un choc énergétique alors que l'IPC de mai devrait montrer une accélération de l'inflation BlackRock surveille de près l'IPC de mercredi comme un premier test de la manière dont les tensions entre les États-Unis et l'Iran influent sur des prix déjà élevés dans l'économie.",
+      "Ethereum, le Registre de Dépôt : Ethereum conserve la majorité du capital avec 55,6 milliards de dollars de valeur totale verrouillée (TVL), soit environ 68 % du marché mondial de la DeFi",
+      "Solana, la Salle de Marché : Solana domine l'activité de trading avec un volume hebdomadaire sur les DEX de 11,49 milliards de dollars, dépassant celui d'Ethereum (7,62 milliards)",
+      "Hégémonie d'Hyperliquid : La plateforme s'est imposée comme le leader des dérivés décentralisés, capturant plus de 60 % de parts de marché des contrats perpétuels.Son écosystème HyperEVM compte désormais plus de 170 projets pour une TVL dépassant 1, 2 milliard de dollars",
+      "La tokenisation d'actifs réels est le moteur de croissance le plus rapide cette année .Volume de Marché : Le marché des RWA tokenisés(hors stablecoins) a atteint une valeur de 31 à 34 milliards de dollars en mai 2026, contre seulement 6 milliards début 2025",
+      "Domination d'Ethereum : Le réseau héberge environ 60 % de la valeur totale des RWA on-chain",
+      "Moteurs de Croissance : Les bons du Trésor américain tokenisés mènent le segment avec environ 15 milliards de dollars, portés par le fonds BUIDL de BlackRock.La tokenisation s'étend également à des niches comme les actions immobilières et les royalties musicales",
 
     ],
 
-    conseil: "ca remonte doucement mais surement, il faut rester patient et ne pas paniquer",
+    conseil: "Pour les investisseurs, la prudence est de mise. Il est essentiel de suivre de près les développements réglementaires, notamment le Clarity Act et MiCA, qui pourraient avoir un impact significatif sur le marché. Surveillez également les mouvements des grandes institutions financières, car leur retour pourrait signaler une reprise plus large du marché. Enfin, gardez un œil sur les secteurs émergents comme les RWA tokenisés et les dérivés décentralisés, qui pourraient offrir des opportunités intéressantes à moyen terme.",
 
-    conclusion: "Le marché semble se stabiliser après une période de volatilité. Les investisseurs institutionnels montrent des signes de retour, mais la prudence reste de mise. Surveillez les développements réglementaires à venir et les mouvements des grands acteurs du marché."
+    conclusion: "En résumé, malgré les défis récents, le marché des cryptomonnaies montre des signes de résilience. La stabilisation du Bitcoin et les développements positifs dans certains segments du marché offrent une lueur d'espoir pour les investisseurs. Cependant, il est crucial de rester vigilant et de continuer à surveiller les évolutions réglementaires et économiques qui pourraient influencer la direction du marché dans un avenir proche."
   },
 
 
