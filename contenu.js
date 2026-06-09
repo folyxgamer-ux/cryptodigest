@@ -29,15 +29,12 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Michael Saylor relance les spéculations sur l'achat de bitcoin alors que l'examen de Strategy s'intensifie Le président exécutif de la société a publié un graphique familier montrant les achats précédents de BTC par Strategy, écrivant « un bon moment pour ajouter plus de points. »",
-      "Bitcoin proche de 60 000 $ aujourd'hui contre février : le sentiment institutionnel s'est inverséLe retour du Bitcoin à 60 000 $ entraîne d'importantes sorties de fonds des ETF, marquant un retournement net par rapport à février, lorsque la vente institutionnelle s'était atténuée lors du creux.",
-      "Bitcoin (BTC) : Le prix se maintient autour des 60 500 \(-62000\).linkDaily summary: Nasdaq 100 drops 3%, precious metals and Bitcoin ...www.xtb.comDaily crypto TL;DR – June 7, 2026 : r/CryptoMarkets - Redditwww.reddit.com Bien qu'il ait connu un léger rebond technique de 0,09 % aujourd'hui, le sentiment reste dominé par la prudence.linkCrypto market sees 73 tokens rise while 317 decline on June 07",
-      "La chute du Bitcoin n’a pas de cause unique. L’IA, les introductions en bourse technologiques, le quantique, la vente de Strategy jouent tous un rôle, déclare NYDIG Ce n’est pas un, mais plusieurs vents contraires simultanés qui frappent le marché des cryptomonnaies, pesant sur le prix du bitcoin, a déclaré Greg Cipolaro, directeur de la recherche de la société.",
-      "Bill Barhydt d'Abra affirme que la prochaine mise de Wall Street sur la crypto est la tokenisation Alors qu'Abra se prépare à son entrée au Nasdaq, le PDG Bill Barhydt mise sur les produits de rendement tokenisés et le prêt en chaîne pour animer la prochaine phase de la gestion de patrimoine en cryptomonnaies.",
-      "Meta paie les créateurs en Stablecoins. Les dépenser devient le problème de quelqu'un d'autre La décision de Meta de payer les créateurs en USDC valide les stablecoins comme un outil de paiement grand public, suggère Joslyn, mais elle met également en lumière le problème non résolu de l'industrie : passer de manière transparente des dollars numériques à une monnaie locale utilisable.",
-      "Ethereum (ETH) : Se stabilise autour de 1 600 \(-1900\) après avoir subi des pertes importantes plus tôt dans la journée.",
-      "Dynamique du marché : La tendance reste baissière avec seulement 73 jetons en hausse contre 317 en baisse sur les dernières 24 heures.",
-
+      "Marchés en direct : le Bitcoin au-dessus de 63 000 $ alors que certains traders considèrent l'introduction en bourse de SpaceX comme le « prochain catalyseur » Les actions se sont redressées grâce à l'introduction en bourse sursouscrite de SpaceX, un accord de puces entre Nvidia et SK Hynix, ainsi qu'à la relance de l'IA par Apple, tandis que la cryptomonnaie a pris du retard.",
+      "Saylor a imputé la chute du bitcoin à l’IA. Arca n’a qu’un mot pour cela : Absurdité Arca attribue la chute du BTC de la semaine dernière à la vente de 32 BTC par Strategy, et non à une rotation de capital liée à l'IA, comme l'affirmait Saylor de Strategy.",
+      "Société de recherche influente ayant provoqué le krach des actions liées à l'IA présente Hyperliquid comme une idée « convaincante » Contrairement à la plupart des cryptomonnaies, Hyperliquid génère réellement des flux de trésorerie et dispose d’un mécanisme de rachat de tokens, affirme Citrini Research",
+      "Mises à jour en direct : Bitcoin dépasse 63 000 $ alors que Strategy ajoute 100 millions de dollars en BTC lors de son dernier achat Pendant ce temps, Strive a acheté 32 bitcoins, le même nombre que Strategy a revendu la semaine dernière.",
+      "Sam Bankman-Fried demande officiellement à Trump une grâce présidentielle Le magnat déchu de la crypto, purgeant une peine de 25 ans, a déposé une requête en clémence, misant sur l'historique des pardons cryptos de Donald Trump bien que le président lui ait dit de ne pas en espérer un.",
+      "Le tueur de startups : le CTO de Ledger affirme que les coûts de conformité écrasants de l'UE étouffent l'innovation Web3 Les experts du secteur avertissent que les barrières financières élevées de MiCA entravent l'innovation en phase initiale.",
 
 
     ],
