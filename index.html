@@ -1,593 +1,748 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CryptoDigest</title>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
-<script src="contenu.js"></script>
-<style>
-  :root {
-    --bg: #090b10;
-    --surface: #0e1117;
-    --card: #131720;
-    --border: #1e2535;
-    --accent: #f0b429;
-    --accent2: #00e5ff;
-    --green: #00d68f;
-    --red: #ff4757;
-    --purple: #b47aff;
-    --text: #e8eaf0;
-    --muted: #5a6480;
-  }
 
-  * { margin: 0; padding: 0; box-sizing: border-box; }
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoDigest</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Mono:wght@300;400;500&display=swap"
+      rel="stylesheet">
+    <script src="contenu.js"></script>
+    <style>
+      :root {
+        --bg: #090b10;
+        --surface: #0e1117;
+        --card: #131720;
+        --border: #1e2535;
+        --accent: #f0b429;
+        --accent2: #00e5ff;
+        --green: #00d68f;
+        --red: #ff4757;
+        --purple: #b47aff;
+        --text: #e8eaf0;
+        --muted: #d6dcf3;
+      }
 
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'DM Mono', monospace;
-    min-height: 100vh;
-  }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-  body::before {
-    content: '';
-    position: fixed;
-    inset: 0;
-    background-image:
-      linear-gradient(rgba(240,180,41,0.025) 1px, transparent 1px),
-      linear-gradient(90deg, rgba(240,180,41,0.025) 1px, transparent 1px);
-    background-size: 40px 40px;
-    pointer-events: none;
-    z-index: 0;
-  }
+      body {
+        background: var(--bg);
+        color: var(--text);
+        font-family: 'DM Mono', monospace;
+        min-height: 100vh;
+      }
 
-  .wrapper {
-    position: relative;
-    z-index: 1;
-    max-width: 820px;
-    margin: 0 auto;
-    padding: 36px 24px 80px;
-  }
+      body::before {
+        content: '';
+        position: fixed;
+        inset: 0;
+        background-image:
+          linear-gradient(rgba(240, 180, 41, 0.025) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(240, 180, 41, 0.025) 1px, transparent 1px);
+        background-size: 40px 40px;
+        pointer-events: none;
+        z-index: 0;
+      }
 
-  /* ── Header ── */
-  header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 44px;
-    flex-wrap: wrap;
-    gap: 14px;
-  }
+      .wrapper {
+        position: relative;
+        z-index: 1;
+        max-width: 820px;
+        margin: 0 auto;
+        padding: 36px 24px 80px;
+      }
 
-  .logo {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-  }
+      /* ── Header ── */
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 44px;
+        flex-wrap: wrap;
+        gap: 14px;
+      }
 
-  .logo-icon {
-    width: 46px; height: 46px;
-    background: linear-gradient(135deg, var(--accent), #d96e00);
-    border-radius: 13px;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 24px;
-    box-shadow: 0 0 24px rgba(240,180,41,0.28);
-  }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
 
-  .logo-name {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 22px;
-  }
-  .logo-name span { color: var(--accent); }
+      .logo-icon {
+        width: 46px;
+        height: 46px;
+        background: linear-gradient(135deg, var(--accent), #d96e00);
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 24px;
+        box-shadow: 0 0 24px rgba(240, 180, 41, 0.28);
+      }
 
-  .logo-sub {
-    font-size: 10px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-top: 2px;
-  }
+      .logo-name {
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        font-size: 22px;
+      }
 
-  .header-right {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 6px;
-  }
+      .logo-name span {
+        color: var(--accent);
+      }
 
-  .date-tag {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 6px 14px;
-    font-size: 11px;
-    color: var(--muted);
-    letter-spacing: 1px;
-  }
+      .logo-sub {
+        font-size: 10px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-top: 2px;
+      }
 
-  /* ── Tabs ── */
-  .tabs {
-    display: flex;
-    gap: 3px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-radius: 14px;
-    padding: 4px;
-    margin-bottom: 36px;
-  }
+      .header-right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 6px;
+      }
 
-  .tab {
-    flex: 1;
-    padding: 11px;
-    border: none;
-    border-radius: 10px;
-    background: transparent;
-    color: var(--muted);
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 12px;
-    letter-spacing: 1.8px;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: all 0.2s;
-    display: flex; align-items: center; justify-content: center; gap: 7px;
-  }
+      .date-tag {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 6px 14px;
+        font-size: 11px;
+        color: var(--muted);
+        letter-spacing: 1px;
+      }
 
-  .tab .pip { width: 6px; height: 6px; border-radius: 50%; }
-  .tab[data-t="jour"] .pip { background: var(--accent); }
-  .tab[data-t="semaine"] .pip { background: var(--accent2); }
-  .tab[data-t="mois"] .pip { background: var(--purple); }
+      /* ── Tabs ── */
+      .tabs {
+        display: flex;
+        gap: 3px;
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 4px;
+        margin-bottom: 36px;
+      }
 
-  .tab.on[data-t="jour"]    { background: rgba(240,180,41,0.12); color: var(--accent); }
-  .tab.on[data-t="semaine"] { background: rgba(0,229,255,0.09);  color: var(--accent2); }
-  .tab.on[data-t="mois"]    { background: rgba(180,122,255,0.12);color: var(--purple); }
+      .tab {
+        flex: 1;
+        padding: 11px;
+        border: none;
+        border-radius: 10px;
+        background: transparent;
+        color: var(--muted);
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        font-size: 12px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all 0.2s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 7px;
+      }
 
-  /* ── Panels ── */
-  .panel { display: none; }
-  .panel.on { display: block; }
+      .tab .pip {
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+      }
 
-  /* ── Section header ── */
-  .sh {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    margin: 30px 0 14px;
-  }
-  .sh:first-child { margin-top: 0; }
+      .tab[data-t="jour"] .pip {
+        background: var(--accent);
+      }
 
-  .sh-label {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 10px;
-    letter-spacing: 2.5px;
-    text-transform: uppercase;
-    padding: 4px 11px;
-    border-radius: 6px;
-    white-space: nowrap;
-  }
+      .tab[data-t="semaine"] .pip {
+        background: var(--accent2);
+      }
 
-  .lbl-titre  { background: rgba(240,180,41,0.15); color: var(--accent); }
-  .lbl-intro  { background: rgba(0,229,255,0.09);  color: var(--accent2); }
-  .lbl-marche { background: rgba(0,214,143,0.11);  color: var(--green); }
-  .lbl-alerte { background: rgba(255,71,87,0.11);  color: var(--red); }
-  .lbl-news   { background: rgba(180,122,255,0.13);color: var(--purple); }
-  .lbl-conseil{ background: rgba(240,180,41,0.1);  color: #e8c060; }
-  .lbl-fin    { background: rgba(90,100,128,0.18); color: var(--muted); }
+      .tab[data-t="mois"] .pip {
+        background: var(--purple);
+      }
 
-  .sh-line { flex: 1; height: 1px; background: var(--border); }
+      .tab.on[data-t="jour"] {
+        background: rgba(240, 180, 41, 0.12);
+        color: var(--accent);
+      }
 
-  /* ── Title ── */
-  .big-title {
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: clamp(20px, 3vw, 26px);
-    line-height: 1.3;
-    letter-spacing: -0.4px;
-    margin-bottom: 4px;
-  }
+      .tab.on[data-t="semaine"] {
+        background: rgba(0, 229, 255, 0.09);
+        color: var(--accent2);
+      }
 
-  /* ── Text blocks ── */
-  .textblock {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 18px 22px;
-    font-size: 14px;
-    line-height: 1.8;
-    color: #c8ccda;
-  }
+      .tab.on[data-t="mois"] {
+        background: rgba(180, 122, 255, 0.12);
+        color: var(--purple);
+      }
 
-  /* ── Stats row ── */
-  .stats {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-bottom: 12px;
-  }
+      /* ── Panels ── */
+      .panel {
+        display: none;
+      }
 
-  .stat {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 14px 18px;
-  }
+      .panel.on {
+        display: block;
+      }
 
-  .stat-lbl {
-    font-size: 9px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 6px;
-  }
+      /* ── Section header ── */
+      .sh {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin: 30px 0 14px;
+      }
 
-  .stat-val {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    color: var(--text);
-  }
+      .sh:first-child {
+        margin-top: 0;
+      }
 
-  /* ── List items ── */
-  .items { display: flex; flex-direction: column; gap: 10px; }
+      .sh-label {
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        letter-spacing: 2.5px;
+        text-transform: uppercase;
+        padding: 4px 11px;
+        border-radius: 6px;
+        white-space: nowrap;
+      }
 
-  .item-news {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-  }
+      .lbl-titre {
+        background: rgba(240, 180, 41, 0.15);
+        color: var(--accent);
+      }
 
-  .item-num {
-    min-width: 28px; height: 28px;
-    background: var(--border);
-    border-radius: 7px;
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 10px;
-    color: var(--muted);
-    margin-top: 14px;
-  }
+      .lbl-intro {
+        background: rgba(0, 229, 255, 0.09);
+        color: var(--accent2);
+      }
 
-  .item-text {
-    flex: 1;
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 14px 18px;
-    font-size: 14px;
-    line-height: 1.75;
-    color: #c8ccda;
-  }
+      .lbl-marche {
+        background: rgba(0, 214, 143, 0.11);
+        color: var(--green);
+      }
 
-  .item-alert {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    background: rgba(255,71,87,0.05);
-    border: 1px solid rgba(255,71,87,0.15);
-    border-radius: 12px;
-    padding: 14px 18px;
-    font-size: 14px;
-    line-height: 1.7;
-    color: #c8ccda;
-  }
+      .lbl-alerte {
+        background: rgba(255, 71, 87, 0.11);
+        color: var(--red);
+      }
 
-  .alert-icon { font-size: 16px; min-width: 20px; }
+      .lbl-news {
+        background: rgba(180, 122, 255, 0.13);
+        color: var(--purple);
+      }
 
-  .item-coin {
-    display: flex;
-    gap: 12px;
-    align-items: flex-start;
-    background: rgba(0,214,143,0.05);
-    border: 1px solid rgba(0,214,143,0.12);
-    border-radius: 12px;
-    padding: 14px 18px;
-    font-size: 14px;
-    line-height: 1.7;
-    color: #c8ccda;
-  }
+      .lbl-conseil {
+        background: rgba(240, 180, 41, 0.1);
+        color: #e8c060;
+      }
 
-  .coin-icon { font-size: 16px; min-width: 20px; }
+      .lbl-fin {
+        background: rgba(90, 100, 128, 0.18);
+        color: var(--muted);
+      }
 
-  .conseil-block {
-    background: linear-gradient(135deg, rgba(240,180,41,0.07), rgba(240,180,41,0.03));
-    border: 1px solid rgba(240,180,41,0.2);
-    border-radius: 12px;
-    padding: 18px 22px;
-    font-size: 14px;
-    line-height: 1.8;
-    color: #d8c070;
-  }
+      .sh-line {
+        flex: 1;
+        height: 1px;
+        background: var(--border);
+      }
 
-  .conclu-block {
-    background: var(--surface);
-    border: 1px solid var(--border);
-    border-left: 3px solid var(--muted);
-    border-radius: 0 12px 12px 0;
-    padding: 18px 22px;
-    font-size: 14px;
-    line-height: 1.8;
-    color: var(--muted);
-    font-style: italic;
-  }
+      /* ── Title ── */
+      .big-title {
+        font-family: 'Syne', sans-serif;
+        font-weight: 800;
+        font-size: clamp(20px, 3vw, 26px);
+        line-height: 1.3;
+        letter-spacing: -0.4px;
+        margin-bottom: 4px;
+      }
 
-  /* ── Export button ── */
-  .export-bar {
-    margin-top: 40px;
-    display: flex;
-    gap: 12px;
-  }
+      /* ── Text blocks ── */
+      .textblock {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 18px 22px;
+        font-size: 14px;
+        line-height: 1.8;
+        color: #c8ccda;
+      }
 
-  .btn-export {
-    background: linear-gradient(135deg, var(--accent), #d96e00);
-    color: #000;
-    border: none;
-    border-radius: 11px;
-    padding: 14px 32px;
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 1.2px;
-    text-transform: uppercase;
-    cursor: pointer;
-    box-shadow: 0 4px 20px rgba(240,180,41,0.22);
-    transition: all 0.2s;
-    flex: 1;
-  }
+      /* ── Stats row ── */
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        margin-bottom: 12px;
+      }
 
-  .btn-export:hover { transform: translateY(-1px); box-shadow: 0 6px 30px rgba(240,180,41,0.38); }
+      .stat {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px 18px;
+      }
 
-  /* ── Error ── */
-  .error {
-    background: rgba(255,71,87,0.1);
-    border: 1px solid rgba(255,71,87,0.3);
-    border-radius: 12px;
-    padding: 20px 24px;
-    color: var(--red);
-    font-size: 14px;
-    line-height: 1.7;
-  }
-  .error code {
-    display: block;
-    margin-top: 8px;
-    font-size: 12px;
-    opacity: 0.7;
-    background: rgba(0,0,0,0.3);
-    padding: 8px 12px;
-    border-radius: 6px;
-  }
+      .stat-lbl {
+        font-size: 9px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        color: var(--muted);
+        margin-bottom: 6px;
+      }
 
-  /* ── Print ── */
-  @media print {
-    body { background: white !important; color: #111 !important; }
-    body::before, .tabs, .export-bar { display: none !important; }
-    .panel { display: block !important; }
-    .panel:not(.on) { display: none !important; }
-    .big-title { color: #111 !important; }
-    .textblock, .item-text, .conclu-block { background: #f9f9f9 !important; color: #333 !important; border-color: #ddd !important; }
-    .item-alert { background: #fff5f5 !important; border-color: #fcc !important; color: #555 !important; }
-    .item-coin  { background: #f0fff8 !important; border-color: #b2f0d6 !important; color: #555 !important; }
-    .conseil-block { background: #fffbf0 !important; border-color: #f0c060 !important; color: #7a6020 !important; }
-    .stat { background: #f4f4f4 !important; border-color: #ddd !important; }
-    .stat-lbl { color: #888 !important; }
-    .stat-val { color: #111 !important; }
-    .item-num { background: #e0e0e0 !important; color: #888 !important; }
-    .sh-label { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
-  }
-</style>
-</head>
-<body>
-<div class="wrapper">
+      .stat-val {
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        color: var(--text);
+      }
 
-  <header>
-    <div class="logo">
-      <div class="logo-icon">₿</div>
-      <div>
-        <div class="logo-name">Crypto<span>Digest</span></div>
-        <div class="logo-sub">Résumé Actualités</div>
+      /* ── List items ── */
+      .items {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .item-news {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+      }
+
+      .item-num {
+        min-width: 28px;
+        height: 28px;
+        background: var(--border);
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        font-size: 10px;
+        color: var(--muted);
+        margin-top: 14px;
+      }
+
+      .item-text {
+        flex: 1;
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 14px 18px;
+        font-size: 14px;
+        line-height: 1.75;
+        color: #c8ccda;
+      }
+
+      .item-alert {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+        background: rgba(255, 71, 87, 0.05);
+        border: 1px solid rgba(255, 71, 87, 0.15);
+        border-radius: 12px;
+        padding: 14px 18px;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #c8ccda;
+      }
+
+      .alert-icon {
+        font-size: 16px;
+        min-width: 20px;
+      }
+
+      .item-coin {
+        display: flex;
+        gap: 12px;
+        align-items: flex-start;
+        background: rgba(0, 214, 143, 0.05);
+        border: 1px solid rgba(0, 214, 143, 0.12);
+        border-radius: 12px;
+        padding: 14px 18px;
+        font-size: 14px;
+        line-height: 1.7;
+        color: #c8ccda;
+      }
+
+      .coin-icon {
+        font-size: 16px;
+        min-width: 20px;
+      }
+
+      .conseil-block {
+        background: linear-gradient(135deg, rgba(240, 180, 41, 0.07), rgba(240, 180, 41, 0.03));
+        border: 1px solid rgba(240, 180, 41, 0.2);
+        border-radius: 12px;
+        padding: 18px 22px;
+        font-size: 14px;
+        line-height: 1.8;
+        color: #d8c070;
+      }
+
+      .conclu-block {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-left: 3px solid var(--muted);
+        border-radius: 0 12px 12px 0;
+        padding: 18px 22px;
+        font-size: 14px;
+        line-height: 1.8;
+        color: var(--muted);
+        font-style: italic;
+      }
+
+      /* ── Export button ── */
+      .export-bar {
+        margin-top: 40px;
+        display: flex;
+        gap: 12px;
+      }
+
+      .btn-export {
+        background: linear-gradient(135deg, var(--accent), #d96e00);
+        color: #000;
+        border: none;
+        border-radius: 11px;
+        padding: 14px 32px;
+        font-family: 'Syne', sans-serif;
+        font-weight: 700;
+        font-size: 13px;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(240, 180, 41, 0.22);
+        transition: all 0.2s;
+        flex: 1;
+      }
+
+      .btn-export:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 6px 30px rgba(240, 180, 41, 0.38);
+      }
+
+      /* ── Error ── */
+      .error {
+        background: rgba(255, 71, 87, 0.1);
+        border: 1px solid rgba(255, 71, 87, 0.3);
+        border-radius: 12px;
+        padding: 20px 24px;
+        color: var(--red);
+        font-size: 14px;
+        line-height: 1.7;
+      }
+
+      .error code {
+        display: block;
+        margin-top: 8px;
+        font-size: 12px;
+        opacity: 0.7;
+        background: rgba(0, 0, 0, 0.3);
+        padding: 8px 12px;
+        border-radius: 6px;
+      }
+
+      /* ── Print ── */
+      @media print {
+        body {
+          background: white !important;
+          color: #111 !important;
+        }
+
+        body::before,
+        .tabs,
+        .export-bar {
+          display: none !important;
+        }
+
+        .panel {
+          display: block !important;
+        }
+
+        .panel:not(.on) {
+          display: none !important;
+        }
+
+        .big-title {
+          color: #111 !important;
+        }
+
+        .textblock,
+        .item-text,
+        .conclu-block {
+          background: #f9f9f9 !important;
+          color: #333 !important;
+          border-color: #ddd !important;
+        }
+
+        .item-alert {
+          background: #fff5f5 !important;
+          border-color: #fcc !important;
+          color: #555 !important;
+        }
+
+        .item-coin {
+          background: #f0fff8 !important;
+          border-color: #b2f0d6 !important;
+          color: #555 !important;
+        }
+
+        .conseil-block {
+          background: #fffbf0 !important;
+          border-color: #f0c060 !important;
+          color: #7a6020 !important;
+        }
+
+        .stat {
+          background: #f4f4f4 !important;
+          border-color: #ddd !important;
+        }
+
+        .stat-lbl {
+          color: #888 !important;
+        }
+
+        .stat-val {
+          color: #111 !important;
+        }
+
+        .item-num {
+          background: #e0e0e0 !important;
+          color: #888 !important;
+        }
+
+        .sh-label {
+          -webkit-print-color-adjust: exact;
+          print-color-adjust: exact;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="wrapper">
+
+      <header>
+        <div class="logo">
+          <div class="logo-icon">₿</div>
+          <div>
+            <div class="logo-name">Crypto<span>Digest</span></div>
+            <div class="logo-sub">Résumé Actualités</div>
+          </div>
+        </div>
+        <div class="header-right">
+          <div class="date-tag" id="dateTag"></div>
+        </div>
+      </header>
+
+      <div class="tabs">
+        <button class="tab on" data-t="jour" onclick="go('jour')"> <span class="pip"></span> Jour </button>
+        <button class="tab" data-t="semaine" onclick="go('semaine')"><span class="pip"></span> Semaine </button>
+        <button class="tab" data-t="mois" onclick="go('mois')"> <span class="pip"></span> Mois </button>
       </div>
+
+      <div id="content"></div>
+
     </div>
-    <div class="header-right">
-      <div class="date-tag" id="dateTag"></div>
-    </div>
-  </header>
 
-  <div class="tabs">
-    <button class="tab on" data-t="jour"    onclick="go('jour')">   <span class="pip"></span> Jour    </button>
-    <button class="tab"    data-t="semaine" onclick="go('semaine')"><span class="pip"></span> Semaine </button>
-    <button class="tab"    data-t="mois"    onclick="go('mois')">   <span class="pip"></span> Mois    </button>
-  </div>
+    <script>
+      // ── Date ──
+      const now = new Date();
+      document.getElementById('dateTag').textContent =
+        now.toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' });
 
-  <div id="content"></div>
+      // ── Tab switch ──
+      let current = 'jour';
+      function go(tab) {
+        current = tab;
+        document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.t === tab));
+        render(tab);
+      }
 
-</div>
+      // ── Helpers ──
+      function sh(label, cls) {
+        return `<div class="sh"><span class="sh-label ${cls}">${label}</span><div class="sh-line"></div></div>`;
+      }
 
-<script>
-// ── Date ──
-const now = new Date();
-document.getElementById('dateTag').textContent =
-  now.toLocaleDateString('fr-FR', { weekday:'long', day:'numeric', month:'long', year:'numeric' });
+      function safeList(arr) {
+        if (!arr || !arr.length) return '<p style="color:var(--muted);font-size:13px">—</p>';
+        return arr;
+      }
 
-// ── Tab switch ──
-let current = 'jour';
-function go(tab) {
-  current = tab;
-  document.querySelectorAll('.tab').forEach(b => b.classList.toggle('on', b.dataset.t === tab));
-  render(tab);
-}
+      // ── Renderers ──
+      function renderJour(d) {
+        let h = '';
+        h += sh('Titre', 'lbl-titre');
+        h += `<div class="big-title">${d.titre || '—'}</div>`;
 
-// ── Helpers ──
-function sh(label, cls) {
-  return `<div class="sh"><span class="sh-label ${cls}">${label}</span><div class="sh-line"></div></div>`;
-}
+        h += sh('Intro', 'lbl-intro');
+        h += `<div class="textblock">${d.intro || '—'}</div>`;
 
-function safeList(arr) {
-  if (!arr || !arr.length) return '<p style="color:var(--muted);font-size:13px">—</p>';
-  return arr;
-}
-
-// ── Renderers ──
-function renderJour(d) {
-  let h = '';
-  h += sh('Titre', 'lbl-titre');
-  h += `<div class="big-title">${d.titre || '—'}</div>`;
-
-  h += sh('Intro', 'lbl-intro');
-  h += `<div class="textblock">${d.intro || '—'}</div>`;
-
-  h += sh('Marchés', 'lbl-marche');
-  h += `<div class="stats">
+        h += sh('Marchés', 'lbl-marche');
+        h += `<div class="stats">
     <div class="stat"><div class="stat-lbl">BTC</div><div class="stat-val">${d.marche?.btc || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">ETH</div><div class="stat-val">${d.marche?.eth || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">Tendance</div><div class="stat-val" style="font-size:14px">${d.marche?.tendance || '—'}</div></div>
   </div>`;
-  if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
+        if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
 
-  h += sh('À surveiller', 'lbl-alerte');
-  h += `<div class="items">`;
-  (safeList(d.alertes) === d.alertes ? d.alertes : []).forEach(a => {
-    h += `<div class="item-alert"><span class="alert-icon">⚠️</span>${a}</div>`;
-  });
-  if (!d.alertes?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('À surveiller', 'lbl-alerte');
+        h += `<div class="items">`;
+        (safeList(d.alertes) === d.alertes ? d.alertes : []).forEach(a => {
+          h += `<div class="item-alert"><span class="alert-icon">⚠️</span>${a}</div>`;
+        });
+        if (!d.alertes?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Actualités', 'lbl-news');
-  h += `<div class="items">`;
-  (d.actualites || []).forEach((n, i) => {
-    h += `<div class="item-news"><div class="item-num">${String(i+1).padStart(2,'0')}</div><div class="item-text">${n}</div></div>`;
-  });
-  if (!d.actualites?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('Actualités', 'lbl-news');
+        h += `<div class="items">`;
+        (d.actualites || []).forEach((n, i) => {
+          h += `<div class="item-news"><div class="item-num">${String(i + 1).padStart(2, '0')}</div><div class="item-text">${n}</div></div>`;
+        });
+        if (!d.actualites?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Conseil du Jour', 'lbl-conseil');
-  h += `<div class="conseil-block">${d.conseil || '—'}</div>`;
+        h += sh('Conseil du Jour', 'lbl-conseil');
+        h += `<div class="conseil-block">${d.conseil || '—'}</div>`;
 
-  h += sh('Conclusion', 'lbl-fin');
-  h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
+        h += sh('Conclusion', 'lbl-fin');
+        h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
 
-  return h;
-}
+        return h;
+      }
 
-function renderSemaine(d) {
-  let h = '';
-  h += sh('Titre', 'lbl-titre');
-  h += `<div class="big-title">${d.titre || '—'}</div>`;
+      function renderSemaine(d) {
+        let h = '';
+        h += sh('Titre', 'lbl-titre');
+        h += `<div class="big-title">${d.titre || '—'}</div>`;
 
-  h += sh('Intro Hebdo', 'lbl-intro');
-  h += `<div class="textblock">${d.intro || '—'}</div>`;
+        h += sh('Intro Hebdo', 'lbl-intro');
+        h += `<div class="textblock">${d.intro || '—'}</div>`;
 
-  h += sh('Performances de la Semaine', 'lbl-marche');
-  h += `<div class="stats">
+        h += sh('Performances de la Semaine', 'lbl-marche');
+        h += `<div class="stats">
     <div class="stat"><div class="stat-lbl">BTC 7j</div><div class="stat-val">${d.marche?.btc_7j || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">ETH 7j</div><div class="stat-val">${d.marche?.eth_7j || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">Dominance BTC</div><div class="stat-val">${d.marche?.dominance || '—'}</div></div>
   </div>`;
-  if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
+        if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
 
-  h += sh('Top Actualités de la Semaine', 'lbl-news');
-  h += `<div class="items">`;
-  (d.actualites || []).forEach((n, i) => {
-    h += `<div class="item-news"><div class="item-num">${String(i+1).padStart(2,'0')}</div><div class="item-text">${n}</div></div>`;
-  });
-  if (!d.actualites?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('Top Actualités de la Semaine', 'lbl-news');
+        h += `<div class="items">`;
+        (d.actualites || []).forEach((n, i) => {
+          h += `<div class="item-news"><div class="item-num">${String(i + 1).padStart(2, '0')}</div><div class="item-text">${n}</div></div>`;
+        });
+        if (!d.actualites?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Événements à Venir', 'lbl-alerte');
-  h += `<div class="items">`;
-  (d.evenements || []).forEach(e => {
-    h += `<div class="item-alert"><span class="alert-icon">📅</span>${e}</div>`;
-  });
-  if (!d.evenements?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('Événements à Venir', 'lbl-alerte');
+        h += `<div class="items">`;
+        (d.evenements || []).forEach(e => {
+          h += `<div class="item-alert"><span class="alert-icon">📅</span>${e}</div>`;
+        });
+        if (!d.evenements?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Analyse & Perspectives', 'lbl-conseil');
-  h += `<div class="conseil-block">${d.analyse || '—'}</div>`;
+        h += sh('Analyse & Perspectives', 'lbl-conseil');
+        h += `<div class="conseil-block">${d.analyse || '—'}</div>`;
 
-  h += sh('Conclusion Hebdo', 'lbl-fin');
-  h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
+        h += sh('Conclusion Hebdo', 'lbl-fin');
+        h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
 
-  return h;
-}
+        return h;
+      }
 
-function renderMois(d) {
-  let h = '';
-  h += sh('Titre', 'lbl-titre');
-  h += `<div class="big-title">${d.titre || '—'}</div>`;
+      function renderMois(d) {
+        let h = '';
+        h += sh('Titre', 'lbl-titre');
+        h += `<div class="big-title">${d.titre || '—'}</div>`;
 
-  h += sh('Intro Mensuelle', 'lbl-intro');
-  h += `<div class="textblock">${d.intro || '—'}</div>`;
+        h += sh('Intro Mensuelle', 'lbl-intro');
+        h += `<div class="textblock">${d.intro || '—'}</div>`;
 
-  h += sh('Bilan des Marchés', 'lbl-marche');
-  h += `<div class="stats">
+        h += sh('Bilan des Marchés', 'lbl-marche');
+        h += `<div class="stats">
     <div class="stat"><div class="stat-lbl">BTC 30j</div><div class="stat-val">${d.marche?.btc_30j || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">Market Cap</div><div class="stat-val">${d.marche?.market_cap || '—'}</div></div>
     <div class="stat"><div class="stat-lbl">Fear & Greed</div><div class="stat-val" style="font-size:13px">${d.marche?.fear_greed || '—'}</div></div>
   </div>`;
-  if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
+        if (d.marche?.commentaire) h += `<div class="textblock">${d.marche.commentaire}</div>`;
 
-  h += sh('Faits Marquants du Mois', 'lbl-news');
-  h += `<div class="items">`;
-  (d.faits_marquants || []).forEach((n, i) => {
-    h += `<div class="item-news"><div class="item-num">${String(i+1).padStart(2,'0')}</div><div class="item-text">${n}</div></div>`;
-  });
-  if (!d.faits_marquants?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('Faits Marquants du Mois', 'lbl-news');
+        h += `<div class="items">`;
+        (d.faits_marquants || []).forEach((n, i) => {
+          h += `<div class="item-news"><div class="item-num">${String(i + 1).padStart(2, '0')}</div><div class="item-text">${n}</div></div>`;
+        });
+        if (!d.faits_marquants?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Coins à Surveiller', 'lbl-alerte');
-  h += `<div class="items">`;
-  (d.coins_surveiller || []).forEach(c => {
-    h += `<div class="item-coin"><span class="coin-icon">🎯</span>${c}</div>`;
-  });
-  if (!d.coins_surveiller?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
-  h += `</div>`;
+        h += sh('Coins à Surveiller', 'lbl-alerte');
+        h += `<div class="items">`;
+        (d.coins_surveiller || []).forEach(c => {
+          h += `<div class="item-coin"><span class="coin-icon">🎯</span>${c}</div>`;
+        });
+        if (!d.coins_surveiller?.length) h += '<p style="color:var(--muted);font-size:13px">—</p>';
+        h += `</div>`;
 
-  h += sh('Analyse & Perspectives Mois Prochain', 'lbl-conseil');
-  h += `<div class="conseil-block">${d.perspectives || '—'}</div>`;
+        h += sh('Analyse & Perspectives Mois Prochain', 'lbl-conseil');
+        h += `<div class="conseil-block">${d.perspectives || '—'}</div>`;
 
-  h += sh('Conclusion Mensuelle', 'lbl-fin');
-  h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
+        h += sh('Conclusion Mensuelle', 'lbl-fin');
+        h += `<div class="conclu-block">${d.conclusion || '—'}</div>`;
 
-  return h;
-}
+        return h;
+      }
 
-// ── Main render ──
-function render(tab) {
-  const el = document.getElementById('content');
+      // ── Main render ──
+      function render(tab) {
+        const el = document.getElementById('content');
 
-  // Check if CRYPTO_DATA loaded correctly
-  if (typeof CRYPTO_DATA === 'undefined') {
-    el.innerHTML = `<div class="error">
+        // Check if CRYPTO_DATA loaded correctly
+        if (typeof CRYPTO_DATA === 'undefined') {
+          el.innerHTML = `<div class="error">
       ⚠️ Impossible de lire <strong>contenu.js</strong> — assure-toi que les deux fichiers sont dans le même dossier.
       <code>Ouvre index.html avec Live Server ou via un serveur local.</code>
     </div>`;
-    return;
-  }
+          return;
+        }
 
-  const data = CRYPTO_DATA[tab];
-  if (!data) {
-    el.innerHTML = `<div class="error">
+        const data = CRYPTO_DATA[tab];
+        if (!data) {
+          el.innerHTML = `<div class="error">
       ⚠️ Section <strong>${tab}</strong> introuvable dans contenu.js.
       <code>Vérifie que la clé "${tab}" existe dans CRYPTO_DATA.</code>
     </div>`;
-    return;
-  }
+          return;
+        }
 
-  let html = '';
-  if (tab === 'jour')    html = renderJour(data);
-  if (tab === 'semaine') html = renderSemaine(data);
-  if (tab === 'mois')    html = renderMois(data);
+        let html = '';
+        if (tab === 'jour') html = renderJour(data);
+        if (tab === 'semaine') html = renderSemaine(data);
+        if (tab === 'mois') html = renderMois(data);
 
-  html += `<div class="export-bar">
+        html += `<div class="export-bar">
     <button class="btn-export" onclick="window.print()">⬇ Exporter en PDF</button>
   </div>`;
 
-  el.innerHTML = html;
-}
+        el.innerHTML = html;
+      }
 
-// ── Init ──
-render('jour');
-</script>
-</body>
+      // ── Init ──
+      render('jour');
+    </script>
+  </body>
+
 </html>
