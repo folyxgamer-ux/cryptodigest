@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Le Bitcoin se stabilise après une chute sous les 60 000 $",
+    titre: "Le marché des cryptomonnaies se stabilise après une période de volatilité",
 
-    intro: "Après une période de forte volatilité, le marché des cryptomonnaies semble se stabiliser. Le Bitcoin a connu une chute significative, passant sous la barre des 60 000 $, mais montre désormais des signes de reprise. Les investisseurs restent prudents face à l'incertitude économique mondiale, mais certains indicateurs suggèrent que le pire pourrait être derrière nous.",
+    intro: "Après une période de forte volatilité, le marché des cryptomonnaies semble montrer des signes de stabilisation. Les prix du Bitcoin et de l'Ethereum ont connu des fluctuations importantes, mais les indicateurs techniques suggèrent que le marché pourrait être en train de trouver un support solide.",
 
     marche: {
-      btc: "$ 62 799",
-      eth: "$1 642 ",
+      btc: "$ 63 500",
+      eth: "$1 682 ",
       tendance: "stable",
       commentaire: "Le marché affiche une santé stable"
     },
