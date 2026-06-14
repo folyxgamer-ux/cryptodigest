@@ -10,12 +10,12 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "l'arrivé de spaceX change la donne pour la cryptomonnaie",
+    titre: "Un marché des cryptomonnaies résilient malgré les fluctuations",
 
-    intro: "Le marché des cryptomonnaies continue de montrer des signes de volatilité, avec des fluctuations notables dans les prix du Bitcoin et de l'Ethereum. Les investisseurs doivent rester vigilants et suivre de près les développements du marché pour prendre des décisions éclairées.",
+    intro: "Le marché des cryptomonnaies continue de montrer des signes de résilience malgré les fluctuations récentes. Les investisseurs restent attentifs aux développements réglementaires et aux tendances technologiques qui pourraient influencer la direction future du marché.",
 
     marche: {
-      btc: "$ 64 296",
+      btc: "$ 64 450",
       eth: "$1 682 ",
       tendance: "haussiere",
       commentaire: "Le marché affiche une santé haussière avec des signes de stabilisation."
@@ -30,23 +30,19 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Les contrats à terme perpétuels pourraient devenir le prochain moment ETF de la cryptomonnaie John Palmer, responsable des dérivés chez Kraken, a déclaré qu'il s'attend à ce que les traders sophistiqués mènent l'adoption des nouveaux contrats à terme perpétuels approuvés aux États-Unis, avec une participation institutionnelle plus large susceptible de suivre avec le",
-      "Michael Saylor, co-fondateur de Strategy, le plus grand détenteur public de bitcoins au monde, a un nouveau terme pour les actions les plus élites de Wall Street ainsi qu’un message de félicitations pour Elon Musk. Suite à l'historique entrée en bourse de SpaceX au Nasdaq vendredi, le président de Strategy a pris la parole sur X pour féliciter Musk, soulignant qu'avec SpaceX désormais cotée en bourse, 25 % de ce qu'il appelle les entreprises 'Mag8' détiennent désormais du bitcoin dans leurs bilans. 'Grâce à vous, 25 % du Mag8 détient désormais du bitcoin au bilan,' Saylor a écrit. Le Mag8 semble être la version élargie par Saylor du groupe largement utilisé des Magnificent Seven, qui comprend Apple, Microsoft, Nvidia, Alphabet, Amazon, Meta et Tesla.Il a ajouté SpaceX en tant que huitième membre suite à son introduction en bourse à 1, 75 trillion de dollars, la plus grande offre publique de l’histoire. Tesla et SpaceX, les deux entreprises dirigées par Musk au sein du groupe, détenaient déjà du bitcoin dans leurs bilans avant l'introduction en bourse. SpaceX est déjà le huitième plus grand détenteur public de bitcoins, avec 18 712 bitcoins inscrits à son bilan, selon BitcoinTreasuries.net.Tesla, quant à elle, détient 11 509 BTC. Strategy demeure le leader avec une réserve de 845 256 BTC d'une valeur de plus de 54 milliards de dollars.",
-      "La tokenisation reflète le boom des ETF de 20 000 milliards de dollars alors que la blockchain et l'IA convergent, déclare un cadre d'Ondo La tokenisation prépare le terrain pour l'investissement autonome et la gestion de portefeuille en temps réel, a déclaré John Hoffman, nouveau responsable des produits de portefeuille chez Ondo.",
-      "La crypto devrait adopter le meilleur de la centralisation, déclare le PDG de LMAX À mesure que les actifs numériques mûrissent, l'industrie devrait s'inspirer davantage des infrastructures des marchés traditionnels, en particulier des systèmes de crédit, de compensation et de garantie, soutient David Mercer.",
-      "Ripple souhaite que les agents d'IA paient en XRP et RLUSD. Le marché est encore majoritairement dominé par l'USDC Le XRPL AI Starter Kit offre aux développeurs des outils pour les paiements par agents, mais l'activité précoce x402 s'est concentrée sur Base et Solana.Le pari de Ripple est que la vitesse du XRPL, ses faibles frais et le RLUSD peuvent capter une part de ce flux.",
-      "Les principaux cryptographes ne parviennent pas à se mettre d'accord sur la plus grande question quantique du Bitcoin Un panel organisé par Coinbase affirme que Bitcoin devrait commencer à se préparer dès maintenant aux attaques quantiques, mais refuse de prendre position sur la question de savoir si des millions de pièces vulnérables, y compris de nombreuses liées à Satoshi Nakamoto, devraient finalement être gelées.",
-      "Les actions pré-IPO d'Anthropic chutent alors que le gouvernement américain arrête son modèle d'IA le plus puissant Un rapport de jailbreak a incité Washington à retirer Fable 5 et Mythos 5 de tous les utilisateurs.Anthropic a obtempéré mais a fortement résisté, affirmant que cette conclusion établit une norme qui paralysait l'ensemble de l'industrie de l'IA.",
-      "Approbation réglementaire La SEC a approuvé la proposition du NYSE Arca pour coter et négocier les actions du T.Rowe Price Active Crypto ETF. Composition du fonds Le fonds actif peut détenir entre cinq et quinze actifs cryptographiques, incluant BTC, ETH, XRP, SOL, DOGE et XLM. L'utilisation de l'USDC est autorisée au sein du fonds pour des besoins opérationnels.",
-      "Transfert record sur HyperEVM Circle a réalisé le plus important transfert de USDC jamais effectué sur HyperEVM, déplaçant environ 4, 4 milliards de dollars vers Coinbase.",
-      "Mise en œuvre du protocole AQAv2 Le protocole AQAv2 a été validé par 69,08 % des validateurs, soit 19 votes sur 26. Coinbase agit en tant que déployeur de trésorerie pour intégrer l'USDC comme actif de cotation par défaut sur les marchés de contrats à terme de Hyperliquid. Modèle économique et revenus Les émetteurs de stablecoins partageront environ 90 % des revenus de rendement des réserves avec le protocole. Ces fonds serviront à racheter des jetons HYPE sur le marché via le Fonds d'assistance de Hyperliquid. L'implémentation d'AQAv2 devrait générer jusqu'à 200 millions de dollars de revenus supplémentaires pour le réseau. Cette opération fait suite à l'approbation par les validateurs du protocole AQAv2 de Hyperliquid.",
+      "Wall Street et la cryptomonnaie s'entrechoquent alors que les marchés des trésoreries tokenisées atteignent 14,6 milliards de dollars Tous les dirigeants d’échanges cryptographiques ne sont pas d’accord, mais les données ne mentent pas : les volumes de trading des plateformes centralisées ont chuté de plus de 11 % pour atteindre 4, 61 billions de dollars, leur plus bas niveau depuis la fin de 2024.",
+      "Le prochain hacker milliardaire de la crypto pourrait agir à une vitesse surhumaine,Le nouveau Claude Fable 5 d’Anthropic met des outils cyber puissants derrière des filtres de sécurité.La DeFi, déjà frappée par plus de 840 millions de dollars de piratages cette année, est l’un des secteurs qui ont le plus à perdre en cas d’échec des filtres.",
+      "Voici ce que l'introduction en bourse de SpaceX signifie pour sa réserve de bitcoins de 1,3 milliard de dollars La plus grande entreprise sur les marchés publics détient désormais du bitcoin en tant que réserve de trésorerie, et non comme modèle commercial.Ses premiers cycles de résultats financiers permettront de tester quelle version de la crypto d’entreprise survivra à un marché baissier.",
+      "Les stablecoins étaient destinés à bouleverser la finance. Au lieu de cela, ils sont devenus de l'argent inactif. O’Connor soutient que la réussite la plus évidente de la cryptomonnaie s’est développée en tant que monnaie, mais pas en tant que capital.",
+      "Aerodrome transforme la liquidité en un marché prédictif avec sa plus grande mise à jour à ce jour Le concept, appelé Allocation Prédictive, incitera les participants à anticiper où la liquidité sera nécessaire ensuite, au lieu de les récompenser pour avoir dirigé les incitations vers des pools ayant déjà généré des frais.",
+      "Le grand virage de la SEC pour dégager la voie de la tokenisation ne devrait pas assurer la résilience d’une règle complète D'anciens avocats de la SEC affirment que l'utilisation de son pouvoir pour accorder aux efforts d’'innovation' en matière de tokenisation une exemption des lois sur les valeurs mobilières n'a pas la même portée qu'une règle complète.",
 
 
     ],
 
-    conseil: "Pour les investisseurs, il est essentiel de rester informé des développements réglementaires et technologiques dans le domaine des cryptomonnaies. La diversification du portefeuille et l'adoption d'une approche prudente peuvent aider à atténuer les risques associés à la volatilité du marché. Il est également recommandé de suivre les tendances des principales cryptomonnaies et de surveiller les signaux du marché pour prendre des décisions éclairées.",
+    conseil: "Pour les investisseurs, il est essentiel de rester informés et de diversifier leurs portefeuilles afin de gérer les risques associés aux fluctuations du marché. L'adoption d'une approche à long terme et la vigilance face aux développements réglementaires peuvent aider à naviguer dans cet environnement volatil.s",
 
-    conclusion: "En conclusion, bien que le marché des cryptomonnaies ait connu des fluctuations importantes, les perspectives à long terme restent prometteuses. Les investisseurs doivent rester attentifs aux évolutions du marché et adopter une stratégie d'investissement réfléchie pour maximiser leurs opportunités tout en minimisant les risques."
+    conclusion: "En conclusion, malgré les défis et les incertitudes, le marché des cryptomonnaies continue de démontrer sa résilience. Les investisseurs doivent rester attentifs aux tendances émergentes et aux évolutions réglementaires pour prendre des décisions éclairées et maximiser leurs opportunités dans ce secteur dynamique."
   },
 
 
@@ -54,40 +50,36 @@ const CRYPTO_DATA = {
   //  BILAN DE LA SEMAINE
   // ──────────────────────────────────────────────
   semaine: {
-    titre: "une semaine de baisse mais des signaux positifs",
+    titre: "Une semaine sacrement boulversée pour le marché des cryptomonnaies",
 
-    intro: "Après une semaine marquée par une forte volatilité et une baisse significative des prix, le marché des cryptomonnaies montre des signes de stabilisation. Malgré les défis, plusieurs indicateurs suggèrent que la tendance baissière pourrait être temporaire.",
+    intro: "La semaine écoulée a été marquée par des turbulences significatives sur le marché des cryptomonnaies, avec des fluctuations de prix notables et des développements réglementaires qui ont capté l'attention des investisseurs. Malgré ces défis, certains segments du marché ont montré des signes de résilience, offrant des opportunités pour ceux qui restent informés et stratégiques dans leurs décisions d'investissement.",
 
     marche: {
-      btc_7j: "-15.5%",
-      eth_7j: "-18.5",
+      btc_7j: "3%",
+      eth_7j: "2.1%",
       // dominance: "58,1 %",
-      commentaire: "baisse imminente"
+      commentaire: "Hausse imminente"
     },
 
     evenements: [
       "Clarity Act date de fin le 6 juillet",
       "30 juin echeance MiCA",
-      "surveiller Quivalis"
+      "surveiller Quivalis",
+      "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
     ],
 
     actualites: [
-      "La tension a atteint un point critique aux États-Unis. Le PDG de JPMorgan a officiellement exprimé son opposition au projet de loi CLARITY, illustrant le fossé qui se creuse entre les banques de Wall Street et les partisans de la conformité crypto .À l'inverse, Coinbase a franchi une étape majeure en recevant l'approbation de la CFTC pour proposer des produits dérivés via la plateforme Deribit",
-      "Facteurs macroéconomiques : Un rapport sur l'emploi américain plus solide que prévu a réduit les espoirs de baisse des taux de la Fed, renforçant le dollar et pesant lourdement sur les actifs à risque comme les cryptos.",
-      "Le marché des RWA tokenisés (hors stablecoins) a atteint une valeur estimée entre 31 et 34 milliards de dollars en mai 2026 .Ethereum reste le réseau dominant pour ce secteur, hébergeant environ 60 % de la valeur totale on - chain .Le segment des bons du Trésor américain, mené par le fonds BUIDL de BlackRock(environ 15 milliards de dollars), reste le principal moteur de cette croissance",
-      "Sorties institutionnelles : Les ETF Bitcoin au comptant aux États-Unis ont enregistré des sorties nettes records, totalisant environ 5 milliards de dollars en 14 jours, signalant un retrait massif des investisseurs institutionnels.",
-      "Kraken : L'exchange a renforcé sa présence en Europe en étant désormais totalement conforme à la réglementation MiCA .La plateforme mise sur l'innovation avec ses 'bundles' (paniers de crypto-monnaies) et ses Xtocks (actions tokenisées du Nasdaq), cherchant à attirer les investisseurs traditionnels sur la blockchain",
-      "Coinbase : En début de semaine (1er juin), la plateforme a officiellement lancé le support de la roupie indienne (INR), facilitant l'accès au marché pour des millions d'utilisateurs en Inde [Conversation History].",
-      "Le secteur des dérivés décentralisés voit une compétition accrue entre Hyperliquid et dYdX .Hyperliquid se positionne comme un leader grâce à son expérience de trading proche de celle des plateformes centralisées et à la montée en puissance de son écosystème L1 .Parallèlement, le marché des prédictions reste un secteur clé, où Kalshi et Polymarket se disputent la dominance",
-      "Exceptions notables : Malgré la faiblesse générale, certains projets comme Hyperliquid (HYPE) et Stellar (XLM) ont surperformé grâce à des développements spécifiques (nouveaux produits dérivés et partenariats d'infrastructure).",
-      "Les analystes surveillent de près les jetons liés à l'IA et aux RWA, identifiés comme les narratifs les plus prometteurs pour la prochaine 'Altseason', avec un potentiel de croissance significatif pour des projets comme Bittensor (TAO) ou Kaspa (KAS).",
-
-
+      "Le coup de tonnerre : L’IPO de SpaceX et son trésor en Bitcoin 🚀 C'est l'événement qui a fait trembler à la fois Wall Street et la crypto - sphère.Vendredi, SpaceX a fait ses premiers pas historiques au Nasdaq(sous le ticker SPCX), ouvrant en hausse de 11 % à 150 $. La surprise crypto : Le document officiel de la SEC(le gendarme financier américain) a révélé que l'entreprise d'Elon Musk détient secrètement 18 712 Bitcoins dans sa trésorerie, achetés à un prix moyen d'environ 35 324 $ par BTC.",
+      "RWA et Cartes Crypto : L'adoption explose 💳 Les cartes crypto au sommet : Une étude a révélé que les dépenses mondiales mensuelles via des cartes crypto(comme celles dont nous parlions!) sont passées en 18 mois de 100 millions à 1, 5 milliard de dollars. La Tokenisation(RWA) : Le secteur de la tokenisation des actifs réels affiche une croissance de 589 % sur un an et demi, s'imposant comme le vrai moteur fondamental du marché.",
+      "Le protocole de prêt décentralisé Morpho (très populaire sur Ethereum) a annoncé une levée de fonds massive de 175 millions de dollars auprès de mastodontes du capital-risque comme Paradigm et a16z crypto, propulsant la valorisation du projet à 2 milliards de dollars. La DeFi institutionnelle a le vent en poupe.",
+      "Côté Conférences : Ébullition à New York et Berlin 🌍 ETHGlobal New York : Le week - end a été rythmé par l'un des plus grands hackathons Ethereum de l'année à NYC, où des centaines de développeurs se sont réunis pour coder de nouvelles applications décentralisées. Berlin Blockchain Week : L'Europe est aussi à l'honneur puisque la semaine blockchain de Berlin vient tout juste de démarrer(du 12 au 20 juin), rassemblant la communauté Web3 européenne autour des sujets de vie privée et d'infrastructures.",
+      "Le 'Rebranding' de la semaine : TON devient GRAM 💎 Le jeton de l'écosystème Telegram, le Toncoin (TON), a officiellement entamé une transition pour changer de nom et redevenir le Gram (GRAM), un clin d'œil historique au projet initial développé par les frères Durov.",
+      "Côté Prix (Bitcoin & Co) Après des secousses et de la volatilité qui avaient poussé le Bitcoin brièvement sous la barre des 60 000 € la semaine précédente, le marché s'est stabilisé et a retrouvé des couleurs (actuellement autour des 62 000 - 63 000 €). Les traders ont repris leur souffle, portés par la dynamique positive entourant l'introduction en bourse de SpaceX.",
 
     ],
-    analyse: "Malgré une semaine difficile pour les marchés de la cryptomonnaie, plusieurs signaux positifs émergent. La stabilisation des prix et l'intérêt renouvelé des investisseurs institutionnels suggèrent que le marché pourrait être en train de trouver un support solide. Cependant, la prudence reste de mise, car les développements réglementaires et macroéconomiques à venir pourraient encore influencer la direction du marché dans les semaines à venir.",
+    analyse: "L'analyse de la semaine révèle que malgré les turbulences, le marché des cryptomonnaies a montré une résilience notable. Les investisseurs ont été confrontés à des défis réglementaires et à des fluctuations de prix, mais certains segments, notamment la DeFi institutionnelle et la tokenisation des actifs réels, ont enregistré des développements positifs. L'IPO de SpaceX et la révélation de sa trésorerie en Bitcoin ont également eu un impact significatif sur le sentiment du marché, renforçant l'intérêt pour les actifs numériques. Il est essentiel pour les investisseurs de rester informés et de surveiller les évolutions réglementaires et économiques qui pourraient influencer le marché dans les semaines à venir.",
 
-    conclusion: "En résumé, la semaine a été marquée par des défis importants, mais les signes de stabilisation et les développements positifs dans certains segments du marché offrent une lueur d'espoir pour les investisseurs. Il est crucial de rester informé et de surveiller de près les évolutions réglementaires et économiques qui pourraient impacter le marché dans un avenir proche.",
+    conclusion: "En conclusion, la semaine écoulée a été riche en événements et en enseignements pour le marché des cryptomonnaies. Les investisseurs doivent rester vigilants face aux développements réglementaires et aux tendances du marché, tout en explorant les opportunités offertes par les segments en croissance tels que la DeFi institutionnelle et la tokenisation des actifs réels. La résilience démontrée par le marché malgré les défis souligne l'importance d'une approche stratégique et informée pour naviguer dans cet environnement dynamique.",
   },
 
 
