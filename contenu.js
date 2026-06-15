@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Un marché des cryptomonnaies résilient malgré les fluctuations",
+    titre: "Cesser le feu et l'accord de paix USA-Iran : Impact sur le marché des cryptomonnaies",
 
-    intro: "Le marché des cryptomonnaies continue de montrer des signes de résilience malgré les fluctuations récentes. Les investisseurs restent attentifs aux développements réglementaires et aux tendances technologiques qui pourraient influencer la direction future du marché.",
+    intro: "Le marché des cryptomonnaies a connu une semaine mouvementée, marquée par des développements géopolitiques significatifs et des fluctuations de prix notables. L'annonce d'un accord de paix entre les États-Unis et l'Iran a eu un impact immédiat sur les marchés financiers, y compris le marché des cryptomonnaies. Cette nouvelle a entraîné une hausse du Bitcoin et d'autres actifs numériques, reflétant la sensibilité du marché aux événements mondiaux et aux perspectives économiques.",
 
     marche: {
-      btc: "$ 64 450",
-      eth: "$1 682 ",
+      btc: "$ 66 368",
+      eth: "$1 810 ",
       tendance: "haussiere",
       commentaire: "Le marché affiche une santé haussière avec des signes de stabilisation."
     },
@@ -26,23 +26,36 @@ const CRYPTO_DATA = {
       "30 juin echeance MiCA",
       "surveiller Quivalis",
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
-
+      "Ce week-end (Annonce) : Déclaration de Donald Trump sur l'accord de paix USA-Iran.",
+      "17 Juin : Première réunion du FOMC (la Fed) présidée par le nouveau président Kevin Warsh.",
+      "19 Juin : Date officielle prévue pour la signature de l'accord de paix.",
+      "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
     ],
 
     actualites: [
-      "Wall Street et la cryptomonnaie s'entrechoquent alors que les marchés des trésoreries tokenisées atteignent 14,6 milliards de dollars Tous les dirigeants d’échanges cryptographiques ne sont pas d’accord, mais les données ne mentent pas : les volumes de trading des plateformes centralisées ont chuté de plus de 11 % pour atteindre 4, 61 billions de dollars, leur plus bas niveau depuis la fin de 2024.",
-      "Le prochain hacker milliardaire de la crypto pourrait agir à une vitesse surhumaine,Le nouveau Claude Fable 5 d’Anthropic met des outils cyber puissants derrière des filtres de sécurité.La DeFi, déjà frappée par plus de 840 millions de dollars de piratages cette année, est l’un des secteurs qui ont le plus à perdre en cas d’échec des filtres.",
-      "Voici ce que l'introduction en bourse de SpaceX signifie pour sa réserve de bitcoins de 1,3 milliard de dollars La plus grande entreprise sur les marchés publics détient désormais du bitcoin en tant que réserve de trésorerie, et non comme modèle commercial.Ses premiers cycles de résultats financiers permettront de tester quelle version de la crypto d’entreprise survivra à un marché baissier.",
-      "Les stablecoins étaient destinés à bouleverser la finance. Au lieu de cela, ils sont devenus de l'argent inactif. O’Connor soutient que la réussite la plus évidente de la cryptomonnaie s’est développée en tant que monnaie, mais pas en tant que capital.",
-      "Aerodrome transforme la liquidité en un marché prédictif avec sa plus grande mise à jour à ce jour Le concept, appelé Allocation Prédictive, incitera les participants à anticiper où la liquidité sera nécessaire ensuite, au lieu de les récompenser pour avoir dirigé les incitations vers des pools ayant déjà généré des frais.",
-      "Le grand virage de la SEC pour dégager la voie de la tokenisation ne devrait pas assurer la résilience d’une règle complète D'anciens avocats de la SEC affirment que l'utilisation de son pouvoir pour accorder aux efforts d’'innovation' en matière de tokenisation une exemption des lois sur les valeurs mobilières n'a pas la même portée qu'une règle complète.",
-
+      "Brian Armstrong de Coinbase affirme que le bitcoin pourrait avoir atteint un plancher à 60 000 $ Armstrong a déclaré que son instinct est que le bitcoin a probablement trouvé son plancher, en se référant au cycle de quatre ans qui a historiquement marqué les creux.",
+      "XRP monte en flèche de 8 % au-dessus de 1,20 $ lors de la première cassure majeure depuis la vente massive de juin Un volume important a permis à XRP de franchir plusieurs niveaux de résistance, les traders se concentrant désormais sur la possibilité que la hausse se poursuive jusqu'à 1,30 $ après des semaines de positionnement défensif.",
+      "Mise à jour de la performance du CoinDesk 20 : Bittensor (TAO) progresse de 31,9 %, tirant l'indice à la hausse Near Protocol (NEAR), en hausse de 22,2 % depuis vendredi, a également été l'un des meilleurs performeurs.",
+      "Bitmine ajoute 136 millions de dollars supplémentaires en ether après avoir levé 274 millions de dollars lors de la vente d’actions privilégiées La société de trésorerie Ethereum de Tom Lee, par le biais de la vente d'actions privilégiées, utilise un outil de financement inauguré par la société de trésorerie bitcoin de Michael Saylor, Strategy.",
+      "La stratégie de Michael Saylor acquiert 1 587 bitcoins supplémentaires pour 100 millions de dollars Le dernier achat a été réalisé à un prix moyen de 63 024 $ par bitcoin.",
+      "Grosse actualité : L'accord de paix entre les États-Unis et l'Iran a été annoncé dimanche soir. Les détails de l'accord sont encore en cours de finalisation, mais il marque un tournant significatif dans les relations internationales et pourrait avoir des implications importantes pour le marché mondial de l'énergie et les marchés financiers. voici les principaux points à retenir :",
+      "",
+      "La Géopolitique : Un accord historique mais fragile L'accord : Les États-Unis et l'Iran ont trouvé un terrain d'entente. L'accord prévoit notamment la levée du blocus naval américain et la réouverture du détroit d'Ormuz. La nuance : Le chemin vers une paix durable reste complexe.Les derniers mois ont été marqués par des ruptures et des cessez - le - feu à répétition.Rien n'est figé.",
+      "Le Pétrole en chute libre 🛢️ Suite à l'annonce, le prix du pétrole brut a chuté de 5 % pour s'établir autour de 80 $ le baril. Il a désormais perdu 33 % de sa valeur par rapport à son sommet du mois de mars(où il avait atteint 120 $).",
+      "Les actions : Les bourses mondiales grimpent (le Nasdaq prend +2 % en pré-marché), à la seule exception de la bourse de Tel Aviv. L'Or : Le métal précieux augmente de 3 % et dépasse les 4 330 $ l'once. Le Bitcoin($BTC) : La crypto profite à fond de la nouvelle.Porté par l'annonce de dimanche, le BTC bondit de +2,7 % en 24h et repasse brièvement au-dessus des 66 000 $.",
+      "Réunion du 17 juin : Les marchés sont sûrs à 97 % que la Fed va laisser ses taux d'intérêt inchangés (entre 3,50 % et 3,75 %). Le changement majeur : Grâce à la baisse du prix du pétrole(qui calme l'inflation), les investisseurs n'attendent plus aucune hausse des taux pour cette année.La prochaine hausse de 25 points de base est désormais repoussée à janvier 2027.",
+      "Vigilance. Cette accalmie fait du bien aux marchés et pousse le Bitcoin vers le haut, mais la situation au Moyen-Orient peut encore pivoter à tout moment et changer la donne sur les taux d'intérêt.",
+      "Cessez-le-feu au Moyen-Orient, décision sur les taux d'intérêt de la Fed : la semaine crypto à venir",
+      "Stablecoin lié à Trump utilisé pour les paiements de primes lors du combat UFC à la Maison Blanche UFC Freedom 250 a versé des primes aux combattants en USD1, le stablecoin émis par la société crypto liée à Trump, World Liberty Financial, lors d'un concours tenu à la Maison Blanche.",
+      "Ark Invest a acheté pour plus de 500 millions de dollars d’actions SpaceX le jour de l’introduction en bourse Les achats ont probablement été financés par la vente d'autres positions, selon les données. ARK est également l'un des plus fervents partisans du bitcoin, avec un objectif d'un million de dollars pour 2030.",
+      "Les traders de Bitcoin ont une raison de suivre la décision de taux de la BOJ mardi. Les positions courtes sur le yen atteignent un plus haut de neuf ans Une accumulation importante de positions spéculatives à découvert sur le yen augmente le risque d'une forte accélération des rachats à découvert si la Banque du Japon (BOJ) indique un resserrement plus agressif, ce qui pourrait potentiellement dénouer les opérations de portage financées en yen qui soutiennent les actifs à risque.",
+      "Bitcoin atteint un sommet de deux semaines au-dessus de 65 500 $ alors que l'accord entre les États-Unis et l'Iran fait chuter le pétrole Un accord de paix rouvrant le détroit d'Hormuz a éliminé la prime géopolitique sur le pétrole et l'a réinjectée dans les actifs à risque.",
 
     ],
 
-    conseil: "Pour les investisseurs, il est essentiel de rester informés et de diversifier leurs portefeuilles afin de gérer les risques associés aux fluctuations du marché. L'adoption d'une approche à long terme et la vigilance face aux développements réglementaires peuvent aider à naviguer dans cet environnement volatil.s",
+    conseil: "Pour les investisseurs en cryptomonnaies, il est crucial de rester informés des développements géopolitiques et économiques qui peuvent influencer le marché. L'accord de paix entre les États-Unis et l'Iran pourrait avoir des répercussions sur les prix du pétrole et, par conséquent, sur les actifs numériques. Il est recommandé de surveiller de près les tendances du marché, d'évaluer les risques et de diversifier les portefeuilles pour maximiser les opportunités tout en minimisant les pertes potentielles.",
 
-    conclusion: "En conclusion, malgré les défis et les incertitudes, le marché des cryptomonnaies continue de démontrer sa résilience. Les investisseurs doivent rester attentifs aux tendances émergentes et aux évolutions réglementaires pour prendre des décisions éclairées et maximiser leurs opportunités dans ce secteur dynamique."
+    conclusion: "En conclusion, la semaine écoulée a été marquée par des événements géopolitiques significatifs qui ont eu un impact direct sur le marché des cryptomonnaies. L'accord de paix entre les États-Unis et l'Iran a entraîné une hausse du Bitcoin et d'autres actifs numériques, soulignant l'importance de la vigilance et de l'adaptabilité pour les investisseurs. Il est essentiel de continuer à suivre les développements mondiaux et de prendre des décisions éclairées pour naviguer dans ce marché dynamique."
   },
 
 
