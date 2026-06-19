@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "La fifa intègre la blockchain pour lutter contre le marché noir des billets de la coupe du monde",
+    titre: "Résumé du jour : Marché des cryptomonnaies en constante évolution",
 
-    intro: "La FIFA a récemment annoncé son intention d'utiliser la technologie blockchain pour lutter contre le marché noir des billets de la Coupe du Monde. Cette initiative vise à garantir que les billets sont authentiques et à réduire les activités frauduleuses liées à la revente de billets à des prix exorbitants. En intégrant la blockchain, la FIFA espère offrir une solution transparente et sécurisée pour l'achat et la distribution des billets, tout en protégeant les fans contre les arnaques et les contrefaçons.",
+    intro: "Le marché des cryptomonnaies est en constante évolution, et il est essentiel de rester informé des dernières tendances et développements. Aujourd'hui, nous vous présentons un résumé des événements récents, des alertes importantes et des actualités qui façonnent le paysage crypto. Que vous soyez un investisseur chevronné ou un novice curieux, ce résumé vous fournira les informations clés pour naviguer dans cet environnement dynamique.",
 
     marche: {
-      btc: "$ 64 294",
-      eth: "$1 745 ",
-      tendance: "stable",
-      commentaire: "Le marché affiche une santé stable avec des signes de stabilisation."
+      btc: "$ 62 995",
+      eth: "$1 701 ",
+      tendance: "bancale",
+      commentaire: "Le marché affiche une santé bancale."
     },
 
     alertes: [
@@ -39,14 +39,20 @@ const CRYPTO_DATA = {
       "La Fondation Ethereum perd un autre dirigeant clé alors que la co-directrice générale Hsiao-Wei Wang démissionne Le départ de Wang fait suite à la démission de son collègue co - directeur exécutif Tomasz Stańczak et marque la dernière d'une série de départs de haut niveau au sein de l'EF.",
       "Algorand dévoile sa feuille de route pour atteindre la résistance quantique d'ici 2028 L'annonce reflète une reconnaissance croissante dans le secteur de la cryptomonnaie que l'adoption de la cryptographie résistante au quantique pourrait prendre des années, nécessitant des modifications non seulement des portefeuilles utilisateurs, mais également de l'infrastructure protocolaire centrale.",
       " Stellar (XLM) progresse de 10 % tandis que l'indice recule Internet Computer(ICP) a chuté de 4, 1 % et Sui(SUI) a reculé de 4 %, entraînant l'indice à la baisse depuis mercredi.",
-
+      "",
+      "Microsoft a découvert un logiciel malveillant qui détourne des portefeuilles crypto et se propage via des clés USB Le logiciel intercepte les fichiers de raccourci et les dirige vers l'installation d'un ver qui collecte les clés privées depuis le presse - papiers Windows et insère ses propres adresses de portefeuille de destination lorsqu'il détecte un transfert.",
+      "Schwab rejoint la course aux marchés prédictifs avec des options basées sur des événements du S&P 500 : WSJ L’offre prévue permettrait aux clients de parier sur les mouvements d’indices alors que Coinbase et Robinhood étendent leurs activités dans le secteur.",
+      "GoMining défie Square de Jack Dorsey avec un système de paiements conçu autour du bitcoin GoMining a dévoilé un kit de développement logiciel et un accès programmable pour son protocole de paiement bitcoin GoBTC Pay, permettant aux commerçants d’accepter des BTC pour les achats quotidiens.",
+      "Le marché du crédit numérique frappé par une énorme vente massive alors que le PDG de Strive attribue cela aux liquidations de levier Matt Cole déclare que la vente forcée des investisseurs à effet de levier a fait chuter fortement STRC et SATA avant que les deux ne rebondissent.",
+      "BitGo Europe a lancé une plateforme de crypto-actifs conçue pour se conformer au règlement sur les marchés de crypto-actifs (MiCA) de l'Union européenne. Cette infrastructure permet aux plateformes d'échange et aux entreprises de technologie financière d'accéder à des services de garde, de trading et de gestion de portefeuilles via des API sans développer leurs propres systèmes de conformité internes.",
+      " Combinator  un agent IA capable a lui seul  d’envoyer une idée d’entreprise via iMessage, SMS ou Telegram, et l’IA s’occupe du reste, notamment en réalisant une étude de marché grâce à plus de 40 API de données payantes et en générant une identité de marque. Il construit également des sites web full-stack , de emailing, des campagne sur les reseaux , publicité video",
 
 
     ],
 
-    conseil: "Avec ce qui se passe c'est tout a fait normal que tout le monde se sente un peu perdu. Il est important de rester calme et de ne pas prendre de décisions impulsives. Prenez le temps d'analyser les informations, de consulter des sources fiables et de réfléchir à votre stratégie d'investissement. La patience et la prudence sont essentielles dans un marché aussi volatil que celui des cryptomonnaies.",
+    conseil: "Pour les investisseurs, il est crucial de rester informés et de surveiller les développements réglementaires et technologiques qui pourraient influencer le marché des cryptomonnaies. La diversification des portefeuilles, la gestion des risques et l'adoption de stratégies d'investissement prudentes sont essentielles pour naviguer dans cet environnement volatil. De plus, l'exploration des opportunités offertes par les nouvelles technologies, telles que la blockchain et les actifs numériques, peut offrir des avantages significatifs à long terme.",
 
-    conclusion: "Avec les evenement comme la fifa qui integre la blockchain pour lutter contre le marché noir des billets de la coupe du monde, ou encore l'IPO de SpaceX qui a révélé sa trésorerie en Bitcoin, il est clair que le marché des cryptomonnaies continue d'évoluer rapidement. Les investisseurs doivent rester vigilants et informés pour naviguer dans cet environnement dynamique et tirer parti des opportunités qui se présentent."
+    conclusion: "En conclusion, le marché des cryptomonnaies continue de présenter des défis et des opportunités pour les investisseurs. Il est essentiel de rester vigilant face aux fluctuations du marché, aux développements réglementaires et aux innovations technologiques. En adoptant une approche stratégique et informée, les investisseurs peuvent maximiser leurs chances de succès dans cet environnement dynamique et en constante évolution."
   },
 
 
