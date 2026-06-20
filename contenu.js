@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Résumé du jour : Marché des cryptomonnaies en constante évolution",
+    titre: "IA et sécurité cryptographique : un duo gagnant pour l'industrie",
 
-    intro: "Le marché des cryptomonnaies est en constante évolution, et il est essentiel de rester informé des dernières tendances et développements. Aujourd'hui, nous vous présentons un résumé des événements récents, des alertes importantes et des actualités qui façonnent le paysage crypto. Que vous soyez un investisseur chevronné ou un novice curieux, ce résumé vous fournira les informations clés pour naviguer dans cet environnement dynamique.",
+    intro: "la fusion entre l'intelligence artificielle et la sécurité cryptographique ouvre de nouvelles perspectives pour l'industrie.",
 
     marche: {
-      btc: "$ 62 995",
-      eth: "$1 701 ",
+      btc: "$ 63 940",
+      eth: "$1 731 ",
       tendance: "bancale",
       commentaire: "Le marché affiche une santé bancale."
     },
@@ -26,33 +26,22 @@ const CRYPTO_DATA = {
       "30 juin echeance MiCA",
       "surveiller Quivalis",
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
-      "Ce week-end (Annonce) : Déclaration de Donald Trump sur l'accord de paix USA-Iran.",
       "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
     ],
 
     actualites: [
-      "Marchés en direct : Le Bitcoin s’est échangé en dessous de son coût de minage pendant cinq mois, exerçant une pression sur les mineurs Environ 20 % des mineurs sont désormais non rentables, et les mineurs cotés en bourse ont vendu plus de 32 000 bitcoins au premier trimestre pour couvrir leurs coûts d'exploitation, soit plus que ce qu'ils ont cédé au cours de l'ensemble de l'année 2025.",
-      "Les traders de Bitcoin accumulent des positions baissières jusqu'à 52 000 $ Les traders de Bitcoin se précipitent pour acheter des options qui seraient rentables en cas d’aggravation de la vente massive.",
-      "L'ancien PDG de Celsius, Mashinsky, fait l'objet d'une interdiction par la CFTC américaine dans la résolution finale avec le régulateur Alexander Mashinsky, le fondateur du prêteur crypto défaillant Celsius, avait auparavant été emprisonné pour fraude et est maintenant officiellement interdit d'inscription auprès de la CFTC.",
-      "Les agences américaines cherchent à instaurer des règles d’identification des clients pour les stablecoins similaires à celles des banques dans une nouvelle proposition de loi GENIUS La Réserve fédérale, le Trésor et d'autres régulateurs ont publié une règle proposée qui établirait des normes d'identification, et celle - ci est désormais ouverte aux commentaires du public. ej vous met les normes :",
-      "Ces normes, selon la proposition de règle, « doit inclure des procédures raisonnables pour : (1) vérifier l’identité de toute personne cherchant à ouvrir un compte dans la mesure du raisonnable et du praticable ; (2) conserver des enregistrements des informations utilisées pour vérifier l’identité d’une personne, y compris le nom, l’adresse et d’autres informations d’identification ; et (3) déterminer si la personne figure sur des listes de terroristes ou d’organisations terroristes connus ou suspects fournies à l’institution financière par toute agence gouvernementale. »",
-      "La Fondation Ethereum perd un autre dirigeant clé alors que la co-directrice générale Hsiao-Wei Wang démissionne Le départ de Wang fait suite à la démission de son collègue co - directeur exécutif Tomasz Stańczak et marque la dernière d'une série de départs de haut niveau au sein de l'EF.",
-      "Algorand dévoile sa feuille de route pour atteindre la résistance quantique d'ici 2028 L'annonce reflète une reconnaissance croissante dans le secteur de la cryptomonnaie que l'adoption de la cryptographie résistante au quantique pourrait prendre des années, nécessitant des modifications non seulement des portefeuilles utilisateurs, mais également de l'infrastructure protocolaire centrale.",
-      " Stellar (XLM) progresse de 10 % tandis que l'indice recule Internet Computer(ICP) a chuté de 4, 1 % et Sui(SUI) a reculé de 4 %, entraînant l'indice à la baisse depuis mercredi.",
-      "",
-      "Microsoft a découvert un logiciel malveillant qui détourne des portefeuilles crypto et se propage via des clés USB Le logiciel intercepte les fichiers de raccourci et les dirige vers l'installation d'un ver qui collecte les clés privées depuis le presse - papiers Windows et insère ses propres adresses de portefeuille de destination lorsqu'il détecte un transfert.",
+      "L'IA rend la sécurité cryptographique moins coûteuse, plus rapide et plus difficile à ignorer À mesure que les outils de sécurité propulsés par l'IA deviennent moins coûteux, plus rapides et plus largement accessibles, les chercheurs ont déclaré qu'ils pourraient redéfinir ce que l'industrie de la cryptographie considère comme une diligence raisonnable avant le déploiement du code, modifiant potentiellement les attentes pour les développeurs et les institutions.",
+      "Comment STRC a perdu sa parité : La chronologie de l'effondrement des actions privilégiées de Strategy D'un rachat d'obligations et des réserves de trésorerie en diminution à un marché baissier du bitcoin, la série d'événements qui a transformé le défi de la valeur nominale de STRC en un débat à l'échelle du marché.",
       "Schwab rejoint la course aux marchés prédictifs avec des options basées sur des événements du S&P 500 : WSJ L’offre prévue permettrait aux clients de parier sur les mouvements d’indices alors que Coinbase et Robinhood étendent leurs activités dans le secteur.",
-      "GoMining défie Square de Jack Dorsey avec un système de paiements conçu autour du bitcoin GoMining a dévoilé un kit de développement logiciel et un accès programmable pour son protocole de paiement bitcoin GoBTC Pay, permettant aux commerçants d’accepter des BTC pour les achats quotidiens.",
-      "Le marché du crédit numérique frappé par une énorme vente massive alors que le PDG de Strive attribue cela aux liquidations de levier Matt Cole déclare que la vente forcée des investisseurs à effet de levier a fait chuter fortement STRC et SATA avant que les deux ne rebondissent.",
-      "BitGo Europe a lancé une plateforme de crypto-actifs conçue pour se conformer au règlement sur les marchés de crypto-actifs (MiCA) de l'Union européenne. Cette infrastructure permet aux plateformes d'échange et aux entreprises de technologie financière d'accéder à des services de garde, de trading et de gestion de portefeuilles via des API sans développer leurs propres systèmes de conformité internes.",
-      " Combinator  un agent IA capable a lui seul  d’envoyer une idée d’entreprise via iMessage, SMS ou Telegram, et l’IA s’occupe du reste, notamment en réalisant une étude de marché grâce à plus de 40 API de données payantes et en générant une identité de marque. Il construit également des sites web full-stack , de emailing, des campagne sur les reseaux , publicité video",
-
+      "Situation de Binance et Tether Binance risque de manquer de licence avant l'échéance après que l'autorité grecque a préparé le rejet de sa demande. Tether a décidé de ne pas demander de licence dans l'UE pour le moment, en raison de désaccords sur les règles de réserve et de gouvernance.",
+      "Le retrait du modèle Fable AI d'Anthropic, imposé par le département du Commerce, souligne les préoccupations liées à la sécurité nationale. Les chances d'adoption du projet de loi CLARITY sur la structure des marchés crypto sont désormais estimées à moins de 50 %.",
+      "fable (c'est une ia de Antropic qui a reussi a decodé des faille de securité robuste ou normalement on met des mois et des année a voir il a mis des minutes )  a été retiré de la liste des produits d'IA autorisés à être exportés vers la Chine, en raison de préoccupations liées à la sécurité nationale. Cette décision met en évidence les tensions croissantes entre les États-Unis et la Chine dans le domaine de l'intelligence artificielle et de la technologie.",
 
     ],
 
-    conseil: "Pour les investisseurs, il est crucial de rester informés et de surveiller les développements réglementaires et technologiques qui pourraient influencer le marché des cryptomonnaies. La diversification des portefeuilles, la gestion des risques et l'adoption de stratégies d'investissement prudentes sont essentielles pour naviguer dans cet environnement volatil. De plus, l'exploration des opportunités offertes par les nouvelles technologies, telles que la blockchain et les actifs numériques, peut offrir des avantages significatifs à long terme.",
+    conseil: "il faut rester vigilant face aux fluctuations du marché, aux développements réglementaires et aux innovations technologiques. En adoptant une approche stratégique et informée, les investisseurs peuvent maximiser leurs chances de succès dans cet environnement dynamique et en constante évolution.",
 
-    conclusion: "En conclusion, le marché des cryptomonnaies continue de présenter des défis et des opportunités pour les investisseurs. Il est essentiel de rester vigilant face aux fluctuations du marché, aux développements réglementaires et aux innovations technologiques. En adoptant une approche stratégique et informée, les investisseurs peuvent maximiser leurs chances de succès dans cet environnement dynamique et en constante évolution."
+    conclusion: "pas grand chose a dire sur le marché des cryptomonnaies aujourd'hui, la situation reste instable et les investisseurs doivent rester attentifs aux développements futurs pour prendre des décisions éclairées."
   },
 
 
