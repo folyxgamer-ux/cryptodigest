@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Binance va t'il survivre ?",
+    titre: "Parlon un peux d'etereum",
 
-    intro: "la fusion entre l'intelligence artificielle et la sécurité cryptographique ouvre de nouvelles perspectives pour l'industrie.",
+    intro: "Bcp d'evenement ce passe , de grosse filliale ce crée comme comme OKX avec NYSE",
 
     marche: {
-      btc: "$ 64 111",
-      eth: "$1 733 ",
-      tendance: "haugmente",
-      commentaire: "Le marché affiche une santé haute."
+      btc: "$ 64 947",
+      eth: "$1 752 ",
+      tendance: "stable",
+      commentaire: "Le marché affiche une santé stable."
     },
 
     alertes: [
@@ -30,17 +30,25 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Les contrats à terme perpétuels sont-ils des swaps ? Un rapide aperçu de cette plainte contre le CME : État de la crypto CME Group a intenté un recours contre la CFTC jeudi, alléguant que l'agence s'était trompée dans la manière dont elle a approuvé le premier produit de contrats à terme perpétuels américains de Kalshi.",
-      "Le plus grand bot « sandwich » d'Ethereum vidé de 7,5 millions de dollars dans une exploitation ironique Blockaid a déclaré qu’un attaquant a trompé Jaredfromsubway.eth en le poussant à approuver de fausses routes de trading, puis a utilisé ces approbations pour vider du WETH, de l’USDC et de l’USDT.",
-      "Le Bitcoin se maintient près de 64 000 $ alors qu'une nouvelle menace dans le détroit d'Hormuz obscurcit les pourparlers de cessez-le-feu entre les États-Unis et l'Iran La crypto a repris des couleurs ce week - end après la vente massive de vendredi, le bitcoin se redressant en direction de 64 000 $.Des pourparlers pour un cessez - le - feu permanent s’ouvrent en Suisse, mais l’ordre donné par l’Iran de fermer à nouveau le détroit d’Hormuz ranime le risque que l’accord était censé régler.",
-      "Pour Binance il y a aucune inquietude a avoir ce sont que des rumeurs pour l'instant a voir le 30 juin comment ca ce passeras",
-
+      "Anchorage vise à intégrer les banques dans la blockchain avec une nouvelle plateforme de dépôts tokenisés La banque crypto vise à aider les institutions financières à offrir des paiements et des règlements 24 heures sur 24 sans remplacer leurs systèmes centraux.",
+      "MoneyGram rejoint Solana en tant que validateur dans le cadre de sa démarche de paiement en stablecoin La société de services de transfert de fonds est devenue un validateur sur la blockchain Solana, contribuant à traiter et sécuriser les transactions tout en développant sa stratégie de paiements en stablecoin.",
+      "OKX et le NYSE s’associent pour connecter les marchés traditionnels et crypto dans une coentreprise dirigée par Andrew Cuomo L'objectif est de permettre aux 120 millions d'utilisateurs mondiaux d'OKX d'accéder aux marchés à terme ICE et aux actions tokenisées du NYSE, ont annoncé les deux sociétés américaines.",
+      "La plus grande société détenant un trésor Ethereum continue d’acheter de l’ether (ETH), mais elle a ralenti son rythme à l’approche de l’objectif d’accumuler 5 % de l’offre de la deuxième plus grande cryptomonnaie.cBitmine Immersion Technologies(BMNR) a annoncé avoir acheté 52 203 ether(ETH) la semaine dernière, prolongeant ainsi une série d’achats qui en fait l’un des rares grands acheteurs à grande échelle d’actifs cryptographiques.",
+      "Le réseau de minage de Bitcoin devient plus sensible aux fluctuations des prix, selon JPMorgan Une part croissante des mineurs opère à des niveaux proches du seuil de rentabilité, rendant le hashrate et la difficulté de minage de plus en plus sensibles aux variations du prix du bitcoin, a indiqué la banque.",
+      "Strategy a ajouté 35 millions de dollars en bitcoin, 300 millions de dollars en réserves de trésorerie la semaine dernière La hausse des réserves de trésorerie vise à rassurer les investisseurs quant aux paiements de dividendes sur les actions privilégiées fortement touchées de la société, STRC.",
+      "Le gestionnaire de fonds TradFi Baillie Gifford lance un fonds tokenisé Solana, Ethereum en partenariat avec BNY Le Baillie Gifford Enhanced Yield Fund(BAGEY) est libellé en dollars et offre aux investisseurs éligibles un accès à un portefeuille géré activement, à courte durée, d’obligations d’entreprises publiques.",
+      "Alors que les prix du bitcoin et des altcoins augmentent, les dérivés signalent un scepticisme quant à un rallye durable Les analystes ont noté que le bitcoin reste coincé entre un support clé proche de 60 000 $ et une résistance autour de 68 000 $, et qu’un graphique baissier pourrait faire descendre les prix vers 54 000 $.",
+      "La Banque d'Angleterre revient sur ses limites strictes de détention de stablecoins, établit un plafond d'émission de 50 milliards de dollars La banque centrale du Royaume - Uni abandonne les limites de détention au détail au profit d'un plafond global de 40 milliards de livres et améliore les conditions de rendement pour les émetteurs de tokens en vue d'un lancement sur le marché prévu en 2027.",
+      "Taiko suspend son réseau Ethereum layer-2 après une faille de pont, le token plonge Un attaquant a falsifié des preuves de retrait pour siphonner environ 1, 7 million de dollars, le même type de faille à l'origine des plus grandes attaques sur des ponts cette année. Une containment rapide a permis de limiter les dégâts.",
+      "Le prix du Bitcoin pourrait atteindre 54 000 $, selon un analyste qui avait prédit le sommet historique d'octobre",
+      "Les développeurs de Bitcoin veulent corriger le bouton « remplacer cette transaction par des frais plus élevés » , Mais ce qui avait commencé comme un outil utile est devenu redondant et un léger problème de confidentialité, incitant certains développeurs à discuter des moyens possibles de s’en débarrasser.",
+      " Les validateurs Ethereum invités à financer des projets avec jusqu’à 10 % des récompenses de staking dans le cadre d’une nouvelle proposition , quand vous faites du staking ce que vous genere ce re stake on apelle ca l'effet boule de neige , la les validateur veulent que 10% de leur remuneration sois pas staker et sois en 'cash'. le probleme c'est que ducoup ca risque de moins securisé le reseaux et d'avoir des revenue passif en eth pas staké donc utilisable.",
 
     ],
 
-    conseil: "il faut rester vigilant face aux fluctuations du marché, aux développements réglementaires et aux innovations technologiques. En adoptant une approche stratégique et informée, les investisseurs peuvent maximiser leurs chances de succès dans cet environnement dynamique et en constante évolution.",
+    conseil: "le marcher ce stabilise mais faut quand meme rester vigilant",
 
-    conclusion: "pas grand chose a dire sur le marché des cryptomonnaies aujourd'hui, la situation reste instable et les investisseurs doivent rester attentifs aux développements futurs pour prendre des décisions éclairées."
+    conclusion: "Beacoup de chose ce passe en ce moment de gros evenement ce font de grosse filiale, et le prix de BTC ce stabilise"
   },
 
 
