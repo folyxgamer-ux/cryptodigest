@@ -15,8 +15,8 @@ const CRYPTO_DATA = {
     intro: "Bcp d'evenement ce passe , de grosse filliale ce crée comme comme OKX avec NYSE",
 
     marche: {
-      btc: "$ 64 947",
-      eth: "$1 752 ",
+      btc: "$ 62 537",
+      eth: "$1 660 ",
       tendance: "stable",
       commentaire: "Le marché affiche une santé stable."
     },
@@ -30,25 +30,23 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Anchorage vise à intégrer les banques dans la blockchain avec une nouvelle plateforme de dépôts tokenisés La banque crypto vise à aider les institutions financières à offrir des paiements et des règlements 24 heures sur 24 sans remplacer leurs systèmes centraux.",
-      "MoneyGram rejoint Solana en tant que validateur dans le cadre de sa démarche de paiement en stablecoin La société de services de transfert de fonds est devenue un validateur sur la blockchain Solana, contribuant à traiter et sécuriser les transactions tout en développant sa stratégie de paiements en stablecoin.",
-      "OKX et le NYSE s’associent pour connecter les marchés traditionnels et crypto dans une coentreprise dirigée par Andrew Cuomo L'objectif est de permettre aux 120 millions d'utilisateurs mondiaux d'OKX d'accéder aux marchés à terme ICE et aux actions tokenisées du NYSE, ont annoncé les deux sociétés américaines.",
-      "La plus grande société détenant un trésor Ethereum continue d’acheter de l’ether (ETH), mais elle a ralenti son rythme à l’approche de l’objectif d’accumuler 5 % de l’offre de la deuxième plus grande cryptomonnaie.cBitmine Immersion Technologies(BMNR) a annoncé avoir acheté 52 203 ether(ETH) la semaine dernière, prolongeant ainsi une série d’achats qui en fait l’un des rares grands acheteurs à grande échelle d’actifs cryptographiques.",
-      "Le réseau de minage de Bitcoin devient plus sensible aux fluctuations des prix, selon JPMorgan Une part croissante des mineurs opère à des niveaux proches du seuil de rentabilité, rendant le hashrate et la difficulté de minage de plus en plus sensibles aux variations du prix du bitcoin, a indiqué la banque.",
-      "Strategy a ajouté 35 millions de dollars en bitcoin, 300 millions de dollars en réserves de trésorerie la semaine dernière La hausse des réserves de trésorerie vise à rassurer les investisseurs quant aux paiements de dividendes sur les actions privilégiées fortement touchées de la société, STRC.",
-      "Le gestionnaire de fonds TradFi Baillie Gifford lance un fonds tokenisé Solana, Ethereum en partenariat avec BNY Le Baillie Gifford Enhanced Yield Fund(BAGEY) est libellé en dollars et offre aux investisseurs éligibles un accès à un portefeuille géré activement, à courte durée, d’obligations d’entreprises publiques.",
-      "Alors que les prix du bitcoin et des altcoins augmentent, les dérivés signalent un scepticisme quant à un rallye durable Les analystes ont noté que le bitcoin reste coincé entre un support clé proche de 60 000 $ et une résistance autour de 68 000 $, et qu’un graphique baissier pourrait faire descendre les prix vers 54 000 $.",
-      "La Banque d'Angleterre revient sur ses limites strictes de détention de stablecoins, établit un plafond d'émission de 50 milliards de dollars La banque centrale du Royaume - Uni abandonne les limites de détention au détail au profit d'un plafond global de 40 milliards de livres et améliore les conditions de rendement pour les émetteurs de tokens en vue d'un lancement sur le marché prévu en 2027.",
-      "Taiko suspend son réseau Ethereum layer-2 après une faille de pont, le token plonge Un attaquant a falsifié des preuves de retrait pour siphonner environ 1, 7 million de dollars, le même type de faille à l'origine des plus grandes attaques sur des ponts cette année. Une containment rapide a permis de limiter les dégâts.",
-      "Le prix du Bitcoin pourrait atteindre 54 000 $, selon un analyste qui avait prédit le sommet historique d'octobre",
-      "Les développeurs de Bitcoin veulent corriger le bouton « remplacer cette transaction par des frais plus élevés » , Mais ce qui avait commencé comme un outil utile est devenu redondant et un léger problème de confidentialité, incitant certains développeurs à discuter des moyens possibles de s’en débarrasser.",
-      " Les validateurs Ethereum invités à financer des projets avec jusqu’à 10 % des récompenses de staking dans le cadre d’une nouvelle proposition , quand vous faites du staking ce que vous genere ce re stake on apelle ca l'effet boule de neige , la les validateur veulent que 10% de leur remuneration sois pas staker et sois en 'cash'. le probleme c'est que ducoup ca risque de moins securisé le reseaux et d'avoir des revenue passif en eth pas staké donc utilisable.",
+      "Chainlink s'associe à 47 banques sud-coréennes et européennes pour accélérer les transferts d'argent internationaux L'alliance, appelée Project Pangea, prévoit d'utiliser des stablecoins pour régler des échanges de devises de plusieurs millions de dollars entre l'Europe et la Corée du Sud en quasi temps réel.",
+      "Vitalik Buterin annonce que la Fondation Ethereum réduira son budget de 40 % dans un important réajustement La réduction intervient le même jour où l'EF a confirmé une diminution de 20 % de ses effectifs et fait suite à la démission de la co-directrice exécutive Hsiao-Wei Wang. Son départ porte à neuf le nombre total de hauts responsables de la Fondation Ethereum à avoir quitté l'organisation depuis janvier, soulignant l'ampleur des turbulences actuelles au sein de l'organisation.",
+      "La récente chute du Bitcoin sous les 60 000 $ signale des pressions liées à la Fed, aux ETF et à l'IA  ",
+      "La SEC a retardé la tokenisation des actions, et voici pourquoi cela est un soulagement Avant de nous précipiter à tokeniser les actions américaines, nous avons besoin de systèmes de conformité qui comprennent le contexte, et pas seulement des cases à cocher.Des investisseurs comme Michael Burry perçoivent le danger, et nous devrions tous en faire autant, exhorte Chamarajnagar.",
+      "Le Bitcoin pourrait devoir chuter de 15 % ou plus pour atteindre un creux, selon cet indicateur de longue date",
+      "L'ancienne directrice des opérations de Robinhood Crypto, Tanya Denisova, rejoint l'émetteur de stablecoins Agora en tant que responsable des opérations",
+      "Dans les dernières semaines de la Clarity Act, son cheminement au Sénat américain ne devient pas plus clair Des négociations difficiles se prolongent dans plusieurs domaines complexes, mais les lobbyistes de la crypto à Washington font venir des alliés cette semaine et espèrent toujours un vote en juillet. Alors que les démocrates ont rejeté certaines idées, ils sont immédiatement revenus à la table des négociations, selon une personne informée des pourparlers. Cependant, aucun détail n’a encore émergé concernant la nature des restrictions que pourraient imposer les responsables gouvernementaux, hormis des suggestions antérieures de Patrick Witt, conseiller de la Maison-Blanche, qui a déclaré que l’intention de son bureau était de garantir que les restrictions ont affecté un large éventail de responsables gouvernementaux et n'a pas ciblé directement le président.",
+      "L'euro numérique de la BCE franchit une étape majeure après avoir remporté un vote clé au Parlement européen   Les législateurs européens ont soutenu un cadre juridique visant à développer une monnaie numérique de la BCE d'ici 2029 afin que le continent puisse cesser de dépendre entièrement des géants américains des cartes de crédit et des stablecoins.",
+      "La Banque Centrale Européenne (BCE) a obtenu l'approbation du cadre juridique pour un euro numérique après un vote favorable de la commission ECON du Parlement européen. Cela marque la fin de trois ans de discussions sur la nécessité d'une monnaie numérique de banque centrale (MNBC) afin de maintenir l'autonomie monétaire de l'Europe. Christine Lagarde a défendu l'idée d'une CBDC pour contrer la domination des stablecoins, tout en rassurant sur le fait que l'argent liquide continuera d'exister. Les nouvelles règles permettront d'introduire des versions en ligne et hors ligne de l'euro numérique d'ici 2029, la version hors ligne garantissant la confidentialité des transactions. Enfin, la BCE lancera une phase pilote de 12 mois pour tester l'infrastructure avec des commerçants et des prestataires de services de paiement.",
+      "Ripple vise l’UE, obtient une approbation préliminaire de MiCA de la part du régulateur financier luxembourgeois La licence permettra à Ripple de proposer ses systèmes de paiement en stablecoin aux entreprises européennes et de s'étendre vers des fonctions crypto plus larges.",
+
 
     ],
 
-    conseil: "le marcher ce stabilise mais faut quand meme rester vigilant",
+    conseil: "lfaite attention avec la loi MiCa et l'euro numerique pour ne pas faire d'erreur",
 
-    conclusion: "Beacoup de chose ce passe en ce moment de gros evenement ce font de grosse filiale, et le prix de BTC ce stabilise"
+    conclusion: "l'europe veux bien ce mettre dans la cryptomonaie tandis que les americain prennent toujours plus d'avance"
   },
 
 
