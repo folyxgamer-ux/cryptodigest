@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Parlon un peux d'etereum",
+    titre: "Binance part et le BTC continue de chuter",
 
-    intro: "Bcp d'evenement ce passe , de grosse filliale ce crée comme comme OKX avec NYSE",
+    intro: "Le marché des cryptomonnaies est devenu plus important que jamais. Il est temps de se mettre en place et de prendre des mesures pour protéger les investisseurs et les entreprises.",
 
     marche: {
-      btc: "$ 62 537",
-      eth: "$1 660 ",
-      tendance: "stable",
-      commentaire: "Le marché affiche une santé stable."
+      btc: "$ 61 420",
+      eth: "$1 620 ",
+      tendance: "baisse",
+      commentaire: "Le marché affiche une santé baissière."
     },
 
     alertes: [
@@ -30,23 +30,20 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Chainlink s'associe à 47 banques sud-coréennes et européennes pour accélérer les transferts d'argent internationaux L'alliance, appelée Project Pangea, prévoit d'utiliser des stablecoins pour régler des échanges de devises de plusieurs millions de dollars entre l'Europe et la Corée du Sud en quasi temps réel.",
-      "Vitalik Buterin annonce que la Fondation Ethereum réduira son budget de 40 % dans un important réajustement La réduction intervient le même jour où l'EF a confirmé une diminution de 20 % de ses effectifs et fait suite à la démission de la co-directrice exécutive Hsiao-Wei Wang. Son départ porte à neuf le nombre total de hauts responsables de la Fondation Ethereum à avoir quitté l'organisation depuis janvier, soulignant l'ampleur des turbulences actuelles au sein de l'organisation.",
-      "La récente chute du Bitcoin sous les 60 000 $ signale des pressions liées à la Fed, aux ETF et à l'IA  ",
-      "La SEC a retardé la tokenisation des actions, et voici pourquoi cela est un soulagement Avant de nous précipiter à tokeniser les actions américaines, nous avons besoin de systèmes de conformité qui comprennent le contexte, et pas seulement des cases à cocher.Des investisseurs comme Michael Burry perçoivent le danger, et nous devrions tous en faire autant, exhorte Chamarajnagar.",
-      "Le Bitcoin pourrait devoir chuter de 15 % ou plus pour atteindre un creux, selon cet indicateur de longue date",
-      "L'ancienne directrice des opérations de Robinhood Crypto, Tanya Denisova, rejoint l'émetteur de stablecoins Agora en tant que responsable des opérations",
-      "Dans les dernières semaines de la Clarity Act, son cheminement au Sénat américain ne devient pas plus clair Des négociations difficiles se prolongent dans plusieurs domaines complexes, mais les lobbyistes de la crypto à Washington font venir des alliés cette semaine et espèrent toujours un vote en juillet. Alors que les démocrates ont rejeté certaines idées, ils sont immédiatement revenus à la table des négociations, selon une personne informée des pourparlers. Cependant, aucun détail n’a encore émergé concernant la nature des restrictions que pourraient imposer les responsables gouvernementaux, hormis des suggestions antérieures de Patrick Witt, conseiller de la Maison-Blanche, qui a déclaré que l’intention de son bureau était de garantir que les restrictions ont affecté un large éventail de responsables gouvernementaux et n'a pas ciblé directement le président.",
-      "L'euro numérique de la BCE franchit une étape majeure après avoir remporté un vote clé au Parlement européen   Les législateurs européens ont soutenu un cadre juridique visant à développer une monnaie numérique de la BCE d'ici 2029 afin que le continent puisse cesser de dépendre entièrement des géants américains des cartes de crédit et des stablecoins.",
-      "La Banque Centrale Européenne (BCE) a obtenu l'approbation du cadre juridique pour un euro numérique après un vote favorable de la commission ECON du Parlement européen. Cela marque la fin de trois ans de discussions sur la nécessité d'une monnaie numérique de banque centrale (MNBC) afin de maintenir l'autonomie monétaire de l'Europe. Christine Lagarde a défendu l'idée d'une CBDC pour contrer la domination des stablecoins, tout en rassurant sur le fait que l'argent liquide continuera d'exister. Les nouvelles règles permettront d'introduire des versions en ligne et hors ligne de l'euro numérique d'ici 2029, la version hors ligne garantissant la confidentialité des transactions. Enfin, la BCE lancera une phase pilote de 12 mois pour tester l'infrastructure avec des commerçants et des prestataires de services de paiement.",
-      "Ripple vise l’UE, obtient une approbation préliminaire de MiCA de la part du régulateur financier luxembourgeois La licence permettra à Ripple de proposer ses systèmes de paiement en stablecoin aux entreprises européennes et de s'étendre vers des fonctions crypto plus larges.",
-
-
+      "binance a annoncé qu'ils ne seront plus en mesure de faire des transactions en crypto en Europe il non pas obtenue la signature de la MiCa",
+      "la MiCa a été signée par le gouvernement britannique, le gouvernement français et le gouvernement italien",
+      "L’or, l’argent et le bitcoin chutent alors que la tendance à la dépréciation s’inverse Les métaux précieux ont fortement chuté depuis leurs sommets de 2025 alors que les marchés anticipent des hausses des taux de la Fed.",
+      "Bitcoin pourrait chuter à 55 000 $ avant de trouver un creux, selon 10x Research",
+      "Aave pourrait atteindre 3 500 $ d'ici 2030 grâce à la relance de la DeFi, selon StanChart Geoff Kendrick a déclaré qu’Aave a dépassé la perturbation du marché liée à la cyberattaque d’avril et est bien positionné pour bénéficier de la croissance des actifs tokenisés et de la DeFi. a prendre avec des pincette je crois au projet tout comme je crois a ETH mais Vitalik Buterin a dis plein de fois que ETH allez monter et il eloigne a chaque fois l'estimation",
+      "YZi Labs met fin à la guerre par procuration avec la société trésor BNB CEA Industries Le partenaire Alex Odagiu assurera le rôle de président par intérim, en attendant la recherche d’un nouveau directeur général, tandis que la responsable de YZi Labs, Ella Zhang, et Matthew Roszak ont également été nommés administrateurs du CEA.",
+      "Cboe relance les options binaires sur le S&P 500, visant un marché popularisé par Polymarket, Kalshi L’une des plus grandes bourses de produits dérivés aux États - Unis réintroduit les paris oui / non sur le S & P 500 après les avoir supprimés il y a une décennie, s’aventurant sur un terrain que Polymarket et Kalshi ont transformé en l’un des segments à la croissance la plus rapide sur Internet.",
+      "Strategy (MSTR) devrait cesser d’acheter du bitcoin  BTC reconstituer sa réserve de liquidités et adopter une discipline bien plus stricte quant au moment de ses achats, a déclaré la société d’analyse on - chain CryptoQuant dans un rapport publié mercredi et partagé avec CoinDesk.",
+      "Le choix du Crypto PAC à 5,5 millions de dollars pour le Congrès remporte une victoire dans le Maryland, avec davantage d'alliés de la cryptomonnaie qui progressent",
     ],
 
-    conseil: "lfaite attention avec la loi MiCa et l'euro numerique pour ne pas faire d'erreur",
+    conseil: "rester prudent et ne pas faire d'erreur avec la loi MiCa et l'euro numerique surtout si vous êtes dans l'europe",
 
-    conclusion: "l'europe veux bien ce mettre dans la cryptomonaie tandis que les americain prennent toujours plus d'avance"
+    conclusion: "Le BTC continue de chuter et la tendance est devenue plus forte. Mais l'europe a perdu un enorme avantage a cause de la loi MiCa, Binance et le plus gros et vieux exchange Bitfinex. Le marché des cryptomonnaies est devenu plus important que jamais. Il est temps de se mettre en place et de prendre des mesures pour protéger les investisseurs et les entreprises."
   },
 
 
