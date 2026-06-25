@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Binance part et le BTC continue de chuter",
+    titre: "BTC vat il continue de chuter ? ",
 
-    intro: "Le marché des cryptomonnaies est devenu plus important que jamais. Il est temps de se mettre en place et de prendre des mesures pour protéger les investisseurs et les entreprises.",
+    intro: "Avec ce qui ce pasee le marché des cryptomonnaies est devenu plus important que jamais.",
 
     marche: {
-      btc: "$ 61 420",
-      eth: "$1 620 ",
+      btc: "$ 59 917",
+      eth: "$1 567 ",
       tendance: "baisse",
       commentaire: "Le marché affiche une santé baissière."
     },
@@ -30,20 +30,27 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "binance a annoncé qu'ils ne seront plus en mesure de faire des transactions en crypto en Europe il non pas obtenue la signature de la MiCa",
-      "la MiCa a été signée par le gouvernement britannique, le gouvernement français et le gouvernement italien",
-      "L’or, l’argent et le bitcoin chutent alors que la tendance à la dépréciation s’inverse Les métaux précieux ont fortement chuté depuis leurs sommets de 2025 alors que les marchés anticipent des hausses des taux de la Fed.",
-      "Bitcoin pourrait chuter à 55 000 $ avant de trouver un creux, selon 10x Research",
-      "Aave pourrait atteindre 3 500 $ d'ici 2030 grâce à la relance de la DeFi, selon StanChart Geoff Kendrick a déclaré qu’Aave a dépassé la perturbation du marché liée à la cyberattaque d’avril et est bien positionné pour bénéficier de la croissance des actifs tokenisés et de la DeFi. a prendre avec des pincette je crois au projet tout comme je crois a ETH mais Vitalik Buterin a dis plein de fois que ETH allez monter et il eloigne a chaque fois l'estimation",
-      "YZi Labs met fin à la guerre par procuration avec la société trésor BNB CEA Industries Le partenaire Alex Odagiu assurera le rôle de président par intérim, en attendant la recherche d’un nouveau directeur général, tandis que la responsable de YZi Labs, Ella Zhang, et Matthew Roszak ont également été nommés administrateurs du CEA.",
-      "Cboe relance les options binaires sur le S&P 500, visant un marché popularisé par Polymarket, Kalshi L’une des plus grandes bourses de produits dérivés aux États - Unis réintroduit les paris oui / non sur le S & P 500 après les avoir supprimés il y a une décennie, s’aventurant sur un terrain que Polymarket et Kalshi ont transformé en l’un des segments à la croissance la plus rapide sur Internet.",
-      "Strategy (MSTR) devrait cesser d’acheter du bitcoin  BTC reconstituer sa réserve de liquidités et adopter une discipline bien plus stricte quant au moment de ses achats, a déclaré la société d’analyse on - chain CryptoQuant dans un rapport publié mercredi et partagé avec CoinDesk.",
-      "Le choix du Crypto PAC à 5,5 millions de dollars pour le Congrès remporte une victoire dans le Maryland, avec davantage d'alliés de la cryptomonnaie qui progressent",
+      "Approbation réglementaire Le Bureau du contrôleur de la monnaie a donné son accord préliminaire à Morgan Stanley pour lancer une banque dépositaire spécialisée dans les cryptomonnaies. Cette décision marque une première pour l'un des géants bancaires de Wall Street",
+      "Le 25 juin 2026, Grayscale a publié une analyse classant les 15 principaux protocoles blockchain selon leurs revenus sur 12 mois. Hyperliquid a enregistré 871 millions de dollars de revenus, suivi par Pump.fun avec 459 millions de dollars. La plupart de ces protocoles affichent des multiples de revenus à un chiffre, PancakeSwap, Meteora et Collector Crypt se négociant autour de 1x leur revenu annuel.",
+      "La blockchain Base de Coinbase reprend ses activités après une panne de deux heures ayant perturbé le réseau L'incident a temporairement interrompu le traitement des transactions sur l'un des plus grands réseaux de couche 2 d'Ethereum.",
+      "L’action STRC génératrice de rendement de Strategy est plus corrélée au BTC que jamais Le renforcement de la corrélation compromet l’attrait de STRC en tant que véhicule de revenu relativement plus stable.",
+      "Kraken en pourparlers pour acquérir une participation de 15 % dans le prêteur DeFi Aave, valorisé à 385 millions de dollars Le prêteur DeFi se reconstruit après les répercussions de l'exploitation de KelpDAO en avril, qui a déclenché un exode de dépôts de plusieurs milliards de dollars malgré le fait qu'Aave lui - même n'ait pas été piraté.",
+      "La société crypto soutenue par a16z change de nom et réoriente son activité vers la résolution du casse-tête mondial des droits d’auteur liés à l’IA La startup anciennement connue sous le nom de Story Protocol a levé 140 millions de dollars pour sécuriser les droits sur internet et développe désormais une couche d'audit pour le consentement des données, la licence et la provenance destinée aux entreprises technologiques.",
+      "STRC (le token de strategy ) a été commercialisé comme un produit de revenu à faible volatilité conçu pour se négocier aux alentours de 100 $, et sa forte baisse a ébranlé la confiance des investisseurs.",
+      "Un fonds quantique affirme que le bitcoin est proche d'un point d'inflexion majeur alors que des signaux on-chain rares s'alignent Chris Sullivan de Hyperion Decimus a déclaré que quatre indicateurs historiquement fiables se sont alignés, laissant le bitcoin à un pas de confirmer un tournant majeur.",
+      "Avec ce qui ce passe Binance a annoncé qu'ils ne seront plus en mesure de faire des transactions en crypto en Europe BTC chute sous la barre des 60K ",
+      "Le Bitcoin devrait probablement chuter de 30 % supplémentaires pour atteindre 44 000 $ d'ici la fin de l'année, selon un important mineur de BTC.",
+      "Kraken poursuit la société de dérivés cryptographiques PowerTrade pour une prétendue « appropriation indue » de fonds PowerTrade a transformé le solde créditeur de Kraken, supérieur à 6 millions de dollars, en un déficit de 2 millions de dollars par une série de « corrections » non autorisées liées à des transactions arrivées à échéance ou réglées plusieurs mois auparavant, selon un document juridique.",
+      "Uniswap, Spark visent à créer un marché des changes pour les stablecoins alors que les banques et les fintechs entrent dans le secteur Les protocoles construisent une liquidité partagée et une infrastructure de négociation pour un avenir avec des centaines de monnaies numériques concurrentes sur des rails blockchain.",
+      "Circle et Nomura unissent leurs forces pour cibler un marché des changes quotidien de 440 milliards de dollars au Japon Le géant des stablecoins et la société financière japonaise envisagent de déployer des règlements de change transfrontaliers dès l’année prochaine.",
+
+
     ],
 
-    conseil: "rester prudent et ne pas faire d'erreur avec la loi MiCa et l'euro numerique surtout si vous êtes dans l'europe",
 
-    conclusion: "Le BTC continue de chuter et la tendance est devenue plus forte. Mais l'europe a perdu un enorme avantage a cause de la loi MiCa, Binance et le plus gros et vieux exchange Bitfinex. Le marché des cryptomonnaies est devenu plus important que jamais. Il est temps de se mettre en place et de prendre des mesures pour protéger les investisseurs et les entreprises."
+    conseil: "Restez attentif pour BTC si vous souhaitez investir il est probable quil descende sous 44 000 $",
+
+    conclusion: "Entre Binance qui sort , des societé de crypto et des banques qui s'associent, le BTC continue de chuter, Malgrés les Mouvement Monaitaire enorme qui a sur le marcher des cryptomonnaies, il est temps de mettre fin en cette periode."
   },
 
 
