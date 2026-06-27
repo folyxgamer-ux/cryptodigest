@@ -10,9 +10,9 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Beacoup de changement crypto de bonne nouvelle , mais il reste un problème.. le clarity act",
+    titre: "La menace US IRAN ?",
 
-    intro: "Avec ce qui se passe le marché des cryptomonnaies est devenu plus important que jamais.",
+    intro: "quelque info sur le marché des cryptomonnaies mais pas de changement c'est calme ",
 
     marche: {
       btc: "$ 59 917",
@@ -30,27 +30,12 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "La reprise des introductions en bourse à Wall Street n'a pas atteint les niveaux d'euphorie de la bulle internet, selon Goldman Sachs L’émission d’IPO aux États - Unis a fortement rebondi en 2026, mais la banque a déclaré que la reprise actuelle manque du volume de transactions et de l’excès spéculatif qui ont caractérisé l’ère de la bulle internet.",
-      "Le Bitcoin rebondit à partir de 58 000 $ alors que les dérivés signalent davantage de difficultés à venir Le BTC a touché son plus bas niveau depuis septembre 2024 avant de rebondir à 59 770 $, tandis que l’ETH a chuté davantage et qu’un milliard de dollars supplémentaires en positions à terme ont été liquidés.",
-      "Tous les regards sont tournés vers la date ex-dividende du 30 juin de Strategy et la révision mensuelle du taux de dividende STRC Les investisseurs surveillent de près la date ex - dividende des actions privilégiées ainsi que la révision mensuelle du taux de dividende.",
-      "La société de trésorerie Ethereum Sharplink achète de l’ether pour la première fois depuis huit mois Le deuxième plus grand détenteur corporatif d’ether a acheté 5 000 ETH pour une valeur d’environ 7, 85 millions de dollars jeudi, sa première entrée depuis octobre, alors même qu’il enregistre une perte latente d’environ 1, 8 milliard de dollars.",
-      "Le géant japonais des services financiers SBI Holdings va acquérir Bitbank pour 289 millions de dollars SBI a déclaré que l'achat de la plateforme d’échange de cryptomonnaies devrait être finalisé en octobre.",
-      "Grant Cardone déclare qu'il continuera à acheter du bitcoin en utilisant les flux de trésorerie de l'immobilier L'investisseur immobilier a présenté son modèle comme une société de gestion de trésorerie soutenue par des biens générateurs de trésorerie plutôt que par la vente d'actions, présentant la baisse du bitcoin comme une opportunité d'accumulation.",
-      "Trop gros pour faire faillite : la perte comptable de 13 milliards de dollars en bitcoins de Strategy éclipse à elle seule des centaines de jetons de premier plan La perte latente de Strategy dépasse les capitalisations boursières de centaines de tokens, soulignant la concentration extrême du risque actuellement sur le marché des cryptomonnaies.",
-      "Le BNB (Binance Smart Chain) risuque de baisser c'est prochain jour suite a La loi MiCa",
-      "Un démocrate de la Chambre des représentants des États-Unis, qui pourrait bientôt diriger une commission clé, condamne la crypto dans les 401(k) Maxine Waters, la démocrate la mieux classée au sein de la commission des services financiers de la Chambre, a demandé au responsable du Département du Travail de retirer sa proposition concernant les actifs alternatifs.",
-      "",
-      "Dans les prochain paragraphes je vous met une cause qui a eu pour le clarity act quise termine le 6 juillet",
-      "",
-      "En gros, c'est l'histoire d'un gros bras de fer politique aux États-Unis autour d'une nouvelle loi sur les cryptos (la loi Clarity). Deux camps s'affrontent sur une règle précise : la responsabilité des développeurs de code.",
-      "Le problème de base : L'article 604 Dans cette loi, il y a un article(le 604) qui dit une chose simple : Si tu es un développeur et que tu crées le code d'une application crypto, mais que tu ne touches pas et ne contrôles pas l'argent des utilisateurs, tu n'es pas considéré comme un 'transmetteur d'argent'. Tu es juste un codeur, donc tu n' as pas de comptes juridiques à rendre sur ce que font les gens avec ton code.",
-      "Le camp du 'NON'",
-      "Ils pensent que des criminels (comme des trafiquants d'êtres humains) vont utiliser ces applications décentralisées pour s'échanger de l'argent sale.",
-      "Si la loi passe en l'état, les développeurs de ces applications pourront 'se cacher derrière' cet article pour dire : 'C'est pas ma faute, je ne contrôle pas les fonds', même s'ils savaient pertinemment que leur outil servait à des fins horribles.Pour eux, les codeurs devraient avoir un devoir de surveillance, comme un directeur d'hôtel qui doit surveiller ce qui se passe dans ses chambres.",
-      "Le camp du 'OUI'",
-      "De l'autre côté, les experts juridiques de la crypto expliquent que cet article ne protège pas les criminels, mais protège l'innovation.",
-      "Cet article ne fait que clarifier une règle qui existe déjà. Si un développeur aide sciemment un criminel, il pourra toujours être jeté en prison grâce aux lois actuelles contre le blanchiment d'argent.",
-      "Ils rappellent que la blockchain est publique. Toutes les transactions y sont visibles, ce qui aide déjà énormément la police à traquer les trafiquants, bien plus facilement que s'ils utilisaient des billets de banque en liquide.",
+      "Le fondateur de Binance, CZ, attribue le mauvais climat de la crypto en 2026 à un mélange d'IA, de tensions mondiales et de cycle de 4 ans Il n’existe pas une cause unique à la baisse de 50 % du marché crypto au cours de l’année écoulée, a déclaré le fondateur de Binance à CoinDesk.",
+      "La valorisation de Strategy est tombée en dessous de la valeur de ses avoirs en bitcoins Pendant des années, les investisseurs ont valorisé l'entreprise bien au-delà de ses avoirs en bitcoin, conférant à Strategy une flexibilité considérable pour lever des fonds selon les besoins — une situation dont Michael Saylor et son équipe ont pleinement tiré parti.",
+      "Le PDG de Ripple reste optimiste sur le bitcoin mais affirme que la stratégie de Saylor a nui à la crypto Brad Garlinghouse de Ripple a qualifié le modèle de financement par actions privilégiées de Strategy de « manipulation financière » qui a détourné l'attention du marché, en soulignant la chute de STRC à un niveau record comme preuve. Il dirige la société derrière XRP, un concurrent du bitcoin.",
+      "US a Menacé de re attaquer l'iran",
+      "J.P. Morgan Asset Management a recruté Ingrid Glitz, ancienne cadre de Paxos, pour développer de nouveaux produits d'investissement tokenisés.",
+
 
 
     ],
@@ -58,7 +43,7 @@ const CRYPTO_DATA = {
 
     conseil: "Restez attentif pour BTC et aussi BNB si vous souhaitez investir il est probable quil descende sous 44 000 $",
 
-    conclusion: "Entre le Clarity ACT et Binance qui sort , la loi MiCa qui fait des ravage et Strategy qui perd 13 Milliard de dollars, le marché passe de bonne nouvelle à un problème."
+    conclusion: "la nous avons US qui menace d'attaquer l'iran et JP Morgan qui recrute de gros poissons , pas beacoup d'info sur le marché des cryptomonnaies "
   },
 
 
