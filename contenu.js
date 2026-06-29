@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "La menace US IRAN ?",
+    titre: "Parlons un peux des USA , JP morgan a des chose a dire",
 
-    intro: "quelque info sur le marché des cryptomonnaies mais pas de changement c'est calme ",
+    intro: "On sais ce que font les americain en se moment , mais niveau cryptomonaie il on tout compris d'abord on l'integre apres on fait des loie et ca marche tres bien, JP morgan l'une des plus grosse bank le fait entendre",
 
     marche: {
-      btc: "$ 59 917",
-      eth: "$1 567 ",
-      tendance: "baisse",
-      commentaire: "Le marché affiche une santé baissière."
+      btc: "$ 60 245",
+      eth: "$1 618 ",
+      tendance: "stable",
+      commentaire: "Le marché affiche une santé stable."
     },
 
     alertes: [
@@ -30,20 +30,26 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le fondateur de Binance, CZ, attribue le mauvais climat de la crypto en 2026 à un mélange d'IA, de tensions mondiales et de cycle de 4 ans Il n’existe pas une cause unique à la baisse de 50 % du marché crypto au cours de l’année écoulée, a déclaré le fondateur de Binance à CoinDesk.",
-      "La valorisation de Strategy est tombée en dessous de la valeur de ses avoirs en bitcoins Pendant des années, les investisseurs ont valorisé l'entreprise bien au-delà de ses avoirs en bitcoin, conférant à Strategy une flexibilité considérable pour lever des fonds selon les besoins — une situation dont Michael Saylor et son équipe ont pleinement tiré parti.",
-      "Le PDG de Ripple reste optimiste sur le bitcoin mais affirme que la stratégie de Saylor a nui à la crypto Brad Garlinghouse de Ripple a qualifié le modèle de financement par actions privilégiées de Strategy de « manipulation financière » qui a détourné l'attention du marché, en soulignant la chute de STRC à un niveau record comme preuve. Il dirige la société derrière XRP, un concurrent du bitcoin.",
-      "US a Menacé de re attaquer l'iran",
-      "J.P. Morgan Asset Management a recruté Ingrid Glitz, ancienne cadre de Paxos, pour développer de nouveaux produits d'investissement tokenisés.",
-
-
+      "Le prêt en Bitcoin entre dans une nouvelle ère institutionnelle, selon Silicon Valley Bank La banque a déclaré que le prêt en bitcoin a émergé de l'effondrement du crédit crypto de 2022 avec des contrôles des risques renforcés, une participation institutionnelle croissante et une voie vers des coûts d'emprunt plus bas.",
+      "JPMorgan recommande des mesures de sécurités renforcées alors que le Congrès examine les règles sur la structure du marché des cryptomonnaies La banque affirme que le Congrès devrait associer une clarté réglementaire à des mesures de protection alors que le Sénat négocie la Loi sur cClarity Act.",
+      "La Maison Blanche s'entretiendra avec des groupes chargés de l'application de la loi pour promouvoir la Clarity Act relative aux cryptomonnaies Des responsables de la Maison Blanche seraient en train de s'entretenir avec des représentants des forces de l'ordre qui se sont opposés aux dispositions du projet de loi relatives au financement illicite.",
+      "J.P. Morgan étend son réseau de règlement basé sur la blockchain alors que les banques modernisent les paiements transfrontaliers La banque a ajouté cinq devises de la région Asie - Pacifique à sa plateforme blockchain Kinexys, permettant aux clients institutionnels de régler les paiements et les opérations de change en continu.",
+      "La société d’analyse crypto Chainalysis propose des normes pour le traçage sur la blockchain La société d'analyse de la blockchain a publié une ontologie proposée sur la manière dont les enquêteurs peuvent identifier des groupes d'adresses crypto et les relier entre elles.",
+      "La date limite imminente de MiCA pourrait laisser 10 millions d’utilisateurs de cryptomonnaies sans plateforme dans l’UE Alors que le MiCA entrera pleinement en vigueur le 1er juillet, Alex Fazel de SwissBorg a déclaré à CoinDesk que les utilisateurs devraient choisir des plateformes conçues pour résister au renforcement de la surveillance des régulateurs européens.",
+      "Ripple souhaite que les institutions empruntent contre des actifs tokenisés sur XRPL Une norme XRPL proposée permettrait aux institutions d’emprunter en utilisant des actifs tokenisés comme garantie, la blockchain assurant le respect des conditions de prêt tandis que la souscription reste assurée par des équipes de crédit humaines.Cette norme doit encore obtenir l’approbation des validateurs pour être mise en œuvre.",
+      "L'Ukraine transfère 8,3 millions de dollars en cryptomonnaies saisies dans le cadre de projets potentiels de réserve stratégique",
+      "BlackRock s'enfonce davantage dans la DeFi avec l'intégration d'Ethena, faisant grimper ENA de 8%",
+      "Kalshi et Polymarket pourraient devenir des cibles de fusions et acquisitions alors que les marchés de prédiction se consolident : Bernstein",
+      "JPMorgan observe une demande institutionnelle limitée pour les contrats à terme perpétuels La banque a déclaré que la demande institutionnelle pour les contrats à terme perpétuels reste limitée, ces produits étant mieux adaptés au trading spéculatif qu'à la couverture.",
+      "Le USDT de Tether atteint une prime de 8,5 % en Inde après la répression des paiements en crypto",
+      "Le dollar et les positions sur le rendement des bons du Trésor américain pourraient porter une lueur d'espoir pour le bitcoin",
 
     ],
 
 
-    conseil: "Restez attentif pour BTC et aussi BNB si vous souhaitez investir il est probable quil descende sous 44 000 $",
+    conseil: "Avec tous se qui se passe garder un oeil sur les alertes et les actualités de la semaine et mois Siurtout BTC",
 
-    conclusion: "la nous avons US qui menace d'attaquer l'iran et JP Morgan qui recrute de gros poissons , pas beacoup d'info sur le marché des cryptomonnaies "
+    conclusion: "Les americain on fait fort surtout JP morgan il font des progrés entre faire des pret en bitcoin j'usqu'au bon du tresors americain  "
   },
 
 
