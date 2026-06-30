@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Parlons un peux des USA , JP morgan a des chose a dire",
+    titre: "Circle a de la conccurence tandis que le Royaume unis change des chose par rapport a la loi MiCa ",
 
-    intro: "On sais ce que font les americain en se moment , mais niveau cryptomonaie il on tout compris d'abord on l'integre apres on fait des loie et ca marche tres bien, JP morgan l'une des plus grosse bank le fait entendre",
+    intro: "Blackrock Coinbase et Mastercard colabord pour faire un Stable coin tandis que MetaMask fait un tout nouveau produit qui transforme toute la defi ... Circle a du soucis a ce faire ?",
 
     marche: {
-      btc: "$ 60 245",
-      eth: "$1 618 ",
+      btc: "$ 58 633",
+      eth: "$1 576 ",
       tendance: "stable",
       commentaire: "Le marché affiche une santé stable."
     },
@@ -30,26 +30,24 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le prêt en Bitcoin entre dans une nouvelle ère institutionnelle, selon Silicon Valley Bank La banque a déclaré que le prêt en bitcoin a émergé de l'effondrement du crédit crypto de 2022 avec des contrôles des risques renforcés, une participation institutionnelle croissante et une voie vers des coûts d'emprunt plus bas.",
-      "JPMorgan recommande des mesures de sécurités renforcées alors que le Congrès examine les règles sur la structure du marché des cryptomonnaies La banque affirme que le Congrès devrait associer une clarté réglementaire à des mesures de protection alors que le Sénat négocie la Loi sur cClarity Act.",
-      "La Maison Blanche s'entretiendra avec des groupes chargés de l'application de la loi pour promouvoir la Clarity Act relative aux cryptomonnaies Des responsables de la Maison Blanche seraient en train de s'entretenir avec des représentants des forces de l'ordre qui se sont opposés aux dispositions du projet de loi relatives au financement illicite.",
-      "J.P. Morgan étend son réseau de règlement basé sur la blockchain alors que les banques modernisent les paiements transfrontaliers La banque a ajouté cinq devises de la région Asie - Pacifique à sa plateforme blockchain Kinexys, permettant aux clients institutionnels de régler les paiements et les opérations de change en continu.",
-      "La société d’analyse crypto Chainalysis propose des normes pour le traçage sur la blockchain La société d'analyse de la blockchain a publié une ontologie proposée sur la manière dont les enquêteurs peuvent identifier des groupes d'adresses crypto et les relier entre elles.",
-      "La date limite imminente de MiCA pourrait laisser 10 millions d’utilisateurs de cryptomonnaies sans plateforme dans l’UE Alors que le MiCA entrera pleinement en vigueur le 1er juillet, Alex Fazel de SwissBorg a déclaré à CoinDesk que les utilisateurs devraient choisir des plateformes conçues pour résister au renforcement de la surveillance des régulateurs européens.",
-      "Ripple souhaite que les institutions empruntent contre des actifs tokenisés sur XRPL Une norme XRPL proposée permettrait aux institutions d’emprunter en utilisant des actifs tokenisés comme garantie, la blockchain assurant le respect des conditions de prêt tandis que la souscription reste assurée par des équipes de crédit humaines.Cette norme doit encore obtenir l’approbation des validateurs pour être mise en œuvre.",
-      "L'Ukraine transfère 8,3 millions de dollars en cryptomonnaies saisies dans le cadre de projets potentiels de réserve stratégique",
-      "BlackRock s'enfonce davantage dans la DeFi avec l'intégration d'Ethena, faisant grimper ENA de 8%",
-      "Kalshi et Polymarket pourraient devenir des cibles de fusions et acquisitions alors que les marchés de prédiction se consolident : Bernstein",
-      "JPMorgan observe une demande institutionnelle limitée pour les contrats à terme perpétuels La banque a déclaré que la demande institutionnelle pour les contrats à terme perpétuels reste limitée, ces produits étant mieux adaptés au trading spéculatif qu'à la couverture.",
-      "Le USDT de Tether atteint une prime de 8,5 % en Inde après la répression des paiements en crypto",
-      "Le dollar et les positions sur le rendement des bons du Trésor américain pourraient porter une lueur d'espoir pour le bitcoin",
+      "Le consortium de stablecoins soutenu par Stripe et Coinbase peut concurrencer le modèle économique de Circle, mais les analystes affirment que construire un réseau est plus difficile que d'assembler des partenaires de renom.",
+      "La SEC reconsidère les nouveaux ETF en ouvrant une période de commentaires sur la refonte des règles américaines Les gestionnaires de fonds négociés en bourse, y compris ceux du secteur de la crypto, pourraient voir certains changements à la Securities and Exchange Commission alors qu'elle réfléchit à son approche.",
+      "Jefferies met en garde contre la volatilité du marché des cryptomonnaies alors que le Clarity Act est soumis à l'examen du Sénat La banque a déclaré que le projet de loi fait face à d'importants obstacles, son adoption favorisant l'adoption institutionnelle de la cryptomonnaie, tandis que les délais prolongent l'incertitude réglementaire.",
+      "Circle plonge de 17 % alors que Stripe, Coinbase et BlackRock soutiennent un réseau rival de stablecoins Open Standard’s Open USD vise à permettre aux partenaires de conserver les revenus de réserve et d’éliminer les frais de minting, défiant ainsi l’USDC de Circle.",
+      "MetaMask lance Money Account avec rendement en stablecoin et dépenses dans un seul portefeuille Le lancement reflète une poussée plus large visant à rendre les stablecoins plus utiles au - delà du trading et des transferts.",
+      "Les titres tokenisés ont besoin de concurrence, pas de gardiens L'innovation prospère lorsque les investisseurs disposent de choix. Concernant les titres tokenisés, Washington ne devrait pas désigner les gagnants avant que le marché ait eu l'opportunité de déterminer ce qui fonctionne, soutient Patrick McHenry, vice - président d'Ondo Finance et ancien président de la Commission des services financiers de la Chambre des représentants.",
+      "Nasdaq étend la distribution de ses données de marché dans l'infrastructure blockchain L'opérateur de la bourse proposera son flux de données TotalView via la place de marché de Pyth, alors que les institutions financières construisent de plus en plus d'applications sur des infrastructures blockchain.",
+      "Le gestionnaire d'actifs de 800 milliards de dollars de New York Life fait ses débuts dans la tokenisation avec le fonds Centrifuge Le gestionnaire d'actifs de 807 milliards de dollars lance une stratégie d'obligations d'entreprises à haut rendement sur la blockchain avec Centrifuge alors que Wall Street s'étend au - delà des fonds du Trésor tokenisés.",
+      "Le Royaume-Uni va réduire les coussins de capital pour les stablecoins, remettant en cause les exigences du MiCA de l'UE",
+      "La SEC obtient un jugement par défaut de 5,5 millions de dollars contre la plateforme crypto présumée frauduleuse NanoBit",
+
 
     ],
 
 
     conseil: "Avec tous se qui se passe garder un oeil sur les alertes et les actualités de la semaine et mois Siurtout BTC",
 
-    conclusion: "Les americain on fait fort surtout JP morgan il font des progrés entre faire des pret en bitcoin j'usqu'au bon du tresors americain  "
+    conclusion: "La collaboration des trois grand font peut etre pas peur a Circle mais en attendant leur titre a baisser , MetaMask fait une masterclass en ellaborant un tout nouveau projet et les bank adore ca "
   },
 
 
