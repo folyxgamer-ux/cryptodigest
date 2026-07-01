@@ -10,36 +10,44 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Circle a de la conccurence tandis que le Royaume unis change des chose par rapport a la loi MiCa ",
+    titre: "Enfin une bonne nouvelle pour la france",
 
-    intro: "Blackrock Coinbase et Mastercard colabord pour faire un Stable coin tandis que MetaMask fait un tout nouveau produit qui transforme toute la defi ... Circle a du soucis a ce faire ?",
+    intro: "Beacoup de bonne nouvelle aujourd'hui pour la france",
 
     marche: {
-      btc: "$ 58 633",
-      eth: "$1 576 ",
+      btc: "$ 60 133",
+      eth: "$1 617 ",
       tendance: "stable",
       commentaire: "Le marché affiche une santé stable."
     },
 
     alertes: [
       "Clarity Act date de fin le 6 juillet",
-      "30 juin echeance MiCA et Strategy",
       "surveiller Quivalis",
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
       "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
+      "MiCa change des lignes a surveiller",
     ],
 
     actualites: [
-      "Le consortium de stablecoins soutenu par Stripe et Coinbase peut concurrencer le modèle économique de Circle, mais les analystes affirment que construire un réseau est plus difficile que d'assembler des partenaires de renom.",
-      "La SEC reconsidère les nouveaux ETF en ouvrant une période de commentaires sur la refonte des règles américaines Les gestionnaires de fonds négociés en bourse, y compris ceux du secteur de la crypto, pourraient voir certains changements à la Securities and Exchange Commission alors qu'elle réfléchit à son approche.",
-      "Jefferies met en garde contre la volatilité du marché des cryptomonnaies alors que le Clarity Act est soumis à l'examen du Sénat La banque a déclaré que le projet de loi fait face à d'importants obstacles, son adoption favorisant l'adoption institutionnelle de la cryptomonnaie, tandis que les délais prolongent l'incertitude réglementaire.",
-      "Circle plonge de 17 % alors que Stripe, Coinbase et BlackRock soutiennent un réseau rival de stablecoins Open Standard’s Open USD vise à permettre aux partenaires de conserver les revenus de réserve et d’éliminer les frais de minting, défiant ainsi l’USDC de Circle.",
-      "MetaMask lance Money Account avec rendement en stablecoin et dépenses dans un seul portefeuille Le lancement reflète une poussée plus large visant à rendre les stablecoins plus utiles au - delà du trading et des transferts.",
-      "Les titres tokenisés ont besoin de concurrence, pas de gardiens L'innovation prospère lorsque les investisseurs disposent de choix. Concernant les titres tokenisés, Washington ne devrait pas désigner les gagnants avant que le marché ait eu l'opportunité de déterminer ce qui fonctionne, soutient Patrick McHenry, vice - président d'Ondo Finance et ancien président de la Commission des services financiers de la Chambre des représentants.",
-      "Nasdaq étend la distribution de ses données de marché dans l'infrastructure blockchain L'opérateur de la bourse proposera son flux de données TotalView via la place de marché de Pyth, alors que les institutions financières construisent de plus en plus d'applications sur des infrastructures blockchain.",
-      "Le gestionnaire d'actifs de 800 milliards de dollars de New York Life fait ses débuts dans la tokenisation avec le fonds Centrifuge Le gestionnaire d'actifs de 807 milliards de dollars lance une stratégie d'obligations d'entreprises à haut rendement sur la blockchain avec Centrifuge alors que Wall Street s'étend au - delà des fonds du Trésor tokenisés.",
-      "Le Royaume-Uni va réduire les coussins de capital pour les stablecoins, remettant en cause les exigences du MiCA de l'UE",
-      "La SEC obtient un jugement par défaut de 5,5 millions de dollars contre la plateforme crypto présumée frauduleuse NanoBit",
+      "Robinhood lance une blockchain publique alors qu'il renforce son expansion dans la cryptomonnaie La stratégie produit de Robinhood continue d'estomper la frontière entre la cryptomonnaie et la finance traditionnelle.",
+      "La Fondation Ethereum expose les cas d'usage pour les gouvernements et les institutions dans un nouveau guide de politique La Fondation Ethereum a déclaré que les décideurs politiques devraient faire la distinction entre les blockchains publiques décentralisées et les réseaux qui restent contrôlés par des entreprises ou des fondations, arguant que les structures de gouvernance joueront un rôle crucial dans la détermination des plateformes adaptées à une utilisation à long terme par le secteur public.",
+      "Jefferies met en garde contre l'achat du creux dans Circle alors qu'Open USD suscite de nouvelles craintes de concurrence La banque d'investissement a indiqué que la nouvelle concurrence émanant du consortium de stablecoins soutenu par Stripe et Coinbase pourrait exercer une pression sur la croissance de l'USDC.",
+      "juste pour info Open USD c'est Metamask avec Mastercard et Baanx c'est une alliance c'est Metamask Card le vrai nom la crypto cest le Musd addossé au dollar mais surtout au bon du tresors americain il fonctionne super bien et fait des ravage ducoup car on peux payé avec et si vous avez des Musd vous avez un rendement passif du bon du tresors americain (a cette date 3 %) quil sois sur metamask ou sur ledeger phantom ou d'autre Wallet si cest du Musd vous avec le rendement donc beacoup de gens si mettent et 'abandonnent' L'USDC (usd de circle)",
+      "Bitcoin franchit la barre des 60 000 $ après que le président de la Fed, Warsh, ait déclaré que les risques d'inflation ont diminué Le président de la Fed a réitéré l'engagement de la banque centrale envers son objectif d'inflation de 2 % tout en signalant que l'intelligence artificielle pourrait transformer l'économie et la politique monétaire.",
+      "Le déploiement de MiCA en Europe déclenche un débat sur les gagnants des nouvelles règles cryptographiques Alors que le cadre réglementaire européen sur les cryptomonnaies entre pleinement en vigueur, les acteurs du secteur s'accordent à dire que la régulation est désormais inévitable, mais divergent quant à savoir si elle protège les consommateurs ou favorise les plus grandes entreprises.",
+      "L'Europe réécrit son règlement incontournable sur les cryptomonnaies, MiCA, alors que la date limite stricte du 1er juillet est dépassée",
+      "L'Europe ferme la porte aux cryptomonnaies offshore, mais elle laisse ouverte la fenêtre la plus risquée MiCA n'a jamais été conçu pour traiter le gigantesque marché des dérivés cryptographiques. Cela pourrait poser un problème sérieux, déclare Patrick Gruhn, fondateur et directeur général de Perpetuals.com.",
+      "ATENTION : Grosse nouvelle ",
+      "",
+      "Le géant bancaire français Crédit Agricole lance un stablecoin en euro, EURXT EURXT a fait ses débuts avec 20 millions de tokens en circulation, soutenus à hauteur de 1: 1 par des réserves en euros auprès de la banque Caceis, et concurrence EURC de Circle ainsi qu’EURCV de SocGen.",
+      "Crédit Agricole (ACA), la deuxième plus grande banque française en termes d'actifs, a dévoilé un stablecoin indexé sur l'euro, rivalisant avec les offres de son homologue plus modeste Société Générale (GLE) et de Circle Internet (CRCL) sur un marché également ciblé par Qivalis, un groupe de 37 banques européennes qui prévoit de introduire son propre concurrent plus tard cette année.",
+      "La monnaie, EURO eXchange Token (EURXT), est adossée au euro au taux de 1:1 et est conforme au cadre des marchés des crypto-actifs (MiCA) de l’Union européenne, selon un message publié sur le site web de son unité de prestation de services d'actifs, Caceis Bank, qui émet le token. Il a déjà été utilisé pour régler une souscription dans un fonds monétaire Amundi tokenisé.",
+      "Il y a 20 millions d’EURXT en circulation sur Ethereum, soutenus à hauteur de 1:1 par des réserves en euros détenues par la banque Caceis. Cela se compare à environ 378 millions d’EURC de Circle et 124 millions d’EURCV de SocGen.",
+      "",
+      "Morpho prêt à se développer en tant qu'infrastructure DeFi, selon Standard Chartered La banque a initié la couverture de Morpho avec un objectif de prix de 60 $ pour la fin de 2030, affirmant que ses activités de prêt DeFi et d’infrastructure onchain sont bien positionnées pour bénéficier de la croissance de la tokenisation.",
+      "Ethereum bénéficie d'une nouvelle organisation à but non lucratif dédiée à l'adoption institutionnelle Le lancement intervient alors que la Fondation Ethereum resserre son focus sur la gestion du protocole core, tandis que des organisations indépendantes telles qu'EthLabs émergent pour assumer des fonctions écosystémiques telles que la recherche et le développement.",
+      "Projet mystérieux Solana World dévoilé comme un marché de prédiction entièrement onchain La plateforme est désormais opérationnelle au sein du portefeuille Phantom et sur world.xyz, utilisant Chainlink comme principale infrastructure oracle pour les données de marché.",
 
 
     ],
@@ -47,7 +55,7 @@ const CRYPTO_DATA = {
 
     conseil: "Avec tous se qui se passe garder un oeil sur les alertes et les actualités de la semaine et mois Siurtout BTC",
 
-    conclusion: "La collaboration des trois grand font peut etre pas peur a Circle mais en attendant leur titre a baisser , MetaMask fait une masterclass en ellaborant un tout nouveau projet et les bank adore ca "
+    conclusion: "CREDIT AGRICOLE : Le géant bancaire français Crédit Agricole lance un stablecoin en euro, EURXT, tandis que Circle ce fait du soucis avec sont concurent METAMASK",
   },
 
 
