@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Enfin une bonne nouvelle pour la france",
+    titre: "Open USD la grande nouvelle",
 
-    intro: "Beacoup de bonne nouvelle aujourd'hui pour la france",
+    intro: "de grandes nouvelles aujourd'hui pour le monde de la crypto meme si pour SBI c'est une tout autre histoire",
 
     marche: {
-      btc: "$ 60 133",
-      eth: "$1 617 ",
+      btc: "$ 61 666",
+      eth: "$1 700 ",
       tendance: "stable",
       commentaire: "Le marché affiche une santé stable."
     },
@@ -27,27 +27,21 @@ const CRYPTO_DATA = {
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
       "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
       "MiCa change des lignes a surveiller",
+      "31 juillet : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
     ],
 
     actualites: [
-      "Robinhood lance une blockchain publique alors qu'il renforce son expansion dans la cryptomonnaie La stratégie produit de Robinhood continue d'estomper la frontière entre la cryptomonnaie et la finance traditionnelle.",
-      "La Fondation Ethereum expose les cas d'usage pour les gouvernements et les institutions dans un nouveau guide de politique La Fondation Ethereum a déclaré que les décideurs politiques devraient faire la distinction entre les blockchains publiques décentralisées et les réseaux qui restent contrôlés par des entreprises ou des fondations, arguant que les structures de gouvernance joueront un rôle crucial dans la détermination des plateformes adaptées à une utilisation à long terme par le secteur public.",
-      "Jefferies met en garde contre l'achat du creux dans Circle alors qu'Open USD suscite de nouvelles craintes de concurrence La banque d'investissement a indiqué que la nouvelle concurrence émanant du consortium de stablecoins soutenu par Stripe et Coinbase pourrait exercer une pression sur la croissance de l'USDC.",
-      "juste pour info Open USD c'est Metamask avec Mastercard et Baanx c'est une alliance c'est Metamask Card le vrai nom la crypto cest le Musd addossé au dollar mais surtout au bon du tresors americain il fonctionne super bien et fait des ravage ducoup car on peux payé avec et si vous avez des Musd vous avez un rendement passif du bon du tresors americain (a cette date 3 %) quil sois sur metamask ou sur ledeger phantom ou d'autre Wallet si cest du Musd vous avec le rendement donc beacoup de gens si mettent et 'abandonnent' L'USDC (usd de circle)",
-      "Bitcoin franchit la barre des 60 000 $ après que le président de la Fed, Warsh, ait déclaré que les risques d'inflation ont diminué Le président de la Fed a réitéré l'engagement de la banque centrale envers son objectif d'inflation de 2 % tout en signalant que l'intelligence artificielle pourrait transformer l'économie et la politique monétaire.",
-      "Le déploiement de MiCA en Europe déclenche un débat sur les gagnants des nouvelles règles cryptographiques Alors que le cadre réglementaire européen sur les cryptomonnaies entre pleinement en vigueur, les acteurs du secteur s'accordent à dire que la régulation est désormais inévitable, mais divergent quant à savoir si elle protège les consommateurs ou favorise les plus grandes entreprises.",
-      "L'Europe réécrit son règlement incontournable sur les cryptomonnaies, MiCA, alors que la date limite stricte du 1er juillet est dépassée",
-      "L'Europe ferme la porte aux cryptomonnaies offshore, mais elle laisse ouverte la fenêtre la plus risquée MiCA n'a jamais été conçu pour traiter le gigantesque marché des dérivés cryptographiques. Cela pourrait poser un problème sérieux, déclare Patrick Gruhn, fondateur et directeur général de Perpetuals.com.",
-      "ATENTION : Grosse nouvelle ",
-      "",
-      "Le géant bancaire français Crédit Agricole lance un stablecoin en euro, EURXT EURXT a fait ses débuts avec 20 millions de tokens en circulation, soutenus à hauteur de 1: 1 par des réserves en euros auprès de la banque Caceis, et concurrence EURC de Circle ainsi qu’EURCV de SocGen.",
-      "Crédit Agricole (ACA), la deuxième plus grande banque française en termes d'actifs, a dévoilé un stablecoin indexé sur l'euro, rivalisant avec les offres de son homologue plus modeste Société Générale (GLE) et de Circle Internet (CRCL) sur un marché également ciblé par Qivalis, un groupe de 37 banques européennes qui prévoit de introduire son propre concurrent plus tard cette année.",
-      "La monnaie, EURO eXchange Token (EURXT), est adossée au euro au taux de 1:1 et est conforme au cadre des marchés des crypto-actifs (MiCA) de l’Union européenne, selon un message publié sur le site web de son unité de prestation de services d'actifs, Caceis Bank, qui émet le token. Il a déjà été utilisé pour régler une souscription dans un fonds monétaire Amundi tokenisé.",
-      "Il y a 20 millions d’EURXT en circulation sur Ethereum, soutenus à hauteur de 1:1 par des réserves en euros détenues par la banque Caceis. Cela se compare à environ 378 millions d’EURC de Circle et 124 millions d’EURCV de SocGen.",
-      "",
-      "Morpho prêt à se développer en tant qu'infrastructure DeFi, selon Standard Chartered La banque a initié la couverture de Morpho avec un objectif de prix de 60 $ pour la fin de 2030, affirmant que ses activités de prêt DeFi et d’infrastructure onchain sont bien positionnées pour bénéficier de la croissance de la tokenisation.",
-      "Ethereum bénéficie d'une nouvelle organisation à but non lucratif dédiée à l'adoption institutionnelle Le lancement intervient alors que la Fondation Ethereum resserre son focus sur la gestion du protocole core, tandis que des organisations indépendantes telles qu'EthLabs émergent pour assumer des fonctions écosystémiques telles que la recherche et le développement.",
-      "Projet mystérieux Solana World dévoilé comme un marché de prédiction entièrement onchain La plateforme est désormais opérationnelle au sein du portefeuille Phantom et sur world.xyz, utilisant Chainlink comme principale infrastructure oracle pour les données de marché.",
+      "Le Trésor américain sanctionne plus de 100 adresses crypto d’ISIS-K ayant déplacé plus de 1,4 million de dollars ISIS - K aurait utilisé son aile médiatique pour solliciter des dons via Tron, Monero et Bitcoin, soulignant le rôle croissant des émetteurs de stablecoins dans l'application des sanctions.",
+      "SBI Crypto va fermer un pool de minage qui détient environ 2 % du hashrate du Bitcoin Les mineurs doivent rediriger leur hashrate avant la date limite du 31 juillet, car le pool cessera d’accepter les contributions après cette date.",
+      "Ondo Finance lance un modèle d’actions tokenisées conforme à la SEC avec les ETF BlackRock et les actions Micron Broadridge et l'agent de transfert Oasis Pro soutiennent une nouvelle structure qui maintient les titres tokenisés dans le cadre des règles actuelles du marché américain, basée sur le modèle de conservation tiers de la SEC.",
+      "La croissance de l'emploi aux États-Unis a fortement ralenti en juin, avec seulement 57 000 emplois créés Les données de ce matin pourraient ralentir les attentes du marché concernant une hausse des taux de la Fed dès cet été ou au début de l'automne.",
+      "Trois ans après l'entrée en vigueur de MiCA, le cadre réglementaire européen des cryptomonnaies fait l'objet d'une révision Le régime MiCA de l’Europe est désormais en cours d’examen, communément appelé « MiCA 2.0 », par le biais d’une consultation qui se clôture aux alentours de septembre.",
+      "Le développeur de ChatGPT, OpenAI, serait en discussions pour offrir au gouvernement américain une participation de 5 % : FT La proposition vise à offrir au public américain une participation financière dans l'IA tout en facilitant la surveillance politique de l'industrie. d'ailleur ChatGPT veut rentré en bourse cette année en Pret-IPO",
+      "Solana lance la gouvernance onchain et fixe les frais d'entrée à 100 000 SOL en staking Les validateurs et les personnes qui effectuent du staking avec eux peuvent désormais indiquer formellement la direction que le réseau doit prendre via un nouveau système appelé Propositions de Gouvernance Solana.Tout validateur disposant de 100 000 SOL peut en ouvrir une, et les stakers peuvent passer outre le vote de leur validateur.",
+      "Le directeur du FBI, Kash Patel, surpris en train de négliger la divulgation obligatoire d'un investissement à six chiffres dans MSTR : Rapport Patel a acquis des actions de MSTR, détenteur de BTC, mais n’a pas effectué une divulgation en temps utile, selon un rapport du média non partisan NOTUS.",
+      "Un consortium regroupant Visa V.N , Mastercard MA.N et Coinbase COIN.O a lancé mardi une nouvelle stablecoin commune dans le but d'élargir l'adoption de ces jetons numériques. Cette initiative, baptisée Open Standard, rassemble plus de 140 entreprises au sein d’ un réseau dédié aux stablecoins et émettra une nouvelle stablecoin indexée sur le dollar américain, appelée Open USD, dont le lancement est prévu dans le courant de l’année.",
+      "L’objectif est d’accélérer l’utilisation des jetons numériques à l’échelle mondiale en s’attaquant aux obstacles auxquels se heurtent les entreprises pour généraliser l’adoption des stablecoins, a déclaré Open Standard.",
+      "Cette solution permettra aux entreprises d’émettre et de racheter des Open USD sans aucun coût ni limite de volume, afin de les aider à se développer à grande échelle. Les revenus générés par les réserves de l’Open USD garantissant le jeton numérique seront également partagés entre les partenaires de l’initiative, après déduction de frais de gestion destinés à couvrir les coûts opérationnels.",
 
 
     ],
@@ -55,7 +49,7 @@ const CRYPTO_DATA = {
 
     conseil: "Avec tous se qui se passe garder un oeil sur les alertes et les actualités de la semaine et mois Siurtout BTC",
 
-    conclusion: "CREDIT AGRICOLE : Le géant bancaire français Crédit Agricole lance un stablecoin en euro, EURXT, tandis que Circle ce fait du soucis avec sont concurent METAMASK",
+    conclusion: "deja que Circle et en mal avec Metamask maintenant le Open USD",
   },
 
 
