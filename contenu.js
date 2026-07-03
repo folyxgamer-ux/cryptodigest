@@ -10,15 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Open USD la grande nouvelle",
+    titre: "ca y est BTC remonte",
 
-    intro: "de grandes nouvelles aujourd'hui pour le monde de la crypto meme si pour SBI c'est une tout autre histoire",
+    intro: "Bitcoin remonte alors que apperement il ne devrais pas",
 
     marche: {
-      btc: "$ 61 666",
-      eth: "$1 700 ",
-      tendance: "stable",
-      commentaire: "Le marché affiche une santé stable."
+      btc: "$ 62 101",
+      eth: "$1 735 ",
+      tendance: "*hausse",
+      commentaire: "Le marché affiche une santé haute."
     },
 
     alertes: [
@@ -31,25 +31,20 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le Trésor américain sanctionne plus de 100 adresses crypto d’ISIS-K ayant déplacé plus de 1,4 million de dollars ISIS - K aurait utilisé son aile médiatique pour solliciter des dons via Tron, Monero et Bitcoin, soulignant le rôle croissant des émetteurs de stablecoins dans l'application des sanctions.",
-      "SBI Crypto va fermer un pool de minage qui détient environ 2 % du hashrate du Bitcoin Les mineurs doivent rediriger leur hashrate avant la date limite du 31 juillet, car le pool cessera d’accepter les contributions après cette date.",
-      "Ondo Finance lance un modèle d’actions tokenisées conforme à la SEC avec les ETF BlackRock et les actions Micron Broadridge et l'agent de transfert Oasis Pro soutiennent une nouvelle structure qui maintient les titres tokenisés dans le cadre des règles actuelles du marché américain, basée sur le modèle de conservation tiers de la SEC.",
-      "La croissance de l'emploi aux États-Unis a fortement ralenti en juin, avec seulement 57 000 emplois créés Les données de ce matin pourraient ralentir les attentes du marché concernant une hausse des taux de la Fed dès cet été ou au début de l'automne.",
-      "Trois ans après l'entrée en vigueur de MiCA, le cadre réglementaire européen des cryptomonnaies fait l'objet d'une révision Le régime MiCA de l’Europe est désormais en cours d’examen, communément appelé « MiCA 2.0 », par le biais d’une consultation qui se clôture aux alentours de septembre.",
-      "Le développeur de ChatGPT, OpenAI, serait en discussions pour offrir au gouvernement américain une participation de 5 % : FT La proposition vise à offrir au public américain une participation financière dans l'IA tout en facilitant la surveillance politique de l'industrie. d'ailleur ChatGPT veut rentré en bourse cette année en Pret-IPO",
-      "Solana lance la gouvernance onchain et fixe les frais d'entrée à 100 000 SOL en staking Les validateurs et les personnes qui effectuent du staking avec eux peuvent désormais indiquer formellement la direction que le réseau doit prendre via un nouveau système appelé Propositions de Gouvernance Solana.Tout validateur disposant de 100 000 SOL peut en ouvrir une, et les stakers peuvent passer outre le vote de leur validateur.",
-      "Le directeur du FBI, Kash Patel, surpris en train de négliger la divulgation obligatoire d'un investissement à six chiffres dans MSTR : Rapport Patel a acquis des actions de MSTR, détenteur de BTC, mais n’a pas effectué une divulgation en temps utile, selon un rapport du média non partisan NOTUS.",
-      "Un consortium regroupant Visa V.N , Mastercard MA.N et Coinbase COIN.O a lancé mardi une nouvelle stablecoin commune dans le but d'élargir l'adoption de ces jetons numériques. Cette initiative, baptisée Open Standard, rassemble plus de 140 entreprises au sein d’ un réseau dédié aux stablecoins et émettra une nouvelle stablecoin indexée sur le dollar américain, appelée Open USD, dont le lancement est prévu dans le courant de l’année.",
-      "L’objectif est d’accélérer l’utilisation des jetons numériques à l’échelle mondiale en s’attaquant aux obstacles auxquels se heurtent les entreprises pour généraliser l’adoption des stablecoins, a déclaré Open Standard.",
-      "Cette solution permettra aux entreprises d’émettre et de racheter des Open USD sans aucun coût ni limite de volume, afin de les aider à se développer à grande échelle. Les revenus générés par les réserves de l’Open USD garantissant le jeton numérique seront également partagés entre les partenaires de l’initiative, après déduction de frais de gestion destinés à couvrir les coûts opérationnels.",
-
+      "Trump déclare qu’il n’y a « rien de mal » à la manne crypto de la famille Le président a déclaré au moins 1, 4 milliard de dollars de revenus en crypto pour 2025. Il a déclaré à CNBC qu'il n'a rien fait d'illégal et qu'il n'était pas au courant de l'étendue de ses avoirs.Les critiques affirment qu'il profite de sa fonction tandis que son administration rédige les règles de l'industrie.",
+      "Les baleines du Bitcoin ont acheté pour 16,7 milliards de dollars de bitcoins en 2 semaines, même si les ETF ont subi une sortie record de 4 milliards de dollars",
+      "Les actions de la mémoire et des semi-conducteurs perdent de leur élan, le bitcoin rebondit en signe d'un changement d'orientation des investisseurs Après avoir dominé les marchés en 2026, les actions liées à la mémoire et aux semi - conducteurs associés à l'IA perdent de leur élan, ce qui soulève la question de savoir si le capital se repositionnera à nouveau sur le bitcoin.",
+      "La tokenisation pourrait accélérer la finance, mais aussi la rendre plus vulnérable aux chocs, affirme le FMI La tokenisation pourrait rendre la finance plus rapide et moins coûteuse.Elle la rend également plus vulnérable aux chocs soudains, a déclaré le Fonds monétaire international.",
+      "Mises à jour en direct : Le Bitcoin dépasse 62 000 $ alors que le commerce des semi-conducteurs en plein essor commence à s'estomper",
+      "Binance déclare que le MiCA devrait être évalué en fonction de ceux à qui il délivre des licences, et non de ceux qu'il exclut Gillian Lynch, responsable pour l'Europe, a déclaré que Binance répondait aux exigences de licence de la Grèce et que la société reste engagée envers l'UE, malgré le retrait de sa demande MiCA quelques jours avant la date limite du 1er juillet.",
+      "Enfin. 221 millions de dollars affluents dans les ETF Bitcoin, mettant fin à une douloureuse séquence de sorties de fonds de 10 jours Les ETF au comptant ont connu leur journée d'afflux la plus forte en deux mois, stimulée par des fonds autres que l'IBIT de BlackRock.",
 
     ],
 
 
-    conseil: "Avec tous se qui se passe garder un oeil sur les alertes et les actualités de la semaine et mois Siurtout BTC",
+    conseil: "BTC remonte mais il ne faut pas avoir peur pour reprendre tout d'un coup laisser le respiré",
 
-    conclusion: "deja que Circle et en mal avec Metamask maintenant le Open USD",
+    conclusion: "BTC remonte avec des ETF qui rentre en masse sur le marché, il faut surveiller les altcoins qui vont suivre le mouvement.",
   },
 
 
