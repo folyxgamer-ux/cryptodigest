@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "ca y est BTC remonte",
+    titre: "BTC remonte et les altcoins suivent",
 
-    intro: "Bitcoin remonte alors que apperement il ne devrais pas",
+    intro: "Le BTC remonte , Trump ce crois tout permis et des gens on sauvé un protocol... mais le quantique rode",
 
     marche: {
-      btc: "$ 62 101",
-      eth: "$1 735 ",
+      btc: "$ 63 169",
+      eth: "$1 786 ",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -31,20 +31,22 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Trump déclare qu’il n’y a « rien de mal » à la manne crypto de la famille Le président a déclaré au moins 1, 4 milliard de dollars de revenus en crypto pour 2025. Il a déclaré à CNBC qu'il n'a rien fait d'illégal et qu'il n'était pas au courant de l'étendue de ses avoirs.Les critiques affirment qu'il profite de sa fonction tandis que son administration rédige les règles de l'industrie.",
-      "Les baleines du Bitcoin ont acheté pour 16,7 milliards de dollars de bitcoins en 2 semaines, même si les ETF ont subi une sortie record de 4 milliards de dollars",
-      "Les actions de la mémoire et des semi-conducteurs perdent de leur élan, le bitcoin rebondit en signe d'un changement d'orientation des investisseurs Après avoir dominé les marchés en 2026, les actions liées à la mémoire et aux semi - conducteurs associés à l'IA perdent de leur élan, ce qui soulève la question de savoir si le capital se repositionnera à nouveau sur le bitcoin.",
-      "La tokenisation pourrait accélérer la finance, mais aussi la rendre plus vulnérable aux chocs, affirme le FMI La tokenisation pourrait rendre la finance plus rapide et moins coûteuse.Elle la rend également plus vulnérable aux chocs soudains, a déclaré le Fonds monétaire international.",
-      "Mises à jour en direct : Le Bitcoin dépasse 62 000 $ alors que le commerce des semi-conducteurs en plein essor commence à s'estomper",
-      "Binance déclare que le MiCA devrait être évalué en fonction de ceux à qui il délivre des licences, et non de ceux qu'il exclut Gillian Lynch, responsable pour l'Europe, a déclaré que Binance répondait aux exigences de licence de la Grèce et que la société reste engagée envers l'UE, malgré le retrait de sa demande MiCA quelques jours avant la date limite du 1er juillet.",
-      "Enfin. 221 millions de dollars affluents dans les ETF Bitcoin, mettant fin à une douloureuse séquence de sorties de fonds de 10 jours Les ETF au comptant ont connu leur journée d'afflux la plus forte en deux mois, stimulée par des fonds autres que l'IBIT de BlackRock.",
+      "Le prochain cas d'utilisation de la tokenisation est les portefeuilles personnalisés, déclare un cadre de NYLIM Thomas Sy, responsable des solutions multi - actifs chez le gestionnaire d’actifs de 800 millions de dollars, affirme que la blockchain peut permettre une construction de portefeuille complexe qui n’est pas encore possible dans la finance traditionnelle.",
+      "Bitcoin dépasse les 63 000 $, inversant les pertes de fin juin",
+      "Les experts en Bitcoin divisés sur le projet de gel des 1,1 million de bitcoins de Satoshi face à la montée de la menace quantique Le fondateur de Binance, Changpeng Zhao, a déclaré que le bitcoin de Satoshi Nakamoto devrait être gelé avant que les ordinateurs quantiques ne puissent le dérober.Tout le monde n’est pas d’accord.",
+      "Comment des hackers éthiques, avec seulement un serveur à 3 000 $, ont découvert une faille qui aurait pu mettre en péril 70 milliards de dollars en cryptomonnaies Une faille critique dans la blockchain Aptos, qui a été corrigée, a permis aux chercheurs d’atteindre un taux de succès proche de 90 % pour enfreindre une garantie de sécurité fondamentale, avec des coûts d’attaque de seulement quelques centaines de dollars.",
+      "Les acheteurs du token crypto de Trump accusent une perte de 3,8 milliards de dollars, selon les données de la blockchain Le token TRUMP a chuté de 96 % par rapport à son sommet, et 85 % des portefeuilles du marché secondaire pour WLFI sont en perte, reflétant un ralentissement plus large dans le secteur.",
+      "L'Europe a pris les devants en matière de régulation des cryptomonnaies. Il est désormais essentiel que la mise en œuvre soit à la hauteur des ambitions",
+      "L’UE prend des mesures pour empêcher les investisseurs particuliers de participer à l’explosion des marchés prédictifs valorisés à plusieurs milliards de dollars Les régulateurs de la région ont souligné que la fonction réelle d'un produit en tant que dérivé prévaut sur son nom commercial ou son étiquetage lors de l'évaluation de la conformité.",
+      "Les nouvelles règles audacieuses du Royaume-Uni en matière de crypto-monnaies promettent de débloquer le commerce mondial, mais d’énormes obstacles en matière de conformité menacent encore le déploiement Le cadre réglementaire crypto de la FCA britannique a été salué pour avoir donné la priorité à la liquidité mondiale et à l’adoption institutionnelle, mais le processus d’autorisation devrait être décourageant.",
+
 
     ],
 
 
     conseil: "BTC remonte mais il ne faut pas avoir peur pour reprendre tout d'un coup laisser le respiré",
 
-    conclusion: "BTC remonte avec des ETF qui rentre en masse sur le marché, il faut surveiller les altcoins qui vont suivre le mouvement.",
+    conclusion: "BTC repart de plein fouet avec des ETF qui rentrent en masse sur le marché, des hacker ethique on proteger le systeme mais ... faut t'il vraiment gelé les 1 Millions de btc de satoshi nakamoto ?",
   },
 
 
