@@ -10,9 +10,9 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "BTC remonte et les altcoins suivent",
+    titre: "des ETF sur ETH, et les banque sont e plus en plus presente",
 
-    intro: "Le BTC remonte , Trump ce crois tout permis et des gens on sauvé un protocol... mais le quantique rode",
+    intro: "pas beacoup de chose a dire mais ce sont des sujet a ne pas manqué",
 
     marche: {
       btc: "$ 63 169",
@@ -31,22 +31,18 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le prochain cas d'utilisation de la tokenisation est les portefeuilles personnalisés, déclare un cadre de NYLIM Thomas Sy, responsable des solutions multi - actifs chez le gestionnaire d’actifs de 800 millions de dollars, affirme que la blockchain peut permettre une construction de portefeuille complexe qui n’est pas encore possible dans la finance traditionnelle.",
-      "Bitcoin dépasse les 63 000 $, inversant les pertes de fin juin",
-      "Les experts en Bitcoin divisés sur le projet de gel des 1,1 million de bitcoins de Satoshi face à la montée de la menace quantique Le fondateur de Binance, Changpeng Zhao, a déclaré que le bitcoin de Satoshi Nakamoto devrait être gelé avant que les ordinateurs quantiques ne puissent le dérober.Tout le monde n’est pas d’accord.",
-      "Comment des hackers éthiques, avec seulement un serveur à 3 000 $, ont découvert une faille qui aurait pu mettre en péril 70 milliards de dollars en cryptomonnaies Une faille critique dans la blockchain Aptos, qui a été corrigée, a permis aux chercheurs d’atteindre un taux de succès proche de 90 % pour enfreindre une garantie de sécurité fondamentale, avec des coûts d’attaque de seulement quelques centaines de dollars.",
-      "Les acheteurs du token crypto de Trump accusent une perte de 3,8 milliards de dollars, selon les données de la blockchain Le token TRUMP a chuté de 96 % par rapport à son sommet, et 85 % des portefeuilles du marché secondaire pour WLFI sont en perte, reflétant un ralentissement plus large dans le secteur.",
-      "L'Europe a pris les devants en matière de régulation des cryptomonnaies. Il est désormais essentiel que la mise en œuvre soit à la hauteur des ambitions",
-      "L’UE prend des mesures pour empêcher les investisseurs particuliers de participer à l’explosion des marchés prédictifs valorisés à plusieurs milliards de dollars Les régulateurs de la région ont souligné que la fonction réelle d'un produit en tant que dérivé prévaut sur son nom commercial ou son étiquetage lors de l'évaluation de la conformité.",
-      "Les nouvelles règles audacieuses du Royaume-Uni en matière de crypto-monnaies promettent de débloquer le commerce mondial, mais d’énormes obstacles en matière de conformité menacent encore le déploiement Le cadre réglementaire crypto de la FCA britannique a été salué pour avoir donné la priorité à la liquidité mondiale et à l’adoption institutionnelle, mais le processus d’autorisation devrait être décourageant.",
-
+      "Les banques ont cessé de se demander si les stablecoins ont leur place dans la finance, elles envisagent maintenant comment Les institutions financières se précipitent pour devenir les passerelles sécurisées des stablecoins alors que le volume des actifs numériques devrait exploser d’ici 2030.",
+      "Kalshi et le secteur des marchés prédictifs impliqués dans un ensemble diversifié de litiges aux États-Unis Certaines des nombreuses batailles avec les régulateurs étatiques des jeux ne se déroulent pas bien pour l'industrie en ce moment, mais elle n'est pas sans ses éventuels protecteurs gouvernementaux.",
+      "Lancement de l'ETF Ethereum de BlackRock BlackRock a lancé son nouvel ETF, l'iShares Staked Ethereum Trust ETF (ETHB), sur le Nasdaq le 3 juillet 2026. Le fonds a attiré 100 millions de dollars de capitaux dès son premier jour de cotation. Contrairement aux produits existants, ETHB est le premier ETF crypto de BlackRock à offrir un rendement d'environ 3 % aux investisseurs.",
+      "Les Américains ont échangé pour 571 millions de dollars de paris politiques sur Polymarket malgré l'interdiction aux États-Unis Les portefeuilles liés aux États - Unis ont échangé pour 571 millions de dollars de contrats politiques au cours de l’année écoulée, soit plus que tout autre pays, bien que la plateforme ne soit légalement pas autorisée à les servir.Les fonds se dirigent principalement vers les marchés des conflits étrangers que les plateformes américaines ne listent pas.",
+      "Réglementation des réserves de stablecoins Le Trésor national du Kenya est en désaccord avec les plateformes de cryptomonnaies au sujet d'une nouvelle proposition réglementaire. Le texte prévoit d'obliger les émetteurs de stablecoins à conserver au moins 30 % de leurs réserves d'actifs dans des banques commerciales locales.",
 
     ],
 
 
     conseil: "BTC remonte mais il ne faut pas avoir peur pour reprendre tout d'un coup laisser le respiré",
 
-    conclusion: "BTC repart de plein fouet avec des ETF qui rentrent en masse sur le marché, des hacker ethique on proteger le systeme mais ... faut t'il vraiment gelé les 1 Millions de btc de satoshi nakamoto ?",
+    conclusion: "pas beacoup d'info mais les banque commence a s'integré black rock remet les chose a leur place et les marchés de cryptomonnaie sont de plus en plus présentes",
   },
 
 
