@@ -10,12 +10,12 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "des ETF sur ETH, et les banque sont e plus en plus presente",
+    titre: "Turbulences et Grandes Manœuvres : Le Grand Écart du Marché Crypto",
 
-    intro: "pas beacoup de chose a dire mais ce sont des sujet a ne pas manqué",
+    intro: "Entre la tempête qui secoue MicroStrategy, les ambitions technologiques d'Ethereum et l'entrée de la Russie dans la danse, le marché crypto traverse une zone de fortes secousses. Pourtant, malgré la volatilité des géants et quelques couacs insolites, les signaux d'une adoption massive et d'une régulation globale (notamment en Europe avec MiCA) n'ont jamais été aussi forts.",
 
     marche: {
-      btc: "$ 63 169",
+      btc: "$ 63 486",
       eth: "$1 786 ",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
@@ -31,18 +31,21 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Les banques ont cessé de se demander si les stablecoins ont leur place dans la finance, elles envisagent maintenant comment Les institutions financières se précipitent pour devenir les passerelles sécurisées des stablecoins alors que le volume des actifs numériques devrait exploser d’ici 2030.",
-      "Kalshi et le secteur des marchés prédictifs impliqués dans un ensemble diversifié de litiges aux États-Unis Certaines des nombreuses batailles avec les régulateurs étatiques des jeux ne se déroulent pas bien pour l'industrie en ce moment, mais elle n'est pas sans ses éventuels protecteurs gouvernementaux.",
-      "Lancement de l'ETF Ethereum de BlackRock BlackRock a lancé son nouvel ETF, l'iShares Staked Ethereum Trust ETF (ETHB), sur le Nasdaq le 3 juillet 2026. Le fonds a attiré 100 millions de dollars de capitaux dès son premier jour de cotation. Contrairement aux produits existants, ETHB est le premier ETF crypto de BlackRock à offrir un rendement d'environ 3 % aux investisseurs.",
-      "Les Américains ont échangé pour 571 millions de dollars de paris politiques sur Polymarket malgré l'interdiction aux États-Unis Les portefeuilles liés aux États - Unis ont échangé pour 571 millions de dollars de contrats politiques au cours de l’année écoulée, soit plus que tout autre pays, bien que la plateforme ne soit légalement pas autorisée à les servir.Les fonds se dirigent principalement vers les marchés des conflits étrangers que les plateformes américaines ne listent pas.",
-      "Réglementation des réserves de stablecoins Le Trésor national du Kenya est en désaccord avec les plateformes de cryptomonnaies au sujet d'une nouvelle proposition réglementaire. Le texte prévoit d'obliger les émetteurs de stablecoins à conserver au moins 30 % de leurs réserves d'actifs dans des banques commerciales locales.",
+      "Un mois qui a secoué le marché : les difficultés de Saylor concernant la stratégie bitcoin entraînent de lourdes pertes D’abord, il s’agissait d’une faible quantité de ventes de bitcoins, puis de l’achat de plusieurs milliers de BTC, et enfin, aujourd’hui, du déstockage de milliers de BTC.Que se passe - t - il chez Strategy ? Ramener les actions privilégiées de Strategy à 100 $ est essentiel pour relancer le moteur capitalistique de Strategy, a déclaré la banque, précisant que des actions répétées de la direction devraient soutenir à la fois les actionnaires privilégiés et ordinaires.",
+      "Les développeurs Ethereum adhèrent à la vision à long terme de Vitalik Buterin mais exhortent à une exécution plus rapide La 'Lean Ethereum' strawmap, mise à jour plus tôt cette semaine, a obtenu le soutien de nombreux chercheurs du réseau, bien que plusieurs affirment que le plus grand défi ne sera pas de décider quoi construire, mais à quelle vitesse cela peut se réaliser.",
+      "La plus grande banque de Russie prévoit le lancement d'un portefeuille crypto alors que Moscou ouvre la voie au marché Les services seront intégrés à « Sberbank Online » et « SberInvestments » une fois que la loi « Sur la monnaie numérique et les droits numériques » entrera en vigueur en septembre.",
+      "L'inclusion de SpaceX dans le Nasdaq 100 s'accompagne d'un avertissement historique La plus grande introduction en bourse de tous les temps entre dans le Nasdaq 100. Les ajouts précédents tels que Palantir et Strategy ont connu de la volatilité après leur inclusion dans l’indice, plutôt que le début de nouvelles reprises.",
+      "La crypto rebondit à la dernière minute alors que l'optimisme autour des altcoins revient malgré des poches de faiblesse",
+      "La licence provisoire de fournisseur d'actifs cryptographiques de Ripple au Luxembourg est passée à une conformité totale L’approbation signifie que Ripple est désormais entièrement conforme à la réglementation MiCA pour les paiements, les institutions financières, les entreprises et les sociétés dans les 30 pays de l’Espace économique européen.",
+      "Coinbase AI suscite une controverse après avoir publié par erreur le résultat de la Coupe du Monde avant le coup d'envoi",
+      "Bernard Arnault (le grand patron de LVMH) a eu un redressement fiscal de 22.5 Millions € sois 409 BTC , enfaite il avais des BTC caché a sont nom et non au nom de ca holding en fesant ca, ca a fait baissé drastiquement c'est impots et ca a pas plus alors il dois au fisc 22.5 Million d'euro mais il a une fortune de 165 Milliard donc ca fait 0.01 % c'est comme si que l'on avaient 10 Mille € et q'uon devais payer une amande de 1 €",
 
     ],
 
 
     conseil: "BTC remonte mais il ne faut pas avoir peur pour reprendre tout d'un coup laisser le respiré",
 
-    conclusion: "pas beacoup d'info mais les banque commence a s'integré black rock remet les chose a leur place et les marchés de cryptomonnaie sont de plus en plus présentes",
+    conclusion: "Le monde financier est en train de fusionner. D'un côté, les géants de la tech et de la bourse (comme SpaceX ou MicroStrategy) font tanguer les marchés traditionnels avec le Bitcoin. De l'autre, les banques et les États adoptent la technologie crypto (via l'Euro Numérique ou les stablecoins bancaires) pour offrir la simplicité de PayPal tout en gardant la main sur l'économie.",
   },
 
 
