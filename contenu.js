@@ -1,4 +1,4 @@
-// ============================================================
+ù$*ù$// ============================================================
 //  CRYPTODIGEST — Fichier de contenu
 //  Édite ce fichier dans VSCode, puis ouvre index.html
 //  dans ton navigateur (double-clic ou Live Server).
@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "la guerre ce stop et les crypto tombes",
+    titre: "D'enormes changement arrive",
 
-    intro: "des allainces tombes mais ce n'est pas grave",
+    intro: "de gros changement arrive, la on parle plus de particulier ou de 'la cryptomonaie c'est faux' les bank s'y mettent et meme les jeux coemme sonny",
 
     marche: {
-      btc: "$ 63 486",
-      eth: "$1 786 ",
+      btc: "$ 63 310",
+      eth: "$1 750 ",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -32,15 +32,22 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le fonds de capital-risque crypto Paradigm lance un fonds d’IA de 1,2 milliard de dollars alors qu’il s’élargit au-delà des actifs numériques : BBG Le dernier fonds de la société soutient les startups en intelligence artificielle et en robotique, mais la direction affirme qu'elle reste engagée dans l'investissement en crypto.",
-      "Dinari et tZERO unissent leurs forces pour une plateforme clé en main dédiée aux actions américaines tokenisées Cette initiative intervient alors que les entreprises s'efforcent de construire l'infrastructure pour les actions basées sur la blockchain et débattent de la manière dont les actions tokenisées devraient fonctionner.",
-      "Le BSTR d'Adam Back abandonne la fusion avec le SPAC, recherche un nouvel accord BSTR et Cantor Equity Partners ne mèneront pas à terme leur fusion selon l'accord initial de juillet 2025, l'assemblée des actionnaires étant reportée indéfiniment. a Bitcoin Standard Treasury Company (BSTR) d'Adam Back, la société de trésorerie bitcoin soutenue par le PDG de Blockstream et pionnier du bitcoin, est rnégociation des termes de son introduction en bourse prévue via une fusion avec Cantor Equity Partners I (CEPO), les parties abandonnant la structure initiale convenue l'année dernière afin de mieux refléter les conditions actuelles du marché.",
-      "BNB Chain construit une nouvelle couche 1 pour le trading à haute fréquence et les agents d'IA Le réseau vise à traiter plus de 100 000 transactions par seconde en les diffusant directement, éliminant ainsi les files d'attente publiques afin de rendre les transactions plus rapides et plus sécurisées.",
-      "Les premiers mouvements du portefeuille bitcoin de SpaceX en six mois ne signalent probablement pas de ventes Les traqueurs onchain ont découvert que la société nouvellement cotée a transféré une petite quantité de bitcoin entre ses propres adresses.Rien n'a atteint une plateforme d'échange.",
-      "Le piège inflationniste du Bitcoin se complique alors que le conflit renouvelé au Moyen-Orient fait grimper le prix du pétrole",
-      "Les cryptomonnaies et les actions dégringolent après que Trump a déclaré la fin du cessez-le-feu suite aux frappes en Iran",
-      "La Banque de réserve de l'Inde privilégie toujours l'interdiction des cryptomonnaies pour limiter l'évasion fiscale : Reuters Les régulateurs indiens ont maintenu une posture stricte malgré l’adoption croissante des actifs numériques et des technologies par les gouvernements du monde entier.",
-      "Les validateurs adoptent la récente mise à niveau du XRP Ledger. Mais tout le monde n’est pas encore convaincu Le nouveau logiciel est en tête parmi les validateurs du réseau, mais en nombre de nœuds, il reste derrière l'ancienne version v3.1.3, et l'amendement de sécurité qui l'accompagne fait toujours l'objet d'un vote distinct, plus lent. La mise à niveau nécessite l'activation par 80 % de la liste des validateurs de confiance. Récemment, les développeurs ont sorti des mises à jour majeures (notamment la version 3.1.3 et la toute nouvelle 3.2.0). Ces mises à jour intègrent des 'amendements', c'est-à-dire de nouvelles règles du jeu pour le réseau.  Pourquoi tout le monde n'est pas d'accord ? Parce que ces mises à jour ont provoqué de grosses frayeurs de 'Hard Fork' (une séparation de la blockchain en deux) ",
+      "Les contrats d'IA, et non le bitcoin, sont désormais le moteur des valorisations des mineurs, et Cipher ainsi que TeraWulf semblent sous-évalués, selon un analyste Les analystes de Compass Point, Michael Donovan et Ed Engel, ont déclaré que les marchés accordent peu de crédit aux futurs projets de centres de données liés à l’IA, malgré des milliards de dollars de baux signés.",
+      "La nouvelle organisation à but non lucratif d'Ethereum souhaite devenir le guide de Wall Street pour la crypto Dans l'édition de cette semaine de The Protocol Newsletter, nous explorons Ethereum Institutional, une nouvelle organisation à but non lucratif dédiée à l'éducation des institutions financières et des banques sur Ethereum.",
+      "Aave lance des coffres-forts destinés aux investisseurs fintech avides de rendement Le nouveau produit Stable Vaults d'Aave permet aux portefeuilles, aux plateformes d'échange et aux applications de paiement d'offrir des rendements sur les dépôts en stablecoins",
+      "La vérification de l'âge est la surveillance pour laquelle personne n'a voté KOSA et Chat Control ont tous deux reculé cette semaine sur leurs mesures les plus critiquées, mais ont tous deux maintenu la vérification d’âge obligatoire, le mécanisme discret qui transforme la navigation anonyme en navigation identifiée pour nous tous, soutient Evin McMullen, PDG de Billions.",
+      "Plus de 7,2 milliards de dollars ont migré de LayerZero vers Chainlink CCIP alors que Mantle rejoint l’exode Les migrations vers Chainlink CCIP incluent jusqu'à présent Kelp et Lombard, qui ont tous deux transféré plus d'un milliard de dollars, ainsi que Solv Protocol, Virtuals, Re et les actifs tokenisés de Kraken.",
+      "Swift lance un nouveau registre blockchain pour offrir des services bancaires 24h/24 et 7j/7 à 17 géants mondiaux HSBC, UBS, Wells Fargo et Citi font partie des 17 banques qui se préparent désormais à piloter des transactions en direct utilisant des actifs numériques tokenisés sur la nouvelle plateforme de paiements blockchain de Swift.",
+      "La plus grande bourse d’Amérique latine propose désormais des options sur les contrats à terme bitcoin, ether et solana Ces options se règlent sur des contrats à terme sous-jacents plutôt que sur des crypto-actifs au comptant, n'impliquant aucune garde, transfert ou gestion de jetons. il y a 8 heures",
+      "Le fonds d'investissement Temasek de Singapour déclare que la crypto est exclue, se concentrera sur l'IA",
+      "Sony (oui ce qui on crée PlayStation) obtient une approbation conditionnelle pour créer une banque fiduciaire de stablecoins aux États-Unis",
+      "",
+      "Les paragrphe suivant ; je vais vous parler de Carrefour",
+      "Une entreprise spécialisée dans la finance crypto (appelée Cryptonow) vient de s'associer avec de grands distributeurs en France, dont Carrefour (dans plus de 2 200 magasins). Pour achter des carte cadeaux en BTC tout comme on achete des carte cadeau Amazon Playstore Netflix, ",
+      "Le système a été pensé pour les gens qui trouvent que la crypto sur Internet est trop compliquée ou qui ont peur de se faire pirater leur compte en ligne.",
+      "comment ca marche ? , on achete une carte (comme netflix amazon etc), Sur la carte physique se trouve un QR code et une zone à gratter (comme un ticket de jeu) qui cache une clé privée. Cette carte est en fait un Cold Wallet (un portefeuille crypto physique ultra-sécurisé).",
+      "Une fois rentré chez toi, tu vas sur leur application ou leur site internet, tu scannes le code, et tes euros payés chez Carrefour sont instantanément convertis au cours du jour en Bitcoin (BTC), en Ethereum (ETH) ou en Solana (SOL).",
+      "Quelques gérants de magasins franchisés (comme un Carrefour Express à Arcachon ou des Carrefour City en Normandie) sont de grands fans de crypto. De leur propre initiative, ils ont installé des terminaux de paiement Lightning Network aux caisses. Le gérant d'Arcachon a même proposé une remise de 20 % sur toutes les courses pour les clients qui acceptaient de payer leur caddie en Bitcoin !",
 
 
     ],
@@ -48,7 +55,7 @@ const CRYPTO_DATA = {
 
     conseil: "Si vous investissez dans la crypto faites attention le btc remonte et si vous souhaitez investir ailleur BlackRock a emis un etf Ethena donc il risque d'augmenter regarder ce projet il est tres bien ",
 
-    conclusion: "pas beacoup d'info mais certaine sont tres bien ",
+    conclusion: "D'enormes changement vinnent entre Swift qui est le plus gros reseaux des bank fait un nouveau registre , Carrefour qui donne du BTC et Sonny le créateur d'une plateforme de jeu qui en vend 540Million a l'année rentre dans le monde de la crypto , et Aave qui comprend que les gens veullent de l'argent.",
   },
 
 
