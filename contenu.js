@@ -1,4 +1,4 @@
-ù$*ù$// ============================================================
+// ============================================================
 //  CRYPTODIGEST — Fichier de contenu
 //  Édite ce fichier dans VSCode, puis ouvre index.html
 //  dans ton navigateur (double-clic ou Live Server).
