@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "la guerre ce stop et les crypto tombes",
+    titre: "le Royaume Unis",
 
-    intro: "des allainces tombes mais ce n'est pas grave",
+    intro: "le Royaume unis veullent vraiment investir dans la crypto",
 
     marche: {
-      btc: "$ 63 486",
-      eth: "$1 786 ",
+      btc: "$ 64 247",
+      eth: "$1 823",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -29,26 +29,25 @@ const CRYPTO_DATA = {
       "MiCa change des lignes a surveiller",
       "31 juillet : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
       "fin d'été l'OUSD",
+      "a mise à jour des terminaux de paiement (TPE) : Le géant Ingenico (qui fabrique la quasi-totalité des terminaux de cartes bleues que tu vois dans les magasins en France) a déjà créé des logiciels pour intégrer les paiements crypto et stablecoins directement sur l'écran du terminal. Les commerçants n'ont plus qu'à activer l'option.",
+      "La réglementation MiCA (l'harmonisation européenne) : L'Europe a mis en place des lois ultra-strictes pour encadrer tout ça. Cela donne le feu vert légal absolu aux banques pour intégrer ces technologies dans leurs applications classiques (comme l'application de la Caisse d'Épargne ou du Crédit Agricole).",
     ],
 
     actualites: [
-      "Le fonds de capital-risque crypto Paradigm lance un fonds d’IA de 1,2 milliard de dollars alors qu’il s’élargit au-delà des actifs numériques : BBG Le dernier fonds de la société soutient les startups en intelligence artificielle et en robotique, mais la direction affirme qu'elle reste engagée dans l'investissement en crypto.",
-      "Dinari et tZERO unissent leurs forces pour une plateforme clé en main dédiée aux actions américaines tokenisées Cette initiative intervient alors que les entreprises s'efforcent de construire l'infrastructure pour les actions basées sur la blockchain et débattent de la manière dont les actions tokenisées devraient fonctionner.",
-      "Le BSTR d'Adam Back abandonne la fusion avec le SPAC, recherche un nouvel accord BSTR et Cantor Equity Partners ne mèneront pas à terme leur fusion selon l'accord initial de juillet 2025, l'assemblée des actionnaires étant reportée indéfiniment. a Bitcoin Standard Treasury Company (BSTR) d'Adam Back, la société de trésorerie bitcoin soutenue par le PDG de Blockstream et pionnier du bitcoin, est rnégociation des termes de son introduction en bourse prévue via une fusion avec Cantor Equity Partners I (CEPO), les parties abandonnant la structure initiale convenue l'année dernière afin de mieux refléter les conditions actuelles du marché.",
-      "BNB Chain construit une nouvelle couche 1 pour le trading à haute fréquence et les agents d'IA Le réseau vise à traiter plus de 100 000 transactions par seconde en les diffusant directement, éliminant ainsi les files d'attente publiques afin de rendre les transactions plus rapides et plus sécurisées.",
-      "Les premiers mouvements du portefeuille bitcoin de SpaceX en six mois ne signalent probablement pas de ventes Les traqueurs onchain ont découvert que la société nouvellement cotée a transféré une petite quantité de bitcoin entre ses propres adresses.Rien n'a atteint une plateforme d'échange.",
-      "Le piège inflationniste du Bitcoin se complique alors que le conflit renouvelé au Moyen-Orient fait grimper le prix du pétrole",
-      "Les cryptomonnaies et les actions dégringolent après que Trump a déclaré la fin du cessez-le-feu suite aux frappes en Iran",
-      "La Banque de réserve de l'Inde privilégie toujours l'interdiction des cryptomonnaies pour limiter l'évasion fiscale : Reuters Les régulateurs indiens ont maintenu une posture stricte malgré l’adoption croissante des actifs numériques et des technologies par les gouvernements du monde entier.",
-      "Les validateurs adoptent la récente mise à niveau du XRP Ledger. Mais tout le monde n’est pas encore convaincu Le nouveau logiciel est en tête parmi les validateurs du réseau, mais en nombre de nœuds, il reste derrière l'ancienne version v3.1.3, et l'amendement de sécurité qui l'accompagne fait toujours l'objet d'un vote distinct, plus lent. La mise à niveau nécessite l'activation par 80 % de la liste des validateurs de confiance. Récemment, les développeurs ont sorti des mises à jour majeures (notamment la version 3.1.3 et la toute nouvelle 3.2.0). Ces mises à jour intègrent des 'amendements', c'est-à-dire de nouvelles règles du jeu pour le réseau.  Pourquoi tout le monde n'est pas d'accord ? Parce que ces mises à jour ont provoqué de grosses frayeurs de 'Hard Fork' (une séparation de la blockchain en deux) ",
-
+      "Le Royaume-Uni a enfin démontré son sérieux en matière de cryptomonnaies Plusieurs mesures réglementaires récentes indiquent que le Royaume-Uni pourrait enfin cesser de tergiverser en matière de cryptomonnaies, affirme Chet Shah, PDG de Wirex.",
+      "La société de trésorerie Bitcoin Empery Digital a vendu environ la moitié de sa réserve de BTC",
+      "L'IA a découvert un bug sur Ethereum pouvant provoquer la mise hors ligne des validateurs, mais les humains ont dû le prouver La Fondation Ethereum a dirigé des agents d'IA coordonnés vers le logiciel exécuté par ses validateurs et a provoqué un crash déclenchable à distance. Elle a également obtenu une série de constats confiants et bien rédigés qui n'étaient en réalité pas des bugs.",
+      "Les analystes de Bitcoin prévoient un prix entre 300 000 $ et 500 000 $ en 2029. Les chiffres disent non Les analystes prévoient un rallye jusqu'à 300 000 $ ou plus d'ici 2029. Mais des données clés suggèrent que l'ère des progressions fulgurantes pourrait être terminée.",
+      "une étude montre qu'environ 12 % sois 6.3M des adultes français sur 53 Million adulte possèdent déjà des crypto-actifs. C'est déjà énorme ! Cela veut dire qu'il y a plus de personnes qui possèdent de la crypto en France que de personnes qui ont un livret d'épargne classique de type PEA pour les actions.",
+      "Et donc une autre étude montre que 18% des adulte francais sois 9.5 Million en plus des 6 actuelle veulent eux aussi sy mettre toujours sur 53 Million",
+      "Cela explique pourquoi la Société Générale crée son stablecoin, pourquoi Stripe s'y met et pourquoi des applications comme Deblock cartonnent. Ce n'est plus un petit marché caché : c'est un Français adulte sur cinq. Les banques traditionnelles sont obligées de s'adapter, car si elles ne le font pas, elles savent que ces 10 millions de clients potentiels iront placer leur argent ailleurs.",
 
     ],
 
 
     conseil: "Si vous investissez dans la crypto faites attention le btc remonte et si vous souhaitez investir ailleur BlackRock a emis un etf Ethena donc il risque d'augmenter regarder ce projet il est tres bien ",
 
-    conclusion: "pas beacoup d'info mais certaine sont tres bien ",
+    conclusion: "La crypto est un marché qui a déjà été très fortement investi par le Royaume Uni. Il est donc temps de se mettre à l'écart et de s'investir dans des projets de crypto et faire parti des 18% qui veulent",
   },
 
 
