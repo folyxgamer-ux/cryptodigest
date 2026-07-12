@@ -10,19 +10,19 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "le Royaume Unis",
+    titre: "les stable coins",
 
-    intro: "le Royaume unis veullent vraiment investir dans la crypto",
+    intro: "voyons voir les stable coins",
 
     marche: {
-      btc: "$ 64 247",
-      eth: "$1 823",
+      btc: "$ 64 160",
+      eth: "$1 820",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
 
     alertes: [
-      "Clarity Act date de fin le 6 juillet",
+      "Clarity Act date de fin le 10 aout",
       "surveiller Quivalis",
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
       "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
@@ -34,13 +34,9 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le Royaume-Uni a enfin démontré son sérieux en matière de cryptomonnaies Plusieurs mesures réglementaires récentes indiquent que le Royaume-Uni pourrait enfin cesser de tergiverser en matière de cryptomonnaies, affirme Chet Shah, PDG de Wirex.",
-      "La société de trésorerie Bitcoin Empery Digital a vendu environ la moitié de sa réserve de BTC",
-      "L'IA a découvert un bug sur Ethereum pouvant provoquer la mise hors ligne des validateurs, mais les humains ont dû le prouver La Fondation Ethereum a dirigé des agents d'IA coordonnés vers le logiciel exécuté par ses validateurs et a provoqué un crash déclenchable à distance. Elle a également obtenu une série de constats confiants et bien rédigés qui n'étaient en réalité pas des bugs.",
-      "Les analystes de Bitcoin prévoient un prix entre 300 000 $ et 500 000 $ en 2029. Les chiffres disent non Les analystes prévoient un rallye jusqu'à 300 000 $ ou plus d'ici 2029. Mais des données clés suggèrent que l'ère des progressions fulgurantes pourrait être terminée.",
-      "une étude montre qu'environ 12 % sois 6.3M des adultes français sur 53 Million adulte possèdent déjà des crypto-actifs. C'est déjà énorme ! Cela veut dire qu'il y a plus de personnes qui possèdent de la crypto en France que de personnes qui ont un livret d'épargne classique de type PEA pour les actions.",
-      "Et donc une autre étude montre que 18% des adulte francais sois 9.5 Million en plus des 6 actuelle veulent eux aussi sy mettre toujours sur 53 Million",
-      "Cela explique pourquoi la Société Générale crée son stablecoin, pourquoi Stripe s'y met et pourquoi des applications comme Deblock cartonnent. Ce n'est plus un petit marché caché : c'est un Français adulte sur cinq. Les banques traditionnelles sont obligées de s'adapter, car si elles ne le font pas, elles savent que ces 10 millions de clients potentiels iront placer leur argent ailleurs.",
+      "La capitalisation boursière des stablecoins a diminué de 10 milliards de dollars depuis mai, mais un analyste ne voit aucune raison de paniquer Le marché a diminué de 7, 7 milliards de dollars rien qu’en juin, soit le plus important montant en dollars depuis le crash de Terra - Luna en mai 2022, mais les stablecoins reprendront vraisemblablement leur croissance à long terme, a déclaré un analyste.",
+      "Ripple a été proche de fermer ses portes plutôt que de lutter contre la Securities and Exchange Commission des États-Unis, a déclaré le directeur général Brad Garlinghouse, décrivant une décision à laquelle lui et le cofondateur Chris Larsen ont été confrontés après que l'agence a poursuivi la société en 2020.",
+      "La date limite du fork BIP 110 de Bitcoin approche avec un soutien des mineurs à zéro La proposition BIP 110 limiterait les données arbitraires sur Bitcoin pendant un an, mais Saylor, Adam Back et d'autres estiment que transformer un différend lié au spam en un conflit de consensus pourrait créer un risque plus important que le spam lui-même.",
 
     ],
 
@@ -60,31 +56,40 @@ const CRYPTO_DATA = {
     intro: "La semaine écoulée a été marquée par des turbulences significatives sur le marché des cryptomonnaies, avec des fluctuations de prix notables et des développements réglementaires qui ont capté l'attention des investisseurs. Malgré ces défis, certains segments du marché ont montré des signes de résilience, offrant des opportunités pour ceux qui restent informés et stratégiques dans leurs décisions d'investissement.",
 
     marche: {
-      btc_7j: "0.7%",
-      eth_7j: "4.3%",
+      btc_7j: "2.5%",
+      eth_7j: "7.8%",
       // dominance: "58,1 %",
-      commentaire: "Hausse imminente"
+      commentaire: "Hausse "
     },
 
     evenements: [
-      "Clarity Act date de fin le 6 juillet",
-      "30 juin echeance MiCA",
+      "Clarity Act date de fin le 10 aout",
       "surveiller Quivalis",
       "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
+      "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
+      "MiCa change des lignes a surveiller",
+      "31 juillet : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
+      "fin d'été l'OUSD",
+      "a mise à jour des terminaux de paiement (TPE) : Le géant Ingenico (qui fabrique la quasi-totalité des terminaux de cartes bleues que tu vois dans les magasins en France) a déjà créé des logiciels pour intégrer les paiements crypto et stablecoins directement sur l'écran du terminal. Les commerçants n'ont plus qu'à activer l'option.",
+      "La réglementation MiCA (l'harmonisation européenne) : L'Europe a mis en place des lois ultra-strictes pour encadrer tout ça. Cela donne le feu vert légal absolu aux banques pour intégrer ces technologies dans leurs applications classiques (comme l'application de la Caisse d'Épargne ou du Crédit Agricole).",
     ],
 
     actualites: [
-      "Le dossier sensible : Binance joue sa survie en Europe (Le choix de la France) 🇫🇷 C'est l'actualité réglementaire majeure de la semaine.Avec l'entrée en vigueur stricte de la réglementation européenne MiCA (qui encadre la crypto en Europe), les règles du jeu ont changé. Ce qui se passe : Selon des informations partagées cette semaine, la France est désormais devenue la seule option solide de Binance pour conserver son accès légal au marché européen. L'enjeu : Des discussions cruciales sont en cours avec l'AMF(l'Autorité des Marchés Financiers en France). Si Binance n'obtient pas le feu vert définitif de la France, la plateforme pourrait se retrouver bloquée ou très lourdement restreinte pour l'ensemble des utilisateurs européens. C'est un coup de poker stressant pour le géant mondial.",
-      "Actualité France : Alerte sécurité sur le vol de cryptos à Marseille 🚨 Une actualité plus sombre mais essentielle à connaître concernant la sécurité réelle de tes actifs : Les faits : La police française a arrêté quatre suspects suite à une violente tentative de cambriolage et d'extorsion commise le 13 juin à Marseille. Les criminels cherchaient à séquestrer des victimes pour leur voler de force leurs accès crypto. La tendance : Les autorités ont révélé que ces agressions ciblées('crypto - jacking' à domicile) sont en forte hausse, avec près de 70 incidents recensés en France depuis le début de l'année 2026. La leçon : Cela rappelle l'importance cruciale de la discrétion (ne jamais crier sur les réseaux sociaux ou à des inconnus combien on possède de crypto) et d'utiliser des portefeuilles sécurisés comme des clés Ledger, sans laisser ses phrases de récupération(seed phrases) accessibles à n'importe qui.",
-      "Économie & Bourse : Goldman Sachs jette un froid sur le Bitcoin 📉On en parlait un peu lors de la réunion de la Fed, mais les grandes banques traditionnelles ont ajusté leurs tirs cette semaine :  L'annonce : Le géant bancaire Goldman Sachs a officiellement abaissé ses objectifs sur l'or et a averti qu'il n'y aurait probablement pas de baisse des taux d'intérêt avant 2027.  Pourquoi c'est sensible ? Comme on l'a vu ensemble, le Bitcoin adore quand les taux baissent (car l'argent devient gratuit et coule à flots). Cet horizon repoussé à 2027 par les banquiers crée une pression à court terme sur",
-      "Tout n'est pas négatif, l'écosystème continue de construire l'avenir !Du 13 au 21 juin, toute la communauté Web3 européenne s'est réunie pour la Blockchain Week Berlin 2026.  Les développeurs y ont conçu les outils de demain, principalement axés sur la finance décentralisée (DeFi), la protection de la vie privée et la sécurisation des contrats intelligents. Le secteur continue de mûrir très vite, loin des simples spéculations de prix.  ",
-
+      " Bitcoin oscille entre 61 500 $ et 64 500 $, sans franchir de nouveaux sommets, la volatilité reste modérée. Reprise technique sur ETF US (+197 M$) après huit semaines de sorties, soutien à la zone des 64 000 $ mais aucune tendance claire ne se dégage ; la prudence prévaut en attendant une sortie nette de la zone 60–70 k$",
+      "Ethereum rebondit vers 1 800 $, boosté par les entrées sur les ETF américain, mais le marché reste prudent .",
+      "Progression de la tokenisation : SWIFT lance officiellement son infrastructure blockchain (Hyperledger Besu x Chainlink CCIP) connectant 17 grandes banques pour des dépôts tokenisés, accélération notable du secteur RWA .",
+      " DAC8 (UE) : collecte généralisée des données fiscales sur les détenteurs crypto depuis janvier, avec début des transferts inter-gouvernementaux en 2027. Risques d’exfiltration et de fuite des KYC documentés (ex : Ledger, Coinbase, Waltio) déjà observés .",
+      "Virtual Protocol (VIRTUAL) s’envole (+16 %), migration majeure de tokens sur le cross-chain Chainlink, intégration Robinhood Chain IA. Volume à +385 % ; résistance clé à 0,65$ surveillée pour un breakout court terme .",
+      "Crypto scams et hacks récurrents : attaque supply-chain sur jscrambler (npm), hameçonnage SecondFi, piratage Bonzo Lend (Hedera) via manipulation oracles, pertes cumulées importantes .",
+      "CLARITY Act (régulation crypto US) : le texte piétine au Sénat (il manque 7 voix Démocrates), contexte polarisé par l’enrichissement crypto de Trump ; vote renvoyé, échéance critique avant le 10 août .",
+      "Pression réglementaire accrue sur la DeFi (CFTC, CME, ICE tentent de forcer Hyperliquid à s’enregistrer), avec arbitrages attendus sans consensus législatif .",
+      "Signalement de pression vendeuse si BTC repasse sous 61 k $, prudence de rigueur (analyse Santiment : pas d’accumulation “whale”, rally technique fragile) .",
+      " Flambée du nombre de scams et sentiment exacerbé autour de l’impunité perçue, selon les retours d’utilisateurs .",
 
 
     ],
-    analyse: "L'analyse de la semaine révèle que malgré les turbulences, le marché des cryptomonnaies a montré une résilience notable. Les investisseurs ont été confrontés à des défis réglementaires et à des fluctuations de prix, mais certains segments, notamment la DeFi institutionnelle et la tokenisation des actifs réels, ont enregistré des développements positifs. L'IPO de SpaceX et la révélation de sa trésorerie en Bitcoin ont également eu un impact significatif sur le sentiment du marché, renforçant l'intérêt pour les actifs numériques. Il est essentiel pour les investisseurs de rester informés et de surveiller les évolutions réglementaires et économiques qui pourraient influencer le marché dans les semaines à venir.",
-
-    conclusion: "Entre l'adoption par des entreprises de pointe et le grand nettoyage réglementaire de Binance en Europe, la crypto est de plus en plus prise au sérieux par les États et les institutions.",
+    // analyse: 
+    conclusion: "Semaine dominée par l’attentisme, les risques liés à la régulation, les enjeux de sécurité, et une forte activité sur l’écosystème tokens/DeFi. Urgence : surveiller la sortie réglementaire US, la sécurité contractuelle et les flux au sein du RWA..",
   },
 
 
