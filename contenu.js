@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "les stable coins",
+    titre: "USA recommence...",
 
-    intro: "voyons voir les stable coins",
+    intro: "les guerre reffons surface",
 
     marche: {
-      btc: "$ 64 160",
-      eth: "$1 820",
+      btc: "$ 64 531",
+      eth: "$1 873",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -34,16 +34,17 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "La capitalisation boursière des stablecoins a diminué de 10 milliards de dollars depuis mai, mais un analyste ne voit aucune raison de paniquer Le marché a diminué de 7, 7 milliards de dollars rien qu’en juin, soit le plus important montant en dollars depuis le crash de Terra - Luna en mai 2022, mais les stablecoins reprendront vraisemblablement leur croissance à long terme, a déclaré un analyste.",
-      "Ripple a été proche de fermer ses portes plutôt que de lutter contre la Securities and Exchange Commission des États-Unis, a déclaré le directeur général Brad Garlinghouse, décrivant une décision à laquelle lui et le cofondateur Chris Larsen ont été confrontés après que l'agence a poursuivi la société en 2020.",
-      "La date limite du fork BIP 110 de Bitcoin approche avec un soutien des mineurs à zéro La proposition BIP 110 limiterait les données arbitraires sur Bitcoin pendant un an, mais Saylor, Adam Back et d'autres estiment que transformer un différend lié au spam en un conflit de consensus pourrait créer un risque plus important que le spam lui-même.",
-
+    "L'escalade entre les États-Unis et l'Iran pèse sur le bitcoin et les actions tandis que le pétrole grimpe",
+    "Les marchés prédictifs ont largement surpassé les bookmakers traditionnels lors d’une énorme percée de 50 milliards de dollars liée à la Coupe du Monde",
+    "Le gouvernement américain transfère 288 millions de dollars en bitcoin et ether saisis vers Coinbase Prime Les pièces provenant des saisies de Farace et BTC-e sont passées par de nouveaux portefeuilles avant d'atterrir sur la plateforme d'échange, en dépit de l'ordre précédent du président Donald Trump interdisant la vente des réserves.",
+    "Strategy augmente sa réserve à 3 milliards de dollars l’entreprise anticipe-t-elle une nouvelle baisse du Bitcoin ?",
+    "La Bolivie envisage d'utiliser le stablecoin USDT comme moyen de paiement Alors que le stablecoin USDT de Tether peine à intégrer les juridictions réglementaires européennes et américaines, il pourrait bien devenir un moyen de paiement officiel en Bolivie. Une éventualité actuellement étudiée par le gouvernement, selon son ministre de l’Économie Gabriel Espinoza.",
     ],
 
 
     conseil: "Si vous investissez dans la crypto faites attention le btc remonte et si vous souhaitez investir ailleur BlackRock a emis un etf Ethena donc il risque d'augmenter regarder ce projet il est tres bien ",
 
-    conclusion: "La crypto est un marché qui a déjà été très fortement investi par le Royaume Uni. Il est donc temps de se mettre à l'écart et de s'investir dans des projets de crypto et faire parti des 18% qui veulent",
+    conclusion: "L'USA recommence et veux meme imposer 20% de taxe sur le detroit d'ormuz ",
   },
 
 
