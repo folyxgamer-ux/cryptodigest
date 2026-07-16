@@ -10,13 +10,15 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
+    titre: "USA recommence...",
     titre: "La Grande Fusion : Quand Wall Street et la Crypto Redessinent l'Avenir de l'Argent",
 
+    intro: "les guerre reffons surface",
     intro: "voyons voir les stable coinsLe monde de la finance vit un tournant historique en cette année 2026 : les géants traditionnels (Visa, Citadel, Stripe) ne se contentent plus d'observer la crypto, ils la rachètent et l'intègrent à vitesse grand V. Nous assistons à la naissance d'un système financier unifié où les actions de bourse se transforment en jetons numériques (tokenisation), où des acteurs majeurs comme Visa propulsent l'Open USD (OUSD) via de nouvelles plateformes d'entreprise pour étouffer la concurrence, et où des institutions comme Citadel valorisent Crypto.com à 20 milliards de dollars pour marier actions et dérivés on-chain. Même le paysage des paiements pourrait être totalement bouleversé par l'offre titanesque de 53 milliards de dollars de Stripe pour racheter PayPal, un pari fou pour contrôler les portefeuilles des consommateurs et l'infrastructure des stablecoins de demain.",
 
     marche: {
-      btc: "$ 64 160",
-      eth: "$1 820",
+      btc: "$ 64 531",
+      eth: "$1 873",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -34,6 +36,11 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
+      "L'escalade entre les États-Unis et l'Iran pèse sur le bitcoin et les actions tandis que le pétrole grimpe",
+      "Les marchés prédictifs ont largement surpassé les bookmakers traditionnels lors d’une énorme percée de 50 milliards de dollars liée à la Coupe du Monde",
+      "Le gouvernement américain transfère 288 millions de dollars en bitcoin et ether saisis vers Coinbase Prime Les pièces provenant des saisies de Farace et BTC-e sont passées par de nouveaux portefeuilles avant d'atterrir sur la plateforme d'échange, en dépit de l'ordre précédent du président Donald Trump interdisant la vente des réserves.",
+      "Strategy augmente sa réserve à 3 milliards de dollars l’entreprise anticipe-t-elle une nouvelle baisse du Bitcoin ?",
+      "La Bolivie envisage d'utiliser le stablecoin USDT comme moyen de paiement Alors que le stablecoin USDT de Tether peine à intégrer les juridictions réglementaires européennes et américaines, il pourrait bien devenir un moyen de paiement officiel en Bolivie. Une éventualité actuellement étudiée par le gouvernement, selon son ministre de l’Économie Gabriel Espinoza.",
       "Un portefeuille Bitcoin, inactif depuis le pic de 2017, vient de déplacer 383 millions de dollars Les pièces ont été transférées vers une nouvelle adresse plutôt que vers une plateforme d’échange, donc aucune vente n’a encore eu lieu.",
       "Citadel Securities investit 400 millions de dollars dans Crypto.com, valorisant la plateforme à 20 milliards de dollars Le premier tour de financement institutionnel de la plateforme l’évalue à 20 milliards de dollars et financera l’expansion vers les titres et dérivés tokenisés.",
       "L'offre de 53 milliards de dollars de Stripe pour PayPal est un pari à haut enjeu visant à maîtriser l'avenir des paiements numériques Si Stripe acquiert PayPal, le véritable enjeu pourrait être les portefeuilles consommateurs, l’émission de stablecoins ou l’infrastructure alimentant la prochaine génération de paiements numériques.",
@@ -51,6 +58,7 @@ const CRYPTO_DATA = {
 
     conseil: "Si vous investissez dans la crypto faites attention le btc remonte et si vous souhaitez investir ailleur BlackRock a emis un etf Ethena donc il risque d'augmenter regarder ce projet il est tres bien ",
 
+    conclusion: "L'USA recommence et veux meme imposer 20% de taxe sur le detroit d'ormuz ",
     conclusion: "Ne cherche plus à séparer 'la finance classique' de 'la crypto'. L'arrivée de l'OUSD soutenu par Visa et le rachat potentiel de PayPal par Stripe prouvent que la blockchain est devenue l'infrastructure standard des paiements mondiaux. Pour tes propres investissements, privilégie les projets et les plateformes qui construisent des ponts réels avec l'économie traditionnelle (tokenisation d'actifs, conformité réglementaire comme MiCA ou la loi Clarity) plutôt que de spéculer sur des jetons isolés. C'est là que se crée la véritable valeur à long terme.",
   },
 
