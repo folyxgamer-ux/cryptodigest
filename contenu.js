@@ -10,15 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "USA recommence...",
-    titre: "La Grande Fusion : Quand Wall Street et la Crypto Redessinent l'Avenir de l'Argent",
+    titre: "Le Grand Choc des Titans : Quand l'Infrastructure Mondiale Bascule sur la Blockchain",
 
-    intro: "les guerre reffons surface",
-    intro: "voyons voir les stable coinsLe monde de la finance vit un tournant historique en cette année 2026 : les géants traditionnels (Visa, Citadel, Stripe) ne se contentent plus d'observer la crypto, ils la rachètent et l'intègrent à vitesse grand V. Nous assistons à la naissance d'un système financier unifié où les actions de bourse se transforment en jetons numériques (tokenisation), où des acteurs majeurs comme Visa propulsent l'Open USD (OUSD) via de nouvelles plateformes d'entreprise pour étouffer la concurrence, et où des institutions comme Citadel valorisent Crypto.com à 20 milliards de dollars pour marier actions et dérivés on-chain. Même le paysage des paiements pourrait être totalement bouleversé par l'offre titanesque de 53 milliards de dollars de Stripe pour racheter PayPal, un pari fou pour contrôler les portefeuilles des consommateurs et l'infrastructure des stablecoins de demain.",
+    intro: "Le monde de l'argent vit sa plus grande transformation depuis l'invention de la carte bancaire. Aujourd'hui, la frontière entre la finance traditionnelle (la Bourse, les banques) et la finance du futur (la Crypto, la Blockchain) est en train de disparaître. Les géants de Wall Street et de la Tech ne combattent plus la crypto : ils copient sa technologie, rachètent ses infrastructures et créent les outils de demain pour contrôler les tuyaux par lesquels transitent des milliards de dollars.",
 
     marche: {
-      btc: "$ 64 531",
-      eth: "$1 873",
+      btc: "$ 64 160",
+      eth: "$1 820",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -36,30 +34,22 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "L'escalade entre les États-Unis et l'Iran pèse sur le bitcoin et les actions tandis que le pétrole grimpe",
-      "Les marchés prédictifs ont largement surpassé les bookmakers traditionnels lors d’une énorme percée de 50 milliards de dollars liée à la Coupe du Monde",
-      "Le gouvernement américain transfère 288 millions de dollars en bitcoin et ether saisis vers Coinbase Prime Les pièces provenant des saisies de Farace et BTC-e sont passées par de nouveaux portefeuilles avant d'atterrir sur la plateforme d'échange, en dépit de l'ordre précédent du président Donald Trump interdisant la vente des réserves.",
-      "Strategy augmente sa réserve à 3 milliards de dollars l’entreprise anticipe-t-elle une nouvelle baisse du Bitcoin ?",
-      "La Bolivie envisage d'utiliser le stablecoin USDT comme moyen de paiement Alors que le stablecoin USDT de Tether peine à intégrer les juridictions réglementaires européennes et américaines, il pourrait bien devenir un moyen de paiement officiel en Bolivie. Une éventualité actuellement étudiée par le gouvernement, selon son ministre de l’Économie Gabriel Espinoza.",
-      "Un portefeuille Bitcoin, inactif depuis le pic de 2017, vient de déplacer 383 millions de dollars Les pièces ont été transférées vers une nouvelle adresse plutôt que vers une plateforme d’échange, donc aucune vente n’a encore eu lieu.",
-      "Citadel Securities investit 400 millions de dollars dans Crypto.com, valorisant la plateforme à 20 milliards de dollars Le premier tour de financement institutionnel de la plateforme l’évalue à 20 milliards de dollars et financera l’expansion vers les titres et dérivés tokenisés.",
-      "L'offre de 53 milliards de dollars de Stripe pour PayPal est un pari à haut enjeu visant à maîtriser l'avenir des paiements numériques Si Stripe acquiert PayPal, le véritable enjeu pourrait être les portefeuilles consommateurs, l’émission de stablecoins ou l’infrastructure alimentant la prochaine génération de paiements numériques.",
-      "Visa soutient Open USD avec une nouvelle plateforme de stablecoin alors que Circle fait face à une nouvelle concurrence Visa a lancé une plateforme de stablecoins permettant aux banques et aux fintechs d’émettre, de gérer et de régler des dollars numériques via son réseau de paiement. La société annoncé jeudi que le lancement de la Visa Stablecoin Platform (VSP), un service d'entreprise permettant aux institutions d'émettre, de stocker, de transférer et de racheter des stablecoins via un système unique géré par Visa. La plateforme a été lancée avec le support d'Open USD (OpenUSD), un stablecoin récemment introduit par Open Standard, et comprend des outils pour la création et le rachat du token ainsi qu'une infrastructure de portefeuilles pour la gestion des actifs onchain.",
-      "La loi Clarity est l'effort de protection des consommateurs le plus important depuis des années Les consommateurs ne devraient pas avoir à attendre une nouvelle crise pour bénéficier des protections qu'ils méritent, soutient Summer Mersinger, PDG de la Blockchain Association.",
-      "La société de courtage en crypto Alpaca lève 135 millions de dollars pour une infrastructure d’actions tokenisées",
-      "Galaxy cible le rendement des stablecoins institutionnels avec de nouveaux coffres DeFi La société de services financiers cryptographiques a lancé Galaxy Curator, une plateforme basée sur Morpho qui offre aux 2 400 clients institutionnels de Fireblocks un accès aux stratégies de rendement onchain.",
-      "Dans la course à enjeux élevés pour construire un système financier ouvert spécifiquement destiné aux bots IA",
-      "Tether investit 20 millions de dollars dans la néobanque argentine Ualá dans le cadre de son expansion en Amérique latine Le PDG de Ualá a précisé que Tether agit uniquement en tant qu'investisseur financier, citant les réglementations régionales actuelles empêchant toute intégration immédiate de l'USDT.",
-      "Les États-Unis ajoutent quatre portefeuilles cryptographiques de la banque centrale iranienne aux sanctions, Tether gèle 131 millions de dollars de contenus Le gel vise les adresses basées sur TRON détenant plus de 165 millions de dollars, empêchant ainsi le transfert ou le remboursement de ces fonds spécifiques.",
-      "Le Sénat américain s’oppose à l’unanimité à la clémence en faveur du fondateur de FTX, Sam Bankman-Fried La résolution non contraignante a été adoptée sans objection après que Bankman-Fried ait demandé la clémence, quelques mois après que Trump ait gracié d'autres grandes figures de la crypto, dont Changpeng Zhao et Ross Ulbricht.",
+      "Les traders de Polymarket réduisent les chances de passage de la Clarity Act à un niveau historiquement bas alors que le retard du Sénat se prolonge",
+      "Stripe et Swift s'affrontent pour contrôler la prochaine génération d'infrastructures de paiements mondiaux Les experts en crypto et blockchain affirment que les mouvements de cette semaine montrent que les deux entreprises financières établies rivalisent de plus en plus pour contrôler l'infrastructure derrière les paiements numériques.",
+      "Circle a eu l'autorisation d'etres une Bank Crypto et a eu agrémentation MiCa (il avais deja avant mais la pour la bank) pour faire simple c'est une bank neotech crypto vous venez et vous avez de la crypto comme Deblock en version Geant",
+      "Cardano confie le développement central à des équipes externes dans le cadre de sa démarche de décentralisation Input Output transférera le contrôle du nœud Haskell, de Plutus, d'Hydra et d'autres composants alors que le fondateur Charles Hoskinson affirme que le réseau doit changer et recommencer à croître.",
+      "À l’intérieur du pari audacieux de Robinhood pour intégrer 10 millions d’utilisateurs occasionnels à la finance décentralisée La société affirme que son avantage réside dans l'intégration des clients particuliers sur la blockchain, mais l'activité initiale reste dominée par les memecoins, tandis que sa vision originelle de la tokenisation demeure limitée.",
+      "Le groupe japonais SBI construit le premier empire asiatique d’actifs numériques transfrontaliers Le géant des valeurs mobilières a annoncé aujourd'hui la consolidation de Coinhako, basé à Singapour, dans le cadre d'une expansion régionale rapide incluant un partenariat de tokenisation avec Ondo Finance.",
+      "Le Bitcoin fait face à de nouveaux vents contraires alors que Kimi de Chine bat Claude et GPT dans un benchmark de codage",
+      "Le PDG d'Airbnb affirme que le compte X a été piraté, l'attaquant a publié des contenus générés par IA de mauvaise qualité sur la tokenisation",
+      "Le gestionnaire d'actifs de 1,9 trillion de dollars, T. Rowe Price, mise sur la gestion active avec son premier ETF crypto multi-tokens",
 
     ],
 
 
-    conseil: "Si vous investissez dans la crypto faites attention le btc remonte et si vous souhaitez investir ailleur BlackRock a emis un etf Ethena donc il risque d'augmenter regarder ce projet il est tres bien ",
+    conseil: "Si tu veux investir ou positionner tes pions intelligemment, observe les technologies qui connectent le monde réel à la blockchain : les stablecoins réglementés (comme l'OUSD ou l'USDC), les plateformes de paiement rapide (Stripe) et la tokenisation des vrais actifs. C'est là que les plus grosses fortunes de la décennie vont se construire, car c'est là que va l'argent de Google, de Visa et des plus grandes banques mondiales.",
 
-    conclusion: "L'USA recommence et veux meme imposer 20% de taxe sur le detroit d'ormuz ",
-    conclusion: "Ne cherche plus à séparer 'la finance classique' de 'la crypto'. L'arrivée de l'OUSD soutenu par Visa et le rachat potentiel de PayPal par Stripe prouvent que la blockchain est devenue l'infrastructure standard des paiements mondiaux. Pour tes propres investissements, privilégie les projets et les plateformes qui construisent des ponts réels avec l'économie traditionnelle (tokenisation d'actifs, conformité réglementaire comme MiCA ou la loi Clarity) plutôt que de spéculer sur des jetons isolés. C'est là que se crée la véritable valeur à long terme.",
+    conclusion: "La Bourse et les Actions se numérisent : Les actions d'entreprises (comme SpaceX) se transforment en jetons numériques (tokenisation) pour s'échanger plus vite. Des applications comme Coinbase ou Robinhood permettent désormais d'acheter des actions classiques et des cryptos au même endroit. La guerre des Stablecoins et des Banques: L'émetteur de l'USDC(Circle) est devenu une véritable banque officielle en Europe grâce aux lois MiCA.En parallèle, des géants comme Visa, Google et Stripe lancent l'OUSD (Open USD), un stablecoin ultra-puissant qui reverse ses intérêts aux entreprises pour tuer la concurrence de l'USDT La riposte des États(L'Euro Numérique) : Pour ne pas perdre le contrôle face à ces stablecoins privés, la Banque Centrale Européenne prépare l'Euro Numérique pour 2027- 2029. Ce sera une sorte de PayPal public et gratuit, limité à 3 000 €, utilisable même sans internet, pour moderniser le vieil Euro.",
   },
 
 
@@ -137,7 +127,7 @@ const CRYPTO_DATA = {
       "RWA & Régulation : Le grand sujet de fond aura été le blocage politique. Les banques traditionnelles (menées par le lobbying agressif de JPMorgan) ont réussi à freiner le Digital Asset Market Clarity Act au Sénat américain, retardant l'explosion attendue des protocoles DeFi institutionnels et des actifs du monde réel (RWA).",
     ],
 
-    // perspectives: "💡 Juin s'annonce chaud. La saison des altcoins est historiquement forte en juin-juillet lors des cycles haussiers. Surveiller le dominance BTC : si elle passe sous 55 %, l'altseason est officiellement confirmée. Catalyseurs à venir : approbation ETF SOL (Q3), Ethereum Devcon en juillet.",
+
 
     conclusion: "Le mois de mai se termine sur une note défensive. Le marché a besoin d'un nouveau catalyseur frais pour casser sa tendance baissière actuelle. Sur Polymarket, les parieurs misent désormais à 85 % sur un retour du Bitcoin à 70 000 $ avant de revoir les 90 000 $."
   }
