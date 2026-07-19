@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Le Grand Choc des Titans : Quand l'Infrastructure Mondiale Bascule sur la Blockchain",
+    titre: "Évolution réglementaire, vitesse réseau et riposte face à la menace quantique",
 
-    intro: "Le monde de l'argent vit sa plus grande transformation depuis l'invention de la carte bancaire. Aujourd'hui, la frontière entre la finance traditionnelle (la Bourse, les banques) et la finance du futur (la Crypto, la Blockchain) est en train de disparaître. Les géants de Wall Street et de la Tech ne combattent plus la crypto : ils copient sa technologie, rachètent ses infrastructures et créent les outils de demain pour contrôler les tuyaux par lesquels transitent des milliards de dollars.",
+    intro: "Le marché des cryptomonnaies traverse une phase décisive où la technologie doit évoluer pour faire face à de grands défis : l'arrivée de la réglementation américaine, la simplification des produits financiers pour séduire le grand public, l'augmentation massive de la vitesse des réseaux confidentiels, et la préparation technique face aux futurs ordinateurs quantiques.",
 
     marche: {
-      btc: "$ 64 160",
-      eth: "$1 820",
+      btc: "$ 64 358",
+      eth: "$1 858",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -34,22 +34,17 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Les traders de Polymarket réduisent les chances de passage de la Clarity Act à un niveau historiquement bas alors que le retard du Sénat se prolonge",
-      "Stripe et Swift s'affrontent pour contrôler la prochaine génération d'infrastructures de paiements mondiaux Les experts en crypto et blockchain affirment que les mouvements de cette semaine montrent que les deux entreprises financières établies rivalisent de plus en plus pour contrôler l'infrastructure derrière les paiements numériques.",
-      "Circle a eu l'autorisation d'etres une Bank Crypto et a eu agrémentation MiCa (il avais deja avant mais la pour la bank) pour faire simple c'est une bank neotech crypto vous venez et vous avez de la crypto comme Deblock en version Geant",
-      "Cardano confie le développement central à des équipes externes dans le cadre de sa démarche de décentralisation Input Output transférera le contrôle du nœud Haskell, de Plutus, d'Hydra et d'autres composants alors que le fondateur Charles Hoskinson affirme que le réseau doit changer et recommencer à croître.",
-      "À l’intérieur du pari audacieux de Robinhood pour intégrer 10 millions d’utilisateurs occasionnels à la finance décentralisée La société affirme que son avantage réside dans l'intégration des clients particuliers sur la blockchain, mais l'activité initiale reste dominée par les memecoins, tandis que sa vision originelle de la tokenisation demeure limitée.",
-      "Le groupe japonais SBI construit le premier empire asiatique d’actifs numériques transfrontaliers Le géant des valeurs mobilières a annoncé aujourd'hui la consolidation de Coinhako, basé à Singapour, dans le cadre d'une expansion régionale rapide incluant un partenariat de tokenisation avec Ondo Finance.",
-      "Le Bitcoin fait face à de nouveaux vents contraires alors que Kimi de Chine bat Claude et GPT dans un benchmark de codage",
-      "Le PDG d'Airbnb affirme que le compte X a été piraté, l'attaquant a publié des contenus générés par IA de mauvaise qualité sur la tokenisation",
-      "Le gestionnaire d'actifs de 1,9 trillion de dollars, T. Rowe Price, mise sur la gestion active avec son premier ETF crypto multi-tokens",
-
+      "Le USDT de Tether entame un compte à rebours de 2 ans menaçant sa position sur les plateformes cryptographiques américaines La loi GENIUS a atteint son premier anniversaire sans que les régulateurs américains n’aient encore respecté les délais pour rédiger les règlements, bien que les règles entreront en vigueur complète d’ici juillet 2028.",
+      "Kraken affirme que des options plus simples peuvent débloquer le prochain marché dérivé de la cryptomonnaie La société basée dans le Wyoming a lancé des options sur bitcoin et ether réglées en dollars américains, affirmant que c’est la conception du produit, et non la demande, qui a freiné l’adoption.",
+      "Le problème quantique de Bitcoin obtient un outil de récupération, mais pas pour les 1,1 million de pièces de Satoshi Project Eleven affirme avoir financé une preuve permettant au chemin de dérivation de clé d’un portefeuille de servir de preuve de propriété après que les ordinateurs quantiques pourront contrefaire ses signatures. Cette preuve s’exécute en 243 millisecondes sur un ordinateur portable.",
+      "Les ordinateurs quantiques du futur pourraient devenir tellement puissants qu'ils réussiraient à déchiffrer les clés de sécurité de certaines adresses Bitcoin pour voler leurs pièces. Le problème et la proposition(BIP - 361) : Pour protéger le réseau, des développeurs ont proposé une règle : interdire les nouveaux dépôts sur les vieilles adresses vulnérables au bout de 3 ans, puis geler complètement les Bitcoins qui y restent après 5 ans.Cela bloquerait environ un tiers de tous les Bitcoins en circulation, y compris le trésor de 1, 1 million de BTC de Satoshi Nakamoto(le créateur de Bitcoin). La solution trouvée : La société Project Eleven vient de concevoir un outil basé sur les 'preuves à divulgation nulle de connaissance'(Zero - Knowledge / ZK).En clair, c'est une technologie mathématique qui permet à un propriétaire de prouver qu'il possède bien le portefeuille bloqué sans avoir à révéler ses mots de passe ou clés privées. Le résultat : Cet outil fonctionne très vite(en un quart de seconde) et permettrait aux vrais propriétaires de récupérer leurs Bitcoins gelés avant qu'un pirate quantique ne les vole.",
+      "À l’intérieur du nouveau nœud de Zcash qui vise une confidentialité à l’échelle de Visa avec 50 000 transactions par seconde",
     ],
 
 
     conseil: "Si tu veux investir ou positionner tes pions intelligemment, observe les technologies qui connectent le monde réel à la blockchain : les stablecoins réglementés (comme l'OUSD ou l'USDC), les plateformes de paiement rapide (Stripe) et la tokenisation des vrais actifs. C'est là que les plus grosses fortunes de la décennie vont se construire, car c'est là que va l'argent de Google, de Visa et des plus grandes banques mondiales.",
 
-    conclusion: "La Bourse et les Actions se numérisent : Les actions d'entreprises (comme SpaceX) se transforment en jetons numériques (tokenisation) pour s'échanger plus vite. Des applications comme Coinbase ou Robinhood permettent désormais d'acheter des actions classiques et des cryptos au même endroit. La guerre des Stablecoins et des Banques: L'émetteur de l'USDC(Circle) est devenu une véritable banque officielle en Europe grâce aux lois MiCA.En parallèle, des géants comme Visa, Google et Stripe lancent l'OUSD (Open USD), un stablecoin ultra-puissant qui reverse ses intérêts aux entreprises pour tuer la concurrence de l'USDT La riposte des États(L'Euro Numérique) : Pour ne pas perdre le contrôle face à ces stablecoins privés, la Banque Centrale Européenne prépare l'Euro Numérique pour 2027- 2029. Ce sera une sorte de PayPal public et gratuit, limité à 3 000 €, utilisable même sans internet, pour moderniser le vieil Euro.",
+    conclusion: "Si l'on prend du recul sur l'ensemble de ces actualités, on constate que le monde des cryptomonnaies et de la finance numérique est en train de vivre une phase de maturation accélérée. On passe de l'époque du 'Far West' à une industrie structurée qui prépare son avenir sur trois fronts majeurs :",
   },
 
 
