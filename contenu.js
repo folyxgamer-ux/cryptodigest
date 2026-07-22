@@ -10,13 +10,13 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Régulation, adoption institutionnelle et paris politiques",
+    titre: "Régulation du clarity act, hacks et crypto",
 
-    intro: "Cette semaine, l'actualité crypto se joue autant dans les couloirs des parlements que sur les marchés. Entre la Russie qui encadre (a minima) le trading particulier tout en libérant les entreprises pour contourner les sanctions, le Royaume-Uni qui enquête sur la discrimination bancaire des entreprises crypto, et les paris qui s'enflamment sur un possible compromis Trump concernant la loi Clarity, la ligne de fracture entre régulation restrictive et adoption institutionnelle n'a jamais été aussi visible. Pendant ce temps, l'infrastructure de paiement se réinvente en coulisses — de MoneyGram à une nouvelle banque de compensation dédiée aux stablecoins.",
+    intro: "cette journée et a la fois interessante et catastrophique",
 
     marche: {
-      btc: "$ 66 451",
-      eth: "$1 925",
+      btc: "$ 65 741",
+      eth: "$1 927",
       tendance: "*hausse",
       commentaire: "Le marché affiche une santé haute."
     },
@@ -34,20 +34,22 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "Le parlement russe adopte une loi sur le marché des cryptomonnaies avec un plafond annuel de 3 800 $ pour les investisseurs particuliers Alors que les citoyens ne peuvent toujours pas utiliser le Bitcoin pour acheter des produits d'épicerie, le Kremlin autorise officiellement les entreprises à utiliser des jetons numériques pour contourner les sanctions et autres obstacles au commerce mondial.",
-      "Augustus lève 180 millions de dollars pour créer une banque de compensation pour l'ère de l'IA et des stablecoins La société, récemment valorisée à 1 milliard de dollars, vise à remplacer la banque correspondante traditionnelle par une infrastructure toujours disponible qui connecte les systèmes de paiement traditionnels et les stablecoins. Augustus, une startup développant une banque de compensation agréée au niveau fédéral pour les fintechs et les institutions financières, a déclaré il a levé 180 millions de dollars pour développer son infrastructure de paiement en dollars alors que les stablecoins redéfinissent la finance mondiale",
-      "Le PDG de MoneyGram déclare que la blockchain fonctionne mieux lorsque les clients ne savent pas qu'elle est présente Dans une interview accordée à CoinDesk, le PDG de MoneyGram, Anthony Soohoo, a déclaré que leur stratégie blockchain est passée d’une phase d’expérimentation initiale à un effort plus large visant à moderniser l’infrastructure des paiements mondiaux de l’entreprise.",
-      "Jack Mallers démissionne de son poste de PDG de XXI Capital alors que les plans de Tether de fusionner trois entreprises bitcoin échouent",
-      "Les chances de Clarity augmentent à 43 % sur Polymarket après des rapports non vérifiés indiquant que Trump aurait accepté un accord d’éthique Les parieurs ont porté la probabilité d’adoption du projet de loi sur la structure du marché crypto à 43 % cette année, en hausse par rapport à un creux historique la semaine dernière, bien qu’aucun texte de loi n’ait encore été publié.",
-      "Les marchés crypto rebondissent grâce au rapport de progression de Clarity et au redressement des actions technologiques asiatiques La spéculation selon laquelle le Président Donald Trump aurait accepté une disposition éthique cruciale pour le projet de loi sur la structure du marché des cryptomonnaies a soutenu les gains.",
-      "Le Parlement britannique lance une enquête sur le goulet d'étranglement bancaire pour les entreprises crypto Le Groupe parlementaire multipartite sur les crypto-monnaies et les actifs numériques du Royaume-Uni (APPG) se concentre sur les banques qui ont refusé l'ouverture de comptes aux entreprises crypto ou qui ont imposé des restrictions sur les transactions en crypto-monnaies.",
-
+      "Le nouveau projet de loi Clarity est publié, et il imposerait des limites à l'empire crypto de Trump Les législateurs ont diffusé le texte du dernier projet qui sera présenté pour une approbation au Sénat, mais ils débattent encore d'un élément central lié à l'éthique gouvernementale. https://punchbowl.news/ehf26654-clarity-act/",
+      "Revolut atteint une valorisation de 115 milliards de dollars lors de la vente d’actions aux employés : WSJ La société a annoncé une solide performance en 2025, avec un bénéfice avant impôts de 2,3 milliards de dollars, un chiffre d'affaires de 6 milliards de dollars et plus de 75 millions de clients.  ",
+      "Peirce de la SEC met en garde contre le fait que certains coffres DeFi et le prêt onchain pourraient relever des lois sur les valeurs mobilières Le commissaire a déclaré que les coffres-forts en chaîne et les stratégies de prêt pourraient ressembler à des fonds d'investissement ou à des conseillers, en fonction de leur structure.",
+      "Les projets britanniques d'obligations numériques dépendent d'un élément manquant : la liquidité onchain Les experts affirment que le projet pilote britannique de gilt numérique ne peut libérer la liquidité bloquée sur les marchés financiers que si les régulateurs approuvent un stablecoin onchain.",
+      "Les États-Unis cherchent la confiscation de 25 millions de dollars en crypto-monnaies liés à des escroqueries sentimentales et d'investissement Les affaires s'ajoutent à plus de 800 millions de dollars que les autorités affirment qu'une cellule fédérale dédiée à la lutte contre les escroqueries a récupérés.",
+      "Oubliez Nvidia : la prochaine grande opportunité dans l’IA pourrait être la crypto et la blockchain Sandy Kaul de Franklin Templeton et Jeremy Allaire, PDG de Circle, soutiennent que, à mesure que les agents autonomes d’IA commenceront à dépenser de l’argent de manière indépendante, les réseaux blockchain alimenteront la prochaine grande transaction liée à l’IA.",
+      "La société mère de Kraken étend les actions tokenisées aux marchés de Hong Kong, du Royaume-Uni et de la Corée du Sud xStocks de Payward dépasse les actions américaines alors que la concurrence pour intégrer les marchés boursiers mondiaux en chaîne s'accélère.",
+      "Le stablecoin Balance s'effondre de 99 % après qu'une attaque de 1 million de dollars a vidé ses coffres en bitcoins Un attaquant a introduit dans le système de prêt un prix du bitcoin falsifié, anormalement bas, a liquidé des coffres-forts qui auraient dû être sécurisés, et a empoché la différence en une seule transaction.",
+      "Les modèles d'IA ont échappé au bac à sable d'OpenAI pour atteindre Hugging Face. C'est dans la crypto que cela devient dangereux OpenAI a déclaré que les systèmes avaient vu leurs garde-fous cybernétiques abaissés pour un test interne, mais l'incident montre comment les chaînes d'exploitation autonomes pourraient représenter une menace plus profonde pour les contrats intelligents.",
+      "",
     ],
 
 
     conseil: "Si tu veux investir ou positionner tes pions intelligemment, observe les technologies qui connectent le monde réel à la blockchain : les stablecoins réglementés (comme l'OUSD ou l'USDC), les plateformes de paiement rapide (Stripe) et la tokenisation des vrais actifs. C'est là que les plus grosses fortunes de la décennie vont se construire, car c'est là que va l'argent de Google, de Visa et des plus grandes banques mondiales.",
 
-    conclusion: "🇷🇺 Russie : les particuliers ne pourront investir en cryptomonnaie qu'à hauteur de 3 800$ par an, une limite stricte. À l'inverse, les entreprises russes obtiennent le feu vert pour utiliser les cryptos dans leurs échanges internationaux, notamment pour contourner les sanctions occidentales. Augustus(startup financière) : a levé 180 millions de dollars pour créer une nouvelle infrastructure qui doit faciliter les transferts d'argent entre banques classiques et cryptomonnaies stables, en modernisant un système jugé lent et dépassé. MoneyGram(transfert d'argent) : son dirigeant explique que la technologie blockchain doit rester invisible pour l'utilisateur final — l'objectif n'est pas d'exhiber la technologie, mais de rendre les transferts d'argent plus rapides et moins chers sans que le client s'en aperçoive.  Un dirigeant important dans le secteur bitcoin(Jack Mallers) quitte son poste, dans un contexte où un projet de fusion entre plusieurs entreprises liées à Tether(la plus grosse cryptomonnaie stable au monde) tombe à l'eau. États - Unis : les investisseurs parient de plus en plus qu'une grande loi encadrant les cryptomonnaies pourrait être votée cette année, après une rumeur (non confirmée) d'un compromis politique avec l'administration Trump. Cet espoir a fait remonter les prix des cryptomonnaies. Royaume - Uni : le gouvernement enquête sur le fait que certaines banques refusent d'ouvrir des comptes aux entreprises du secteur crypto, ou compliquent leurs opérations bancaires — une pratique critiquée qui freine le développement du secteur.",
+    conclusion: "Beacoup d'evenement entre revolut qui cartonne un stable coin qui s'effondre et plusieur Hack mais c'est normalil faut passer par la pour que ca fonctionne",
   },
 
 
