@@ -2,6 +2,7 @@
 //  CRYPTODIGEST — Fichier de contenu
 //  Édite ce fichier dans VSCode, puis ouvre index.html
 //  dans ton navigateur (double-clic ou Live Server).
+//  Mise à jour : 31 juillet 2026
 // ============================================================
 
 const CRYPTO_DATA = {
@@ -10,45 +11,37 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR
   // ──────────────────────────────────────────────
   jour: {
-    titre: "La Grande Convergence : Quand Wall Street Modernise ses Outils et que la Crypto Répare ses Fondations",
+    titre: "Powell laisse place à Warsh : le marché encaisse sa première vraie dissidence de la Fed",
 
-    intro: "Le paysage financier mondial traverse une étape de maturité sans précédent. D'un côté, Wall Street et les régulateurs découvrent que certains outils nés dans la crypto — comme les produits dérivés perpétuels ou les technologies de confidentialité — sont exactement ce dont les banques ont besoin pour moderniser la bourse traditionnelle. De l'autre, l'industrie crypto fait un grand ménage de printemps : elle corrige ses failles techniques historiques (comme chez Zcash), intègre des acteurs bancaires de premier plan (Fidelity, Morgan Stanley, BlackRock) et compose avec des décisions politiques complexes, des cyberattaques ou des litiges juridiques.",
+    intro: "Le marché crypto digère aujourd'hui les secousses de la semaine : la Fed a maintenu ses taux mercredi avec un vote historiquement divisé (9 contre 3, du jamais-vu depuis 10 ans), et le trading institutionnel a franchi un cap symbolique en représentant désormais 72% de tout le volume crypto échangé. Pendant ce temps, un exploit DeFi de 24 millions de dollars sur Ostium rappelle que la vigilance technique reste de mise, même en pleine phase de maturation du secteur.",
 
     marche: {
-      btc: "$ 63 651 ",
-      eth: "$1 902",
-      tendance: "*stable",
-      commentaire: "Le marché affiche une santé qui se stabilise."
+      btc: "$63 650",
+      eth: "$1 877",
+      tendance: "*baissier court terme",
+      commentaire: "Repli après le pic à 67 000$ de la semaine dernière, dans le sillage de la décision de la Fed et d'un dégonflement des flux ETF."
     },
 
     alertes: [
-      "Clarity Act date de fin le 10 aout",
-      "surveiller Quivalis",
-      "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
-      "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
-      "MiCa change des lignes a surveiller",
-      "31 juillet : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
-      "fin d'été l'OUSD",
-      "a mise à jour des terminaux de paiement (TPE) : Le géant Ingenico (qui fabrique la quasi-totalité des terminaux de cartes bleues que tu vois dans les magasins en France) a déjà créé des logiciels pour intégrer les paiements crypto et stablecoins directement sur l'écran du terminal. Les commerçants n'ont plus qu'à activer l'option.",
-      "La réglementation MiCA (l'harmonisation européenne) : L'Europe a mis en place des lois ultra-strictes pour encadrer tout ça. Cela donne le feu vert légal absolu aux banques pour intégrer ces technologies dans leurs applications classiques (comme l'application de la Caisse d'Épargne ou du Crédit Agricole).",
+      "Clarity Act — échéance de la trêve sénatoriale le 10 août",
+      "31 juillet (aujourd'hui) : date limite pour les mineurs redirigeant leur hashrate avant la fermeture du pool SBI Crypto",
+      "Fin d'été : lancement attendu du token Open USD (OUSD)",
+      "Le risque quantique : le Bitcoin devra à terme être renforcé pour résister aux futures attaques d'ordinateurs quantiques",
+      "MiCA : nouvelles lignes directrices européennes à surveiller",
+      "TPE Ingenico : logiciel de paiement stablecoin déjà prêt, activable par les commerçants français",
     ],
 
     actualites: [
-      "Le PDG de DRW, Don Wilson, affirme que les contrats à terme perpétuels ne sont pas intrinsèquement des outils de jeu risqués en cryptomonnaies, et qu’il est temps que les marchés traditionnels et les régulateurs commencent à les adopter.",
-      "BlackRock, Fidelity, ainsi que d'autres géants de Wall Street soutiennent le Clarity Act Les plus grands noms de Wall Street se rangent derrière le Digital Asset Market Clarity Act, marquant l'une des manifestations publiques de soutien les plus fortes à ce jour pour une législation qui établirait un nouveau cadre réglementaire pour l'industrie cryptographique américaine et apporterait des changements majeurs à la manière dont la Securities and Exchange Commission et la Commodity Futures Trading Commission supervisent ce secteur.",
-      "La startup Ethereum EthSystems mise sur la confidentialité comme élément clé pour faire adopter les blockchains publiques par les banques EthSystems, qui s'est séparée de la Fondation Ethereum plus tôt ce mois-ci, se concentre sur la construction d'infrastructures de confidentialité pour les banques et autres institutions financières.",
-      "La Russie présente de nouvelles règles pour les déposants numériques avant le déploiement de son cadre cryptographique cet automne La Banque de Russie a publié son premier projet de règles dans le cadre de l’introduction de régulations sur les cryptomonnaies dans le pays, y compris les exigences de capital pour les entreprises qui détiennent et enregistrent des actifs numériques. Les propositions viseraient à étendre aux actifs numériques les systèmes déjà utilisés sur les marchés des valeurs mobilières en Russie, incluant la négociation en bourse, la garde, la tenue de registres et les règles de divulgation.",
-      "Zcash scelle un pool protégé de 1,7 milliard de dollars avec l'activation de la mise à niveau Ironwood La mise à niveau met fin à Orchard, où un bug de contrefaçon est resté non détecté pendant quatre ans. Désormais, chaque pièce doit sortir par une porte qui plafonne les retraits aux dépôts vérifiés.",
-      "Morgan Stanley lance des produits négociés en bourse sur l’ether et solana après le succès de son fonds bitcoin Le gestionnaire d’actifs propose des produits négociés en bourse à faible coût sur l’ETH et le SOL, après que son fonds bitcoin ait dépassé 381 millions de dollars d’actifs.",
-      "Apple a conservé un faux portefeuille bitcoin sur l'App Store après un rapport de vol de 875 000 $, allègue une plainte Un procès allègue qu’Apple a maintenu une fausse application de portefeuille bitcoin sur sa boutique après qu’un utilisateur ait signalé un vol de 875 000 $, ce qui a conduit un autre utilisateur à se faire dérober environ 840 000 $.",
-      "Le Bitcoin chute alors que les actions sud-coréennes dégringolent, le Sénat met de côté le Crypto Clarity Act ",
-      "La banque centrale de Hong Kong évalue la préparation quantique des prêteurs. Elle est très faible.",
+      "La Fed maintient ses taux entre 3,50% et 3,75% pour la 5e réunion consécutive, lors de la première décision présidée par Kevin Warsh (confirmé au Sénat 54-45 après le départ de Powell) — 3 membres ont voté pour une hausse, une dissension inédite depuis 10 ans.",
+      "Le trading institutionnel atteint un niveau record de 72% du volume total du marché crypto selon CoinDesk, réduisant la volatilité extrême historique du secteur.",
+      "La plateforme de trading décentralisé Ostium subit un exploit de 24 millions de dollars — les smart contracts eux-mêmes n'étaient pas en cause selon les premiers éléments.",
+      "Morgan Stanley lance des ETF Ethereum et Solana à seulement 0,14% de frais avec option de staking, défiant BlackRock sur son propre terrain.",
+      "Les ETF Bitcoin prolongent leur série de sorties nettes entamée le 23 juillet : 526 millions de dollars envolés en quatre séances.",
     ],
 
+    conseil: "Dans un marché où les institutionnels pèsent désormais 72% des volumes, les mouvements de prix reflètent de plus en plus les arbitrages de Wall Street (Fed, ETF, rotation BTC/ETH) plutôt que la spéculation retail pure. Garde un œil sur les flux ETF quotidiens (Farside Investors) — ils sont devenus un baromètre plus fiable du sentiment de marché que les réseaux sociaux.",
 
-    conseil: "Si tu veux investir ou positionner tes pions intelligemment, observe les technologies qui connectent le monde réel à la blockchain : les stablecoins réglementés (comme l'OUSD ou l'USDC), les plateformes de paiement rapide (Stripe) et la tokenisation des vrais actifs. C'est là que les plus grosses fortunes de la décennie vont se construire, car c'est là que va l'argent de Google, de Visa et des plus grandes banques mondiales.",
-
-    conclusion: "La crypto n'est plus un monde virtuel à part : les géants mondiaux ont racheté la technologie pour moderniser la Bourse, la banque, les paiements et l'IA. La blockchain est devenue le moteur invisible du monde réel : tokenisation des actions d'entreprises (SpaceX), paiements instantanés de salariés, gestion des risques météo/climat, et reconversion des infrastructures de minage pour alimenter l'Intelligence Artificielle. Le « Far West » de la crypto s'efface. Les plateformes à fort levier (BitMEX) ferment, tandis que les banques et géants de la finance (BlackRock, Fidelity, Morgan Stanley, Korbit) rachètent et intègrent la technologie sous des lois strictes (MiCA en Europe, Clarity Act aux USA).",
+    conclusion: "Journée de digestion post-Fed, sans panique mais avec une vraie nervosité institutionnelle. Le vote 9-3, du jamais-vu depuis une décennie, signale des tensions internes à la Fed qui pourraient peser sur la visibilité macro des prochaines semaines — un facteur à surveiller autant que les catalyseurs propres à la crypto.",
   },
 
 
@@ -56,41 +49,34 @@ const CRYPTO_DATA = {
   //  BILAN DE LA SEMAINE
   // ──────────────────────────────────────────────
   semaine: {
-    titre: "Une semaines bien mouvementé",
+    titre: "Semaine du couperet : Fed historique, ETF en fuite et BitMEX tire sa révérence",
 
-    intro: "La semaine écoulée a été marquée par des turbulences significatives sur le marché des cryptomonnaies, avec des fluctuations de prix notables et des développements réglementaires qui ont capté l'attention des investisseurs. Malgré ces défis, certains segments du marché ont montré des signes de résilience, offrant des opportunités pour ceux qui restent informés et stratégiques dans leurs décisions d'investissement.",
+    intro: "Semaine chargée en catalyseurs macro et structurels. Le Bitcoin a oscillé entre 63 000$ et 67 000$ au gré des annonces, la Fed a livré sa décision la plus disputée depuis 10 ans, et le secteur a vu à la fois un symbole de maturité (72% de volumes institutionnels) et un symbole de fin d'époque (la fermeture annoncée de BitMEX après 11 ans).",
 
     marche: {
-      btc_7j: "2.5%",
-      eth_7j: "7.8%",
-      // dominance: "58,1 %",
-      commentaire: "Hausse "
+      btc_7j: "-3.2%",
+      eth_7j: "-2.0%",
+      commentaire: "Semaine en repli, marquée par une sortie nette de 526 M$ sur les ETF Bitcoin en 4 séances et une rotation institutionnelle prudente entre BTC et ETH."
     },
 
     evenements: [
-      "Clarity Act date de fin le 10 aout",
-      "surveiller Quivalis",
-      "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
-      "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
-      "MiCa change des lignes a surveiller",
-      "31 juillet : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
-      "fin d'été l'OUSD",
-      "a mise à jour des terminaux de paiement (TPE) : Le géant Ingenico (qui fabrique la quasi-totalité des terminaux de cartes bleues que tu vois dans les magasins en France) a déjà créé des logiciels pour intégrer les paiements crypto et stablecoins directement sur l'écran du terminal. Les commerçants n'ont plus qu'à activer l'option.",
-      "La réglementation MiCA (l'harmonisation européenne) : L'Europe a mis en place des lois ultra-strictes pour encadrer tout ça. Cela donne le feu vert légal absolu aux banques pour intégrer ces technologies dans leurs applications classiques (comme l'application de la Caisse d'Épargne ou du Crédit Agricole).",
+      "Clarity Act — date limite de la trêve sénatoriale : 10 août",
+      "31 juillet : fermeture du pool de minage SBI Crypto — derniers jours pour rediriger le hashrate",
+      "Le risque quantique reste une échéance de fond à surveiller pour la robustesse à long terme du Bitcoin",
+      "MiCA : nouvelles lignes directrices européennes en préparation",
+      "Fin d'été : lancement attendu du token Open USD (OUSD)",
     ],
 
     actualites: [
-      "Le parlement russe adopte une loi sur le marché des cryptomonnaies avec un plafond annuel de 3 800 $ pour les investisseurs particuliers Alors que les citoyens ne peuvent toujours pas utiliser le Bitcoin pour acheter des produits d'épicerie, le Kremlin autorise officiellement les entreprises à utiliser des jetons numériques pour contourner les sanctions et autres obstacles au commerce mondial.",
-      "Augustus lève 180 millions de dollars pour créer une banque de compensation pour l'ère de l'IA et des stablecoins La société, récemment valorisée à 1 milliard de dollars, vise à remplacer la banque correspondante traditionnelle par une infrastructure toujours disponible qui connecte les systèmes de paiement traditionnels et les stablecoins. Augustus, une startup développant une banque de compensation agréée au niveau fédéral pour les fintechs et les institutions financières, a déclaré il a levé 180 millions de dollars pour développer son infrastructure de paiement en dollars alors que les stablecoins redéfinissent la finance mondiale",
-      "Le PDG de MoneyGram déclare que la blockchain fonctionne mieux lorsque les clients ne savent pas qu'elle est présente Dans une interview accordée à CoinDesk, le PDG de MoneyGram, Anthony Soohoo, a déclaré que leur stratégie blockchain est passée d’une phase d’expérimentation initiale à un effort plus large visant à moderniser l’infrastructure des paiements mondiaux de l’entreprise.",
-      "Jack Mallers démissionne de son poste de PDG de XXI Capital alors que les plans de Tether de fusionner trois entreprises bitcoin échouent",
-      "Les chances de Clarity augmentent à 43 % sur Polymarket après des rapports non vérifiés indiquant que Trump aurait accepté un accord d’éthique Les parieurs ont porté la probabilité d’adoption du projet de loi sur la structure du marché crypto à 43 % cette année, en hausse par rapport à un creux historique la semaine dernière, bien qu’aucun texte de loi n’ait encore été publié.",
-      "Les marchés crypto rebondissent grâce au rapport de progression de Clarity et au redressement des actions technologiques asiatiques La spéculation selon laquelle le Président Donald Trump aurait accepté une disposition éthique cruciale pour le projet de loi sur la structure du marché des cryptomonnaies a soutenu les gains.",
-      "Le Parlement britannique lance une enquête sur le goulet d'étranglement bancaire pour les entreprises crypto Le Groupe parlementaire multipartite sur les crypto-monnaies et les actifs numériques du Royaume-Uni (APPG) se concentre sur les banques qui ont refusé l'ouverture de comptes aux entreprises crypto ou qui ont imposé des restrictions sur les transactions en crypto-monnaies.",
-
+      "BitMEX annonce la fermeture de la plateforme au 23 septembre 2026, après 11 ans d'activité — trading en mode 'reduce-only' dès le 26 août, aucun repreneur annoncé.",
+      "La Fed tient sa décision de politique monétaire la plus disputée en 10 ans (vote 9-3), sous la présidence de Kevin Warsh, dans un climat de tension avec la Maison Blanche sur le rythme des baisses de taux.",
+      "Le trading institutionnel crypto atteint un record de 72% du volume total mondial, marquant un tournant structurel pour la stabilité du secteur.",
+      "Les ETF Bitcoin spot US basculent en sorties nettes à partir du 23 juillet, effaçant 526 millions de dollars en quatre séances, après plusieurs semaines de flux positifs.",
+      "Les ETF Ethereum affichent malgré tout un bilan mensuel positif (+342,9 millions de dollars depuis début juillet), même si la dernière séance de la semaine est repassée dans le rouge (-32,9 M$).",
+      "Morgan Stanley dégaine ses ETF Ethereum et Solana à 0,14% de frais avec staking inclus, une offensive directe contre la domination de BlackRock sur ce segment.",
     ],
-    // analyse: 
-    conclusion: "Semaine dominée par l’attentisme, les risques liés à la régulation, les enjeux de sécurité, et une forte activité sur l’écosystème tokens/DeFi. Urgence : surveiller la sortie réglementaire US, la sécurité contractuelle et les flux au sein du RWA..",
+
+    conclusion: "Semaine charnière : la fin de BitMEX ferme symboliquement le chapitre du 'Far West' crypto à fort levier, pendant que la Fed rappelle que la macro US reste un risque à part entière pour les marchés — 312 millions de dollars de liquidations ont déjà sanctionné les positions trop optimistes cette semaine. À surveiller : la réaction des flux ETF dans les prochains jours pour jauger si la sortie nette est un ajustement ponctuel ou le début d'une tendance plus longue.",
   },
 
 
@@ -98,33 +84,35 @@ const CRYPTO_DATA = {
   //  BILAN DU MOIS
   // ──────────────────────────────────────────────
   mois: {
-    titre: "La distribution des institutions",
+    titre: "Juillet 2026 : l'institutionnalisation franchit un nouveau palier, malgré des montagnes russes réglementaires",
 
-    intro: "À l'échelle mensuelle, mai aura été le mois de la transition d'une phase d'accumulation agressive à une phase de distribution institutionnelle.",
+    intro: "Juillet aura été le mois où la bascule institutionnelle est devenue mesurable et incontestable (72% des volumes), tout en révélant ses propres failures de croissance : dépôt et suspension express des modèles Claude Mythos/Fable, retrait de Binance de sa demande MiCA en Grèce, fermeture de BitMEX, et une Fed historiquement divisée en toute fin de mois. Entre ces secousses, les briques structurantes (chartes bancaires Circle/Ripple/Paxos, ETF à bas coûts de Morgan Stanley, ouverture de Vanguard) ont continué de s'empiler.",
 
     marche: {
-      btc_30j: "-6.4 %",
-      market_cap: "1.4 T$",
-      fear_greed: "30/100",
-      // commentaire: "Le mois de mai a d'abord déjoué le proverbe 'Sell in May'. La rotation du capital vers les altcoins est enclenchée avec Ethereum, Solana et les tokens DeFi en tête. Le volume DEX atteint un niveau record à 320 Md$ mensuel."
+      btc_mois: "≈ -2 % (de ~65k à ~63,6k)",
+      eth_mois: "≈ -3 % (de ~1 930$ à ~1 877$)",
+      fear_greed: "Neutre à prudent",
+      commentaire: "Mois en dents de scie : creux à 62 500$ le 13 juillet (tensions Iran/USA), pic à plus de 67 000$ mi-juillet porté par les flux ETF, puis repli en fin de mois après la décision de la Fed."
     },
 
     coins_surveiller: [
       "BTC",
       "ETH",
-      "HYPE",
-      "SOL"
+      "SOL",
+      "HYPE"
     ],
 
     faits_marquants: [
-      "L'hémorragie des ETF : C'est le chiffre noir du mois. Les ETF Spot Bitcoin et Ethereum ont enregistré plus de 1,3 milliard de dollars de sorties nettes sur les trente derniers jours. Les fonds spéculatifs ont largement pris leurs bénéfices après les sommets.",
-      "La capitulation d'Ethereum : Mai 2026 marque un tournant historique très sombre pour l'ETH. Pour la toute première fois depuis juillet 2025, la dominance d'Ethereum est tombée sous la barre critique des 10 %. Le jeton reste structurellement très faible face au Bitcoin, oscillant péniblement autour de son support technique des 2 000 $.",
-      "RWA & Régulation : Le grand sujet de fond aura été le blocage politique. Les banques traditionnelles (menées par le lobbying agressif de JPMorgan) ont réussi à freiner le Digital Asset Market Clarity Act au Sénat américain, retardant l'explosion attendue des protocoles DeFi institutionnels et des actifs du monde réel (RWA).",
+      "Institutionnalisation record : le trading institutionnel a atteint 72% du volume total du marché crypto fin juillet, un niveau jamais vu, réduisant mécaniquement la volatilité extrême historique du secteur.",
+      "Bascule réglementaire américaine : Circle, Ripple et Paxos ont obtenu leur charte de banque de dépôt fédérale (OCC) le 10 juillet, renforçant la légitimité institutionnelle des stablecoins USDC et consorts — sans toutefois leur donner une garantie de dépôt façon FDIC.",
+      "Le Clarity Act progresse mais reste suspendu : Trump aurait accepté une clause d'éthique clé réclamée par les sénateurs Lummis et Moreno, faisant grimper les probabilités d'adoption sur Polymarket de 33% à 43-48% — le texte doit encore franchir le Sénat avant la pause du 10 août.",
+      "Fin d'une époque : BitMEX, pionnier des dérivés crypto à effet de levier, a annoncé sa fermeture définitive au 23 septembre après 11 ans, plombé par son passif réglementaire (AML) plutôt que par un problème de sécurité.",
+      "Vanguard change de doctrine : le géant historiquement le plus hostile à la crypto a ouvert l'accès aux ETF crypto spot à ses 50 millions de clients et recrute un responsable dédié aux actifs numériques.",
+      "Binance recule face à MiCA : la plateforme a retiré sa demande de licence en Grèce fin juin, anticipant un refus lié au passif réglementaire de CZ — un revers symbolique pour le plus gros exchange mondial en Europe.",
+      "Rotation ETF en dents de scie : après des sorties nettes de plus de 4 milliards de dollars fin mai/début juin, les ETF ont connu un rebond mi-juillet (+105 M$ sur l'ETH en une semaine) avant une nouvelle vague de sorties fin juillet (-526 M$ sur le BTC en 4 séances).",
     ],
 
-
-
-    conclusion: "Le mois de mai se termine sur une note défensive. Le marché a besoin d'un nouveau catalyseur frais pour casser sa tendance baissière actuelle. Sur Polymarket, les parieurs misent désormais à 85 % sur un retour du Bitcoin à 70 000 $ avant de revoir les 90 000 $."
+    conclusion: "Juillet confirme la tendance de fond de 2026 : la crypto devient un marché de grands acteurs institutionnels avant tout, avec une volatilité en baisse structurelle mais toujours ponctuée de secousses réglementaires (MiCA, Clarity Act) et politiques (Fed divisée). Le mois d'août s'annonce charnière avec l'échéance du Clarity Act le 10 et la fermeture de BitMEX qui se profile en toile de fond.",
   }
 
 }
