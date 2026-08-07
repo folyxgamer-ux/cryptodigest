@@ -2,46 +2,50 @@
 //  CRYPTODIGEST — Fichier de contenu
 //  Édite ce fichier dans VSCode, puis ouvre index.html
 //  dans ton navigateur (double-clic ou Live Server).
-//  Mise à jour : 31 juillet 2026
+//  Mise à jour : 31 juillet 2026 — rattrapage semaine manquée
 // ============================================================
 
 const CRYPTO_DATA = {
 
   // ──────────────────────────────────────────────
-  //  RÉSUMÉ DU JOUR
+  //  RÉSUMÉ DU JOUR (avec rattrapage de la semaine manquée)
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Powell laisse place à Warsh : le marché encaisse sa première vraie dissidence de la Fed",
+    titre: "Rattrapage : Fed historique, Coldcard piraté, BitMEX ferme — une semaine chargée",
 
-    intro: "Le marché crypto digère aujourd'hui les secousses de la semaine : la Fed a maintenu ses taux mercredi avec un vote historiquement divisé (9 contre 3, du jamais-vu depuis 10 ans), et le trading institutionnel a franchi un cap symbolique en représentant désormais 72% de tout le volume crypto échangé. Pendant ce temps, un exploit DeFi de 24 millions de dollars sur Ostium rappelle que la vigilance technique reste de mise, même en pleine phase de maturation du secteur.",
+    intro: "Beaucoup de choses se sont passées pendant ton absence : la Fed a rendu sa décision la plus disputée depuis 10 ans, une faille majeure a touché le hardware wallet Coldcard (plus de 100 millions de dollars volés), BitMEX a annoncé sa fermeture après 11 ans, et le trading institutionnel a franchi un cap historique. De quoi se remettre à niveau d'un coup.",
 
     marche: {
       btc: "$63 650",
       eth: "$1 877",
       tendance: "*baissier court terme",
-      commentaire: "Repli après le pic à 67 000$ de la semaine dernière, dans le sillage de la décision de la Fed et d'un dégonflement des flux ETF."
+      commentaire: "Repli depuis le pic à 67 000$ de la semaine dernière, dans le sillage de la décision de la Fed et d'un dégonflement des flux ETF."
     },
 
     alertes: [
       "Clarity Act — échéance de la trêve sénatoriale le 10 août",
-      "31 juillet (aujourd'hui) : date limite pour les mineurs redirigeant leur hashrate avant la fermeture du pool SBI Crypto",
+      "8 aout : date limite pour les mineurs redirigeant leur hashrate avant la fermeture du pool SBI Crypto",
+      "Faille Coldcard (Coinkite) : si tu utilises ce wallet, migre tes fonds en urgence via un canal sécurisé (voir actu du jour)",
       "Fin d'été : lancement attendu du token Open USD (OUSD)",
-      "Le risque quantique : le Bitcoin devra à terme être renforcé pour résister aux futures attaques d'ordinateurs quantiques",
+      "Le risque quantique reste une échéance de fond à surveiller pour la robustesse à long terme du Bitcoin",
       "MiCA : nouvelles lignes directrices européennes à surveiller",
-      "TPE Ingenico : logiciel de paiement stablecoin déjà prêt, activable par les commerçants français",
     ],
 
     actualites: [
-      "La Fed maintient ses taux entre 3,50% et 3,75% pour la 5e réunion consécutive, lors de la première décision présidée par Kevin Warsh (confirmé au Sénat 54-45 après le départ de Powell) — 3 membres ont voté pour une hausse, une dissension inédite depuis 10 ans.",
-      "Le trading institutionnel atteint un niveau record de 72% du volume total du marché crypto selon CoinDesk, réduisant la volatilité extrême historique du secteur.",
-      "La plateforme de trading décentralisé Ostium subit un exploit de 24 millions de dollars — les smart contracts eux-mêmes n'étaient pas en cause selon les premiers éléments.",
-      "Morgan Stanley lance des ETF Ethereum et Solana à seulement 0,14% de frais avec option de staking, défiant BlackRock sur son propre terrain.",
+      "🔴 FAILLE MAJEURE — Coldcard (Coinkite) : un bug de génération de seed phrase datant de 2021 a permis le vol de plus de 100 millions de dollars sur des milliers de wallets en quelques jours. Ledger n'est pas concerné (générateur de nombres aléatoires différent, certifié).",
+      "La Fed maintient ses taux entre 3,50% et 3,75%, décision la plus disputée depuis 10 ans (vote 9 contre 3) — première réunion sous la présidence de Kevin Warsh après le départ de Powell.",
+      "BitMEX annonce sa fermeture définitive au 23 septembre 2026 après 11 ans d'activité, plombé par son passif réglementaire (AML) plutôt qu'un problème de sécurité.",
+      "Le trading institutionnel atteint un niveau record de 72% du volume total du marché crypto, réduisant la volatilité extrême historique du secteur.",
+      "Circle, Ripple et Paxos obtiennent leur charte de banque de dépôt fédérale (OCC) le 10 juillet — renforce la légitimité des stablecoins, sans garantie type FDIC pour l'utilisateur final.",
       "Les ETF Bitcoin prolongent leur série de sorties nettes entamée le 23 juillet : 526 millions de dollars envolés en quatre séances.",
+      "Morgan Stanley lance des ETF Ethereum et Solana à seulement 0,14% de frais avec option de staking, offensive directe contre BlackRock.",
+      "BNB grimpe vers les 600$, porté par la domination de BNB Chain sur le volume DEX mondial (19 Md$/semaine) et son mécanisme de burn trimestriel (+1 Md$ détruit au Q1 2026).",
+      "Exploit de 24 millions de dollars sur la plateforme DeFi Ostium — rappel que la vigilance reste de mise même en pleine phase de maturation institutionnelle.",
     ],
 
-    conseil: "Dans un marché où les institutionnels pèsent désormais 72% des volumes, les mouvements de prix reflètent de plus en plus les arbitrages de Wall Street (Fed, ETF, rotation BTC/ETH) plutôt que la spéculation retail pure. Garde un œil sur les flux ETF quotidiens (Farside Investors) — ils sont devenus un baromètre plus fiable du sentiment de marché que les réseaux sociaux.",
+    conseil: "Priorité absolue si tu as un wallet Coldcard : migre tes fonds via un canal sécurisé (type Slipstream) sans précipitation mais sans trop tarder non plus. Pour le reste, le marché reste dans l'attentisme post-Fed — pas de mouvement précipité recommandé, mais garde un œil sur les flux ETF quotidiens qui sont devenus le meilleur baromètre du sentiment institutionnel.",
 
-    conclusion: "Journée de digestion post-Fed, sans panique mais avec une vraie nervosité institutionnelle. Le vote 9-3, du jamais-vu depuis une décennie, signale des tensions internes à la Fed qui pourraient peser sur la visibilité macro des prochaines semaines — un facteur à surveiller autant que les catalyseurs propres à la crypto.",
+    conclusion: "Semaine charnière à plusieurs niveaux : la fin de BitMEX ferme le chapitre du 'Far West' crypto à fort levier, la faille Coldcard rappelle qu'aucun système n'est invulnérable même après des années sans incident, et la Fed historiquement divisée ajoute une vraie incertitude macro pour les semaines à venir. Le mois d'août s'annonce chargé avec l'échéance du Clarity Act le 10.",
   },
 
 
@@ -49,34 +53,42 @@ const CRYPTO_DATA = {
   //  BILAN DE LA SEMAINE
   // ──────────────────────────────────────────────
   semaine: {
-    titre: "Semaine du couperet : Fed historique, ETF en fuite et BitMEX tire sa révérence",
+    titre: "Une semaines bien mouvementé",
 
-    intro: "Semaine chargée en catalyseurs macro et structurels. Le Bitcoin a oscillé entre 63 000$ et 67 000$ au gré des annonces, la Fed a livré sa décision la plus disputée depuis 10 ans, et le secteur a vu à la fois un symbole de maturité (72% de volumes institutionnels) et un symbole de fin d'époque (la fermeture annoncée de BitMEX après 11 ans).",
+    intro: "La semaine écoulée a été marquée par des turbulences significatives sur le marché des cryptomonnaies, avec des fluctuations de prix notables et des développements réglementaires qui ont capté l'attention des investisseurs. Malgré ces défis, certains segments du marché ont montré des signes de résilience, offrant des opportunités pour ceux qui restent informés et stratégiques dans leurs décisions d'investissement.",
 
     marche: {
-      btc_7j: "-3.2%",
-      eth_7j: "-2.0%",
-      commentaire: "Semaine en repli, marquée par une sortie nette de 526 M$ sur les ETF Bitcoin en 4 séances et une rotation institutionnelle prudente entre BTC et ETH."
+      btc_7j: "2.5%",
+      eth_7j: "7.8%",
+      // dominance: "58,1 %",
+      commentaire: "Hausse "
     },
 
     evenements: [
-      "Clarity Act — date limite de la trêve sénatoriale : 10 août",
-      "31 juillet : fermeture du pool de minage SBI Crypto — derniers jours pour rediriger le hashrate",
-      "Le risque quantique reste une échéance de fond à surveiller pour la robustesse à long terme du Bitcoin",
-      "MiCA : nouvelles lignes directrices européennes en préparation",
-      "Fin d'été : lancement attendu du token Open USD (OUSD)",
+      "Clarity Act date de fin le 10 aout",
+      "surveiller Quivalis",
+      "Le quantique , la cryptomonaie dois ce mefier BTC dois etre ameliorer pour resister aux attaque quantique",
+      "60 prochains jours : Durée de la trêve prolongée pendant laquelle les discussions pour un accord final vont continuer. fin le 30 juillet.",
+      "MiCa change des lignes a surveiller",
+      "8 aout : date limite pour les mineurs de rediriger leur hashrate avant la fermeture du pool de minage SBI Crypto.",
+      "fin d'été l'OUSD",
+      "a mise à jour des terminaux de paiement (TPE) : Le géant Ingenico (qui fabrique la quasi-totalité des terminaux de cartes bleues que tu vois dans les magasins en France) a déjà créé des logiciels pour intégrer les paiements crypto et stablecoins directement sur l'écran du terminal. Les commerçants n'ont plus qu'à activer l'option.",
+      "La réglementation MiCA (l'harmonisation européenne) : L'Europe a mis en place des lois ultra-strictes pour encadrer tout ça. Cela donne le feu vert légal absolu aux banques pour intégrer ces technologies dans leurs applications classiques (comme l'application de la Caisse d'Épargne ou du Crédit Agricole).",
     ],
 
     actualites: [
-      "BitMEX annonce la fermeture de la plateforme au 23 septembre 2026, après 11 ans d'activité — trading en mode 'reduce-only' dès le 26 août, aucun repreneur annoncé.",
-      "La Fed tient sa décision de politique monétaire la plus disputée en 10 ans (vote 9-3), sous la présidence de Kevin Warsh, dans un climat de tension avec la Maison Blanche sur le rythme des baisses de taux.",
-      "Le trading institutionnel crypto atteint un record de 72% du volume total mondial, marquant un tournant structurel pour la stabilité du secteur.",
-      "Les ETF Bitcoin spot US basculent en sorties nettes à partir du 23 juillet, effaçant 526 millions de dollars en quatre séances, après plusieurs semaines de flux positifs.",
-      "Les ETF Ethereum affichent malgré tout un bilan mensuel positif (+342,9 millions de dollars depuis début juillet), même si la dernière séance de la semaine est repassée dans le rouge (-32,9 M$).",
-      "Morgan Stanley dégaine ses ETF Ethereum et Solana à 0,14% de frais avec staking inclus, une offensive directe contre la domination de BlackRock sur ce segment.",
+      " Bitcoin oscille entre 61 500 $ et 64 500 $, sans franchir de nouveaux sommets, la volatilité reste modérée. Reprise technique sur ETF US (+197 M$) après huit semaines de sorties, soutien à la zone des 64 000 $ mais aucune tendance claire ne se dégage ; la prudence prévaut en attendant une sortie nette de la zone 60–70 k$",
+      "Ethereum rebondit vers 1 800 $, boosté par les entrées sur les ETF américain, mais le marché reste prudent .",
+      "Progression de la tokenisation : SWIFT lance officiellement son infrastructure blockchain (Hyperledger Besu x Chainlink CCIP) connectant 17 grandes banques pour des dépôts tokenisés, accélération notable du secteur RWA .",
+      " DAC8 (UE) : collecte généralisée des données fiscales sur les détenteurs crypto depuis janvier, avec début des transferts inter-gouvernementaux en 2027. Risques d'exfiltration et de fuite des KYC documentés (ex : Ledger, Coinbase, Waltio) déjà observés .",
+      "Virtual Protocol (VIRTUAL) s'envole (+16 %), migration majeure de tokens sur le cross-chain Chainlink, intégration Robinhood Chain IA. Volume à +385 % ; résistance clé à 0,65$ surveillée pour un breakout court terme .",
+      "Crypto scams et hacks récurrents : attaque supply-chain sur jscrambler (npm), hameçonnage SecondFi, piratage Bonzo Lend (Hedera) via manipulation oracles, pertes cumulées importantes .",
+      "CLARITY Act (régulation crypto US) : le texte piétine au Sénat (il manque 7 voix Démocrates), contexte polarisé par l'enrichissement crypto de Trump ; vote renvoyé, échéance critique avant le 10 août .",
+      "Pression réglementaire accrue sur la DeFi (CFTC, CME, ICE tentent de forcer Hyperliquid à s'enregistrer), avec arbitrages attendus sans consensus législatif .",
+      "Signalement de pression vendeuse si BTC repasse sous 61 k $, prudence de rigueur (analyse Santiment : pas d'accumulation whale, rally technique fragile) .",
+      " Flambée du nombre de scams et sentiment exacerbé autour de l'impunité perçue, selon les retours d'utilisateurs .",
     ],
-
-    conclusion: "Semaine charnière : la fin de BitMEX ferme symboliquement le chapitre du 'Far West' crypto à fort levier, pendant que la Fed rappelle que la macro US reste un risque à part entière pour les marchés — 312 millions de dollars de liquidations ont déjà sanctionné les positions trop optimistes cette semaine. À surveiller : la réaction des flux ETF dans les prochains jours pour jauger si la sortie nette est un ajustement ponctuel ou le début d'une tendance plus longue.",
+    conclusion: "Semaine dominée par l'attentisme, les risques liés à la régulation, les enjeux de sécurité, et une forte activité sur l'écosystème tokens/DeFi. Urgence : surveiller la sortie réglementaire US, la sécurité contractuelle et les flux au sein du RWA..",
   },
 
 
@@ -84,35 +96,30 @@ const CRYPTO_DATA = {
   //  BILAN DU MOIS
   // ──────────────────────────────────────────────
   mois: {
-    titre: "Juillet 2026 : l'institutionnalisation franchit un nouveau palier, malgré des montagnes russes réglementaires",
+    titre: "La distribution des institutions",
 
-    intro: "Juillet aura été le mois où la bascule institutionnelle est devenue mesurable et incontestable (72% des volumes), tout en révélant ses propres failures de croissance : dépôt et suspension express des modèles Claude Mythos/Fable, retrait de Binance de sa demande MiCA en Grèce, fermeture de BitMEX, et une Fed historiquement divisée en toute fin de mois. Entre ces secousses, les briques structurantes (chartes bancaires Circle/Ripple/Paxos, ETF à bas coûts de Morgan Stanley, ouverture de Vanguard) ont continué de s'empiler.",
+    intro: "À l'échelle mensuelle, mai aura été le mois de la transition d'une phase d'accumulation agressive à une phase de distribution institutionnelle.",
 
     marche: {
-      btc_mois: "≈ -2 % (de ~65k à ~63,6k)",
-      eth_mois: "≈ -3 % (de ~1 930$ à ~1 877$)",
-      fear_greed: "Neutre à prudent",
-      commentaire: "Mois en dents de scie : creux à 62 500$ le 13 juillet (tensions Iran/USA), pic à plus de 67 000$ mi-juillet porté par les flux ETF, puis repli en fin de mois après la décision de la Fed."
+      btc_30j: "-6.4 %",
+      market_cap: "1.4 T$",
+      fear_greed: "30/100",
     },
 
     coins_surveiller: [
       "BTC",
       "ETH",
-      "SOL",
-      "HYPE"
+      "HYPE",
+      "SOL"
     ],
 
     faits_marquants: [
-      "Institutionnalisation record : le trading institutionnel a atteint 72% du volume total du marché crypto fin juillet, un niveau jamais vu, réduisant mécaniquement la volatilité extrême historique du secteur.",
-      "Bascule réglementaire américaine : Circle, Ripple et Paxos ont obtenu leur charte de banque de dépôt fédérale (OCC) le 10 juillet, renforçant la légitimité institutionnelle des stablecoins USDC et consorts — sans toutefois leur donner une garantie de dépôt façon FDIC.",
-      "Le Clarity Act progresse mais reste suspendu : Trump aurait accepté une clause d'éthique clé réclamée par les sénateurs Lummis et Moreno, faisant grimper les probabilités d'adoption sur Polymarket de 33% à 43-48% — le texte doit encore franchir le Sénat avant la pause du 10 août.",
-      "Fin d'une époque : BitMEX, pionnier des dérivés crypto à effet de levier, a annoncé sa fermeture définitive au 23 septembre après 11 ans, plombé par son passif réglementaire (AML) plutôt que par un problème de sécurité.",
-      "Vanguard change de doctrine : le géant historiquement le plus hostile à la crypto a ouvert l'accès aux ETF crypto spot à ses 50 millions de clients et recrute un responsable dédié aux actifs numériques.",
-      "Binance recule face à MiCA : la plateforme a retiré sa demande de licence en Grèce fin juin, anticipant un refus lié au passif réglementaire de CZ — un revers symbolique pour le plus gros exchange mondial en Europe.",
-      "Rotation ETF en dents de scie : après des sorties nettes de plus de 4 milliards de dollars fin mai/début juin, les ETF ont connu un rebond mi-juillet (+105 M$ sur l'ETH en une semaine) avant une nouvelle vague de sorties fin juillet (-526 M$ sur le BTC en 4 séances).",
+      "L'hémorragie des ETF : C'est le chiffre noir du mois. Les ETF Spot Bitcoin et Ethereum ont enregistré plus de 1,3 milliard de dollars de sorties nettes sur les trente derniers jours. Les fonds spéculatifs ont largement pris leurs bénéfices après les sommets.",
+      "La capitulation d'Ethereum : Mai 2026 marque un tournant historique très sombre pour l'ETH. Pour la toute première fois depuis juillet 2025, la dominance d'Ethereum est tombée sous la barre critique des 10 %. Le jeton reste structurellement très faible face au Bitcoin, oscillant péniblement autour de son support technique des 2 000 $.",
+      "RWA & Régulation : Le grand sujet de fond aura été le blocage politique. Les banques traditionnelles (menées par le lobbying agressif de JPMorgan) ont réussi à freiner le Digital Asset Market Clarity Act au Sénat américain, retardant l'explosion attendue des protocoles DeFi institutionnels et des actifs du monde réel (RWA).",
     ],
 
-    conclusion: "Juillet confirme la tendance de fond de 2026 : la crypto devient un marché de grands acteurs institutionnels avant tout, avec une volatilité en baisse structurelle mais toujours ponctuée de secousses réglementaires (MiCA, Clarity Act) et politiques (Fed divisée). Le mois d'août s'annonce charnière avec l'échéance du Clarity Act le 10 et la fermeture de BitMEX qui se profile en toile de fond.",
+    conclusion: "Le mois de mai se termine sur une note défensive. Le marché a besoin d'un nouveau catalyseur frais pour casser sa tendance baissière actuelle. Sur Polymarket, les parieurs misent désormais à 85 % sur un retour du Bitcoin à 70 000 $ avant de revoir les 90 000 $."
   }
 
 }
