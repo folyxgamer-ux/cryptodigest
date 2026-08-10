@@ -11,15 +11,14 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR (avec rattrapage de la semaine manquée)
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Rattrapage : Fed historique, Coldcard piraté, BitMEX ferme — une semaine chargée",
+    titre: "le clarity act en manque , revolut evolue",
 
-    intro: "Beaucoup de choses se sont passées pendant ton absence : la Fed a rendu sa décision la plus disputée depuis 10 ans, une faille majeure a touché le hardware wallet Coldcard (plus de 100 millions de dollars volés), BitMEX a annoncé sa fermeture après 11 ans, et le trading institutionnel a franchi un cap historique. De quoi se remettre à niveau d'un coup.",
-
+    intro: "le clarity act na pas dis sont dernier mots mais meme si ca commence doucement a ce retiré , pendans ce temps revolut progresse et Strategy vend",
     marche: {
-      btc: "$63 650",
+      btc: "$63 957",
       eth: "$1 877",
       tendance: "*baissier court terme",
-      commentaire: "Repli depuis le pic à 67 000$ de la semaine dernière, dans le sillage de la décision de la Fed et d'un dégonflement des flux ETF."
+      commentaire: "Repli depuis le pic à 65 000$ cause du clarity."
     },
 
     alertes: [
@@ -32,20 +31,16 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "🔴 FAILLE MAJEURE — Coldcard (Coinkite) : un bug de génération de seed phrase datant de 2021 a permis le vol de plus de 100 millions de dollars sur des milliers de wallets en quelques jours. Ledger n'est pas concerné (générateur de nombres aléatoires différent, certifié).",
-      "La Fed maintient ses taux entre 3,50% et 3,75%, décision la plus disputée depuis 10 ans (vote 9 contre 3) — première réunion sous la présidence de Kevin Warsh après le départ de Powell.",
-      "BitMEX annonce sa fermeture définitive au 23 septembre 2026 après 11 ans d'activité, plombé par son passif réglementaire (AML) plutôt qu'un problème de sécurité.",
-      "Le trading institutionnel atteint un niveau record de 72% du volume total du marché crypto, réduisant la volatilité extrême historique du secteur.",
-      "Circle, Ripple et Paxos obtiennent leur charte de banque de dépôt fédérale (OCC) le 10 juillet — renforce la légitimité des stablecoins, sans garantie type FDIC pour l'utilisateur final.",
-      "Les ETF Bitcoin prolongent leur série de sorties nettes entamée le 23 juillet : 526 millions de dollars envolés en quatre séances.",
-      "Morgan Stanley lance des ETF Ethereum et Solana à seulement 0,14% de frais avec option de staking, offensive directe contre BlackRock.",
-      "BNB grimpe vers les 600$, porté par la domination de BNB Chain sur le volume DEX mondial (19 Md$/semaine) et son mécanisme de burn trimestriel (+1 Md$ détruit au Q1 2026).",
-      "Exploit de 24 millions de dollars sur la plateforme DeFi Ostium — rappel que la vigilance reste de mise même en pleine phase de maturation institutionnelle.",
+    "CLARITY Act : une législation crypto qui a peu de chances d'être adoptée cette année Faute d'avoir bénéficié d'un calendrier sénatorial favorable, les démarches nécessaires à l'adoption du projet de législation américain du marché crypto, CLARITY Act, ont été reportées au mois de septembre. Un délai problématique pour assurer son entrée en fonction effective avant la fin de cette année.",
+    "Les hedge funds passent à l'achat sur Bitcoin (BTC) — Vers la fin du bear market ? Selon cet analyste on-chain, les fonds d'investissement seraient passés à l'achat sur Bitcoin (BTC) au CME. Cela signifie-t-il la fin du bear market pour autant ?",
+    "96 distributeurs de bitcoins fermés : l'Australie sévit à son tour En raison de plusieurs manquements réglementaires, cette société a vu ses 96 distributeurs de bitcoins interdis d'opérer en Australie pour 3 mois. Après leur moment de gloire lors des premiers cycles, les distributeurs automatiques de bitcoins ont commencé à subir la répression des régulateurs dans divers pays du monde, au point que nous revenons régulièrement sur des opérations de fermeture.",
+    "Bitcoin : Strategy vend 1 690 BTC supplémentaires,Strategy poursuit ses ventes de Bitcoin après avoir longtemps privilégié une stratégie d’accumulation. L’entreprise de Michael Saylor vient de céder 1 690 BTC supplémentaires, pour environ 109 millions de dollars. Une opération qui s’inscrit dans sa nouvelle politique financière et marque une évolution notable de sa gestion de trésorerie. ",
+    "Revolut la bank des jeunes : et devenue une veritable bank agrée autre fois c'etait une neo-bank , maintenant elle est agrée elle passe par la regulation des fond français (donc ouverture de livret A par exemple) ",
     ],
 
-    conseil: "Priorité absolue si tu as un wallet Coldcard : migre tes fonds via un canal sécurisé (type Slipstream) sans précipitation mais sans trop tarder non plus. Pour le reste, le marché reste dans l'attentisme post-Fed — pas de mouvement précipité recommandé, mais garde un œil sur les flux ETF quotidiens qui sont devenus le meilleur baromètre du sentiment institutionnel.",
+    conseil: "Priorité absolue pour les personnes qui investisse faite tres attention en ce moment ca vassille beacoup",
 
-    conclusion: "Semaine charnière à plusieurs niveaux : la fin de BitMEX ferme le chapitre du 'Far West' crypto à fort levier, la faille Coldcard rappelle qu'aucun système n'est invulnérable même après des années sans incident, et la Fed historiquement divisée ajoute une vraie incertitude macro pour les semaines à venir. Le mois d'août s'annonce chargé avec l'échéance du Clarity Act le 10.",
+    conclusion: "journée tres simple mais avec pas mal de mouvement ",
   },
 
 
