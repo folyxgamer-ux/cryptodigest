@@ -16,10 +16,10 @@ const CRYPTO_DATA = {
     intro: "La semaine écoulée a été marquée par des événements significatifs dans le monde de la cryptomonnaie et de la cybersécurité. Le piratage de l'Éducation nationale a mis en lumière les vulnérabilités des systèmes informatiques, tandis que le marché des cryptomonnaies a connu des fluctuations notables, influencées par les décisions de la Réserve fédérale et les mouvements des flux ETF. Les investisseurs et les utilisateurs de portefeuilles doivent rester vigilants face aux risques émergents et aux développements réglementaires.",
 
     marche: {
-      btc: "$63 957",
+      btc: "$63 650",
       eth: "$1 877",
       tendance: "*baissier court terme",
-      commentaire: "Repli depuis le pic à 65 000$ cause du clarity."
+      commentaire: "Repli depuis le pic à 67 000$ de la semaine dernière, dans le sillage de la décision de la Fed et d'un dégonflement des flux ETF."
     },
 
     alertes: [
