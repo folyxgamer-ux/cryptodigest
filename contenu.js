@@ -11,9 +11,9 @@ const CRYPTO_DATA = {
   //  RÉSUMÉ DU JOUR (avec rattrapage de la semaine manquée)
   // ──────────────────────────────────────────────
   jour: {
-    titre: "Rattrapage : Fed historique, Coldcard piraté, BitMEX ferme — une semaine chargée",
+    titre: "Piratage de l'education nationale : une semaine chargée",
 
-    intro: "Beaucoup de choses se sont passées pendant ton absence : la Fed a rendu sa décision la plus disputée depuis 10 ans, une faille majeure a touché le hardware wallet Coldcard (plus de 100 millions de dollars volés), BitMEX a annoncé sa fermeture après 11 ans, et le trading institutionnel a franchi un cap historique. De quoi se remettre à niveau d'un coup.",
+    intro: "La semaine écoulée a été marquée par des événements significatifs dans le monde de la cryptomonnaie et de la cybersécurité. Le piratage de l'Éducation nationale a mis en lumière les vulnérabilités des systèmes informatiques, tandis que le marché des cryptomonnaies a connu des fluctuations notables, influencées par les décisions de la Réserve fédérale et les mouvements des flux ETF. Les investisseurs et les utilisateurs de portefeuilles doivent rester vigilants face aux risques émergents et aux développements réglementaires.",
 
     marche: {
       btc: "$63 650",
@@ -32,20 +32,18 @@ const CRYPTO_DATA = {
     ],
 
     actualites: [
-      "🔴 FAILLE MAJEURE — Coldcard (Coinkite) : un bug de génération de seed phrase datant de 2021 a permis le vol de plus de 100 millions de dollars sur des milliers de wallets en quelques jours. Ledger n'est pas concerné (générateur de nombres aléatoires différent, certifié).",
-      "La Fed maintient ses taux entre 3,50% et 3,75%, décision la plus disputée depuis 10 ans (vote 9 contre 3) — première réunion sous la présidence de Kevin Warsh après le départ de Powell.",
-      "BitMEX annonce sa fermeture définitive au 23 septembre 2026 après 11 ans d'activité, plombé par son passif réglementaire (AML) plutôt qu'un problème de sécurité.",
-      "Le trading institutionnel atteint un niveau record de 72% du volume total du marché crypto, réduisant la volatilité extrême historique du secteur.",
-      "Circle, Ripple et Paxos obtiennent leur charte de banque de dépôt fédérale (OCC) le 10 juillet — renforce la légitimité des stablecoins, sans garantie type FDIC pour l'utilisateur final.",
-      "Les ETF Bitcoin prolongent leur série de sorties nettes entamée le 23 juillet : 526 millions de dollars envolés en quatre séances.",
-      "Morgan Stanley lance des ETF Ethereum et Solana à seulement 0,14% de frais avec option de staking, offensive directe contre BlackRock.",
-      "BNB grimpe vers les 600$, porté par la domination de BNB Chain sur le volume DEX mondial (19 Md$/semaine) et son mécanisme de burn trimestriel (+1 Md$ détruit au Q1 2026).",
-      "Exploit de 24 millions de dollars sur la plateforme DeFi Ostium — rappel que la vigilance reste de mise même en pleine phase de maturation institutionnelle.",
+      "Hack de l’Éducation nationale : Une cyberattaque contre l’Éducation nationale aurait permis le vol des données personnelles de 1,22 million d’élèves et de 4,35 millions d’identifiants de personnels. Déjà derrière la revendication visant la DGFiP il y a quelques jours, le hacker ZeroBytes affirme avoir conservé pendant plusieurs jours un accès VPN à différents systèmes du ministère.",
+      "Strategy a levé 334 millions de dollars via son programme ATM sur l'action MSTR la semaine dernière, mais n'a acheté aucun Bitcoin. L'argent sert à racheter du STRC, financer les dividendes préférentiels et renforcer la réserve en dollars. Un virage assumé pour Michael Saylor, qui laisse son stock de BTC intact",
+      "Dans un billet publié ce 17 août, 5 économistes et analystes de la Banque centrale européenne posent une question qui dérange : l'euphorie autour de l'IA est-elle rationnelle, ou annonce-t-elle la prochaine bulle Internet ? Leur réponse est sans détour : une correction des marchés est probable. Et cette fois, les investisseurs européens sont directement exposés.",
+      "BitMine Immersion Technologies confirme son statut de première trésorerie axée sur Ethereum (ETH) de la planète. La société dirigée par Thomas « Tom » Lee détient désormais 5,82 millions d'ETH, soit 4,8 % de l'offre en circulation. Elle se rapproche de plus en plus de son objectif symbolique de 5 % tous les ethers.",
+      "Détenir un agrément MiCA ne confère pas l’immunité réglementaire et s’accompagne au contraire de nombreuses obligations. L’Österreichische Finanzmarktaufsicht (FMA), le gendarme financier autrichien, en a offert un exemple vendredi en annonçant avoir infligé une amende de 70 000 dollars à Bitpanda.",
+      "Le protocole historique de la finance décentralisée, Compound, annonce un remaniement important de son équipe dirigeante, accompagné d’un programme de financement présenté comme le plus important de son histoire. Le but de cette opération : participer au développement d’une DeFi institutionnelle.",
+      "Interpellée par un investisseur dont les 219 000 dollars placés dans MSTR ne valent plus que 60 000 dollars, Strategy refuse de donner la priorité aux actionnaires ordinaires. L’entreprise veut d’abord stabiliser STRC et développer son activité de crédit, quitte à demander encore plusieurs années de patience.",
+
     ],
 
-    conseil: "Priorité absolue si tu as un wallet Coldcard : migre tes fonds via un canal sécurisé (type Slipstream) sans précipitation mais sans trop tarder non plus. Pour le reste, le marché reste dans l'attentisme post-Fed — pas de mouvement précipité recommandé, mais garde un œil sur les flux ETF quotidiens qui sont devenus le meilleur baromètre du sentiment institutionnel.",
-
-    conclusion: "Semaine charnière à plusieurs niveaux : la fin de BitMEX ferme le chapitre du 'Far West' crypto à fort levier, la faille Coldcard rappelle qu'aucun système n'est invulnérable même après des années sans incident, et la Fed historiquement divisée ajoute une vraie incertitude macro pour les semaines à venir. Le mois d'août s'annonce chargé avec l'échéance du Clarity Act le 10.",
+    conseil: "Pour les détenteurs de cryptomonnaies, il est crucial de rester informés des développements récents et de prendre des mesures proactives pour sécuriser leurs actifs. La diversification des portefeuilles, la mise à jour régulière des logiciels de sécurité, et la vigilance face aux arnaques et aux vulnérabilités sont essentielles pour naviguer dans cet environnement volatil. Les investisseurs doivent également suivre de près les évolutions réglementaires, notamment le Clarity Act et les directives MiCA, afin d'anticiper les impacts potentiels sur le marché.",
+    conclusion: "La semaine écoulée a été marquée par des événements significatifs dans le monde de la cryptomonnaie et de la cybersécurité. piratage de l'éducation nationale , la fin de BitMEX ferme le chapitre du 'Far West' crypto à fort levier, la faille Coldcard rappelle qu'aucun système n'est invulnérable même après des années sans incident, et la Fed historiquement divisée ajoute une vraie incertitude macro pour les semaines à venir. Le mois d'août s'annonce chargé avec l'échéance du Clarity Act le 10.",
   },
 
 
